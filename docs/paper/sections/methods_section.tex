@@ -1,0 +1,273 @@
+% TASNI Paper - Methods Section
+% Thermal Anomaly Search for Non-communicating Intelligence
+
+\section{Methods}
+\label{sec:methods}
+
+We developed the Thermal Anomaly Search for Non-communicating Intelligence (TASNI) pipeline to systematically identify infrared-bright sources that lack counterparts across the electromagnetic spectrum. Our approach leverages multi-wavelength archival data to isolate objects detectable only in the mid-infrared, then applies temporal analysis to characterize their long-term behavior. Below we describe our data sources, selection criteria, cross-matching strategy, and variability analysis methodology.
+
+\subsection{Data Sources}
+\label{sec:data_sources}
+
+\subsubsection{Primary Infrared Catalog}
+
+Our parent sample is drawn from the AllWISE Source Catalog \citep{Wright2010, Cutri2013}, which contains 747,634,026 sources observed by the Wide-field Infrared Survey Explorer (WISE) during its cryogenic and post-cryogenic mission phases (2010--2011). AllWISE provides photometry in four mid-infrared bands: W1 (3.4~$\mu$m), W2 (4.6~$\mu$m), W3 (12~$\mu$m), and W4 (22~$\mu$m), with 5$\sigma$ point source sensitivities of 0.068, 0.098, 0.86, and 5.4~mJy, respectively.
+
+For temporal analysis, we utilize the NEOWISE Reactivation Single-Exposure Source Table \citep{Mainzer2014}, which provides multi-epoch photometry from 2013 to present. The combination of AllWISE and NEOWISE-R data enables variability analysis over a $\sim$10-year baseline with typically 250--500 epochs per source at 6-month cadence.
+
+\subsubsection{Optical and Near-Infrared Veto Catalogs}
+
+To identify sources lacking optical/NIR counterparts, we cross-match against:
+
+\begin{itemize}
+    \item \textbf{Gaia DR3} \citep{GaiaCollaboration2023}: 1.8 billion sources with $G < 21$~mag, providing optical photometry and astrometry. We use Gaia proper motions when available.
+
+    \item \textbf{2MASS Point Source Catalog} \citep{Skrutskie2006}: 470 million sources with $J$, $H$, $K_s$ photometry to $K_s \approx 14.3$~mag.
+
+    \item \textbf{Pan-STARRS DR1} \citep{Chambers2016}: 3 billion detections in $grizy$ bands covering the sky north of $\delta = -30°$ to depths of $g \approx 23.3$, $r \approx 23.2$~mag.
+
+    \item \textbf{DESI Legacy Imaging Surveys DR10} \citep{Dey2019}: Deep optical imaging ($g \approx 24.7$, $r \approx 23.9$, $z \approx 23.0$~mag) covering 14,000~deg$^2$.
+\end{itemize}
+
+\subsubsection{Radio and X-ray Veto Catalogs}
+
+To exclude active galactic nuclei (AGN) and other high-energy sources:
+
+\begin{itemize}
+    \item \textbf{NVSS} \citep{Condon1998}: 1.4~GHz radio survey covering $\delta > -40°$ with rms $\approx 0.45$~mJy/beam.
+
+    \item \textbf{ROSAT All-Sky Survey} \citep{Voges1999}: X-ray catalog (0.1--2.4~keV) for excluding coronal emitters and AGN.
+\end{itemize}
+
+\subsubsection{Spectroscopic Catalogs}
+
+We cross-match against spectroscopic surveys to identify previously classified objects:
+
+\begin{itemize}
+    \item \textbf{LAMOST DR7} \citep{Cui2012}: Low-resolution ($R \sim 1800$) optical spectra for 10+ million sources, providing stellar classifications and radial velocities.
+
+    \item \textbf{SIMBAD} \citep{Wenger2000}: Astronomical database for identifying known objects.
+\end{itemize}
+
+\subsection{Source Selection}
+\label{sec:selection}
+
+Our selection pipeline applies successive filters to isolate thermally anomalous sources (Figure~\ref{fig:flowchart}):
+
+\subsubsection{Tier 1: Optical Invisibility}
+
+We first select AllWISE sources lacking Gaia DR3 counterparts within 3\arcsec:
+\begin{equation}
+    N_{\rm Gaia}(r < 3\arcsec) = 0
+\end{equation}
+This removes 341 million optically bright sources, yielding 406,387,755 candidates.
+
+\subsubsection{Tier 2: Thermal Color Selection}
+
+We apply a color cut to select sources with thermal (blackbody-like) spectral energy distributions:
+\begin{equation}
+    \mathrm{W1} - \mathrm{W2} > 0.5~\mathrm{mag}
+\end{equation}
+This criterion selects objects with effective temperatures $T_{\rm eff} \lesssim 1000$~K, consistent with cool brown dwarfs or room-temperature thermal emitters. Sources with W1$-$W2 $> 2$~mag correspond to $T_{\rm eff} \lesssim 400$~K.
+
+\subsubsection{Tier 3: Near-Infrared Invisibility}
+
+We remove sources with 2MASS counterparts within 3\arcsec:
+\begin{equation}
+    N_{\rm 2MASS}(r < 3\arcsec) = 0
+\end{equation}
+This eliminates late-type stars and most L/T dwarfs detectable in the near-infrared, reducing the sample to 62,856 candidates.
+
+\subsubsection{Tier 4: Deep Optical Invisibility}
+
+We further require non-detection in Pan-STARRS DR1 (where available) and Legacy Survey DR10:
+\begin{equation}
+    N_{\rm PS1}(r < 3\arcsec) = 0 \quad \mathrm{and} \quad N_{\rm Legacy}(r < 3\arcsec) = 0
+\end{equation}
+After this stage, 39,151 sources remain---objects detectable \emph{only} in mid-infrared wavelengths.
+
+\subsubsection{Tier 5: Radio Silence}
+
+To exclude AGN and radio-loud sources, we require:
+\begin{equation}
+    N_{\rm NVSS}(r < 30\arcsec) = 0
+\end{equation}
+This yields 4,137 radio-silent thermal anomaly candidates.
+
+\subsubsection{Golden Sample Selection}
+
+From the Tier 5 sample, we select the 100 highest-scoring candidates based on a composite anomaly score (Section~\ref{sec:scoring}). These ``golden targets'' are prioritized for detailed analysis and follow-up observations.
+
+\subsection{Cross-Matching Methodology}
+\label{sec:crossmatch}
+
+All catalog cross-matches are performed using positional coincidence with radius $r_{\rm match}$:
+\begin{equation}
+    \Delta\theta = \sqrt{(\alpha_1 - \alpha_2)^2 \cos^2\delta + (\delta_1 - \delta_2)^2} < r_{\rm match}
+\end{equation}
+where $\alpha$ and $\delta$ are right ascension and declination. We adopt $r_{\rm match} = 3\arcsec$ for optical/NIR catalogs (accounting for WISE positional uncertainty of $\sim$0.5\arcsec\ and proper motion over the $\sim$10-year baseline) and $r_{\rm match} = 30\arcsec$ for radio catalogs (reflecting the larger NVSS beam).
+
+For sources with Gaia proper motions, we propagate positions to the AllWISE epoch (2010.5) before cross-matching to account for source motion.
+
+\subsection{Physical Parameter Estimation}
+\label{sec:parameters}
+
+\subsubsection{Effective Temperature}
+
+We estimate effective temperatures by fitting a single-temperature blackbody to the W1 and W2 photometry:
+\begin{equation}
+    T_{\rm eff} = \frac{hc}{k_B} \left[ \frac{1}{\lambda_{\rm W2}} - \frac{1}{\lambda_{\rm W1}} \right] \left[ \ln\left(\frac{F_{\rm W1}}{F_{\rm W2}} \cdot \frac{\lambda_{\rm W1}^5}{\lambda_{\rm W2}^5}\right) \right]^{-1}
+\end{equation}
+where $\lambda_{\rm W1} = 3.4~\mu$m and $\lambda_{\rm W2} = 4.6~\mu$m. For our golden sample, we find $\langle T_{\rm eff} \rangle = 265 \pm 36$~K, with a range of 200--500~K.
+
+\subsubsection{Distance Estimates}
+
+For sources with measured proper motions $\mu$, we estimate distances assuming a typical tangential velocity $v_\perp$:
+\begin{equation}
+    d = \frac{v_\perp}{4.74 \cdot \mu}~\mathrm{pc}
+\end{equation}
+where $\mu$ is in mas~yr$^{-1}$ and $v_\perp$ is in km~s$^{-1}$. Adopting $v_\perp = 30$~km~s$^{-1}$ (typical for disk objects), our golden sample spans estimated distances of 18--115~pc, with $\langle d \rangle \approx 50$~pc.
+
+\subsection{Variability Analysis}
+\label{sec:variability}
+
+\subsubsection{NEOWISE Light Curve Extraction}
+
+We query the NEOWISE Reactivation Single-Exposure Source Table via the IRSA TAP service for each golden target within a 3\arcsec\ cone. This yields multi-epoch W1 and W2 photometry spanning MJD 56639--60523 (2013.9--2024.5), with a mean of 387 epochs per source over a 9.2-year baseline.
+
+\subsubsection{Variability Metrics}
+
+For each source, we compute:
+
+\begin{enumerate}
+    \item \textbf{Root-mean-square (RMS) variability}:
+    \begin{equation}
+        \sigma_{\rm rms} = \sqrt{\frac{1}{N-1} \sum_{i=1}^{N} (m_i - \bar{m})^2}
+    \end{equation}
+
+    \item \textbf{Reduced chi-squared}:
+    \begin{equation}
+        \chi^2_\nu = \frac{1}{N-1} \sum_{i=1}^{N} \frac{(m_i - \bar{m})^2}{\sigma_i^2}
+    \end{equation}
+    where $\sigma_i$ is the photometric uncertainty for epoch $i$.
+
+    \item \textbf{Stetson J index} \citep{Stetson1996}:
+    \begin{equation}
+        J = \frac{\sum_{k} w_k \cdot \mathrm{sgn}(P_k) \sqrt{|P_k|}}{\sum_k w_k}
+    \end{equation}
+    where $P_k = \delta_{i(k)} \delta_{j(k)}$ is the product of normalized residuals for paired observations.
+
+    \item \textbf{Linear trend slope}:
+    \begin{equation}
+        \frac{dm}{dt} = \frac{\sum_i (t_i - \bar{t})(m_i - \bar{m})}{\sum_i (t_i - \bar{t})^2}
+    \end{equation}
+    with significance assessed via the $p$-value of the linear regression.
+\end{enumerate}
+
+\subsubsection{Variability Classification}
+
+Sources are classified as:
+\begin{itemize}
+    \item \textbf{VARIABLE}: $\chi^2_\nu > 3$ in either band, indicating significant scatter beyond photometric uncertainties.
+
+    \item \textbf{FADING}: Significant negative trend ($p < 0.01$) with $dm/dt > 15$~mmag~yr$^{-1}$, indicating systematic dimming.
+
+    \item \textbf{NORMAL}: Neither variable nor fading; consistent with stable emission.
+\end{itemize}
+
+Of our 100 golden targets, we classify 45 (45\%) as NORMAL, 50 (50\%) as VARIABLE, and 5 (5\%) as FADING.
+
+\subsubsection{Periodogram Analysis}
+
+We search for periodic signals using the Lomb-Scargle periodogram \citep{Lomb1976, Scargle1982} implemented in \texttt{astropy.timeseries}. We sample 10,000 trial periods logarithmically spaced from 0.5 to 1000 days and compute the false alarm probability (FAP) for the highest peak. We consider periods significant if FAP $< 0.01$.
+
+We note that the NEOWISE observing cadence (approximately 6-month intervals) introduces aliasing at periods near 180 days. Periods in this range should be interpreted with caution.
+
+\subsection{Anomaly Scoring}
+\label{sec:scoring}
+
+We assign each candidate a composite anomaly score based on multiple criteria:
+
+\begin{equation}
+    S_{\rm total} = S_{\rm stealth} + S_{\rm thermal} + S_{\rm kinematic} + S_{\rm variability}
+\end{equation}
+
+\subsubsection{Stealth Score}
+
+Points are awarded for non-detection in each wavelength regime:
+\begin{align}
+    S_{\rm stealth} &= 10 \times N_{\rm veto}
+\end{align}
+where $N_{\rm veto}$ is the number of veto catalogs with non-detection (Gaia, 2MASS, Pan-STARRS, Legacy, NVSS, ROSAT). Maximum: 60 points.
+
+\subsubsection{Thermal Score}
+
+Based on effective temperature:
+\begin{equation}
+    S_{\rm thermal} = \begin{cases}
+        20 & T_{\rm eff} < 300~\mathrm{K} \\
+        10 & 300 \leq T_{\rm eff} < 400~\mathrm{K} \\
+        5 & 400 \leq T_{\rm eff} < 500~\mathrm{K} \\
+        0 & T_{\rm eff} \geq 500~\mathrm{K}
+    \end{cases}
+\end{equation}
+
+\subsubsection{Kinematic Score}
+
+Based on proper motion (as a proxy for distance):
+\begin{equation}
+    S_{\rm kinematic} = \begin{cases}
+        -30 & \mathrm{parallax~detected~at~} 3\sigma \\
+        -15 & \mu > 500~\mathrm{mas~yr}^{-1} \\
+        0 & 100 < \mu < 500~\mathrm{mas~yr}^{-1} \\
+        +10 & \mu < 100~\mathrm{mas~yr}^{-1}
+    \end{cases}
+\end{equation}
+High proper motion objects are likely nearby brown dwarfs (natural explanation), while low proper motion may indicate more distant or extragalactic origin.
+
+\subsubsection{Variability Score}
+
+\begin{equation}
+    S_{\rm variability} = \begin{cases}
+        +25 & \mathrm{FADING} \\
+        -10 & \mathrm{VARIABLE} \\
+        +10 & \mathrm{NORMAL~(stable)}
+    \end{cases}
+\end{equation}
+Stable thermal emission over a 10-year baseline is scored positively, while generic variability (common in astrophysical sources) is penalized. Systematic fading is highly unusual and receives the maximum bonus.
+
+\subsection{Spectroscopic Follow-up Preparation}
+\label{sec:followup}
+
+For the highest-priority candidates, we prepare spectroscopic target lists including:
+
+\begin{enumerate}
+    \item Precise coordinates (J2000) with proper motion corrections to the observation epoch
+    \item Finding charts from Legacy Survey DR10 imaging (when available)
+    \item Visibility calculations for major near-infrared facilities (Keck/NIRES, VLT/KMOS, Gemini/GNIRS)
+    \item Estimated exposure times based on W1 magnitude
+\end{enumerate}
+
+Spectroscopic observations in the 1--2.5~$\mu$m range would detect diagnostic features including CH$_4$ absorption (1.6, 2.2~$\mu$m) for Y/T dwarfs, H$_2$O bands (1.4, 1.9~$\mu$m), and NH$_3$ features characteristic of the coldest brown dwarfs.
+
+\subsection{Software and Data Access}
+\label{sec:software}
+
+The TASNI pipeline is implemented in Python 3.10+ using:
+\begin{itemize}
+    \item \texttt{astropy} \citep{AstropyCollaboration2022} for coordinate transformations and time series analysis
+    \item \texttt{astroquery} for catalog access via TAP/Cone Search protocols
+    \item \texttt{pyvo} for Virtual Observatory services
+    \item \texttt{pandas} for data manipulation
+    \item \texttt{matplotlib} for visualization
+\end{itemize}
+
+Catalog queries are performed via:
+\begin{itemize}
+    \item IRSA TAP Service: \url{https://irsa.ipac.caltech.edu/TAP}
+    \item Gaia Archive: \url{https://gea.esac.esa.int/archive}
+    \item VizieR: \url{https://vizier.cds.unistra.fr}
+    \item Legacy Survey: \url{https://www.legacysurvey.org}
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,61 @@
+{
+    "title": "TASNI: Thermal Anomaly Search for Non-communicating Intelligence - Data Release 1.0",
+    "description": "Data release from the TASNI project, identifying 100 thermal anomaly candidates including three confirmed fading thermal orphans plus one LMC candidate. Includes golden sample, parallax measurements, variability metrics, and ML-ranked candidates from cross-matching WISE/NEOWISE with Gaia DR3.",
+    "version": "1.0.0",
+    "publication_date": "2026-02-23",
+    "doi": "10.5281/zenodo.18717105",
+    "creators": [
+        {
+            "name": "Palucki, Dennis",
+            "affiliation": "Independent Researcher",
+            "orcid": "0009-0005-1026-5103"
+        }
+    ],
+    "contributors": [
+        {
+            "name": "Palucki, Dennis",
+            "type": "ContactPerson"
+        }
+    ],
+    "keywords": [
+        "astronomy",
+        "astrophysics",
+        "brown dwarfs",
+        "infrared astronomy",
+        "WISE",
+        "NEOWISE",
+        "Gaia",
+        "SETI",
+        "technosignatures",
+        "thermal anomalies",
+        "proper motion",
+        "parallax"
+    ],
+    "license": {
+        "id": "MIT"
+    },
+    "upload_type": "dataset",
+    "access_right": "open",
+    "communities": [
+        {
+            "identifier": "astronomy"
+        },
+        {
+            "identifier": "astrophysics"
+        }
+    ],
+    "grants": [],
+    "related_identifiers": [
+        {
+            "identifier": "https://github.com/dpalucki/tasni",
+            "relation": "isSupplementTo",
+            "resource_type": "software"
+        }
+    ],
+    "references": [
+        "Gaia Collaboration et al. (2023), A&A, 674, A1",
+        "Cutri et al. (2013), AllWISE Explanatory Supplement",
+        "Wright et al. (2010), AJ, 140, 1868"
+    ],
+    "notes": "This data release accompanies the TASNI paper submitted to ApJ. The golden sample contains 100 thermal anomaly candidates identified from 747 million WISE sources. Three confirmed fading thermal orphans plus one LMC candidate exhibit monotonic dimming with temperatures 251-293 K and distances 17-33 pc."
+}

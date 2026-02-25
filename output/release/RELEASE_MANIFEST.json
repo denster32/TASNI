@@ -1,0 +1,1556 @@
+{
+  "generated_at": "2026-02-21T09:12:14.947185",
+  "tasni_root": "/mnt/data/tasni",
+  "provenance": {
+    "generator": "src/tasni/utils/data_manager.py::DataManager.generate_manifest",
+    "git": {
+      "commit": "f7357342f186232b7c853e44e02d8ee0a0bb2e72",
+      "branch": "release/v1.0.0",
+      "dirty": true
+    },
+    "python_version": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]"
+  },
+  "files": [
+    {
+      "path": ".github/workflows/ci.yml",
+      "size_bytes": 3766,
+      "modified": "2026-02-20T21:39:40.513102",
+      "sha256": "8120cb3e5f072bf47d770db89092c43b79598f0eb63402afe5e98cdc4817338a"
+    },
+    {
+      "path": "data/processed/final/README.md",
+      "size_bytes": 8308,
+      "modified": "2026-02-20T21:03:44.833373",
+      "sha256": "7d233e118fce35775233955fa51554ed32d5a3a39438182c431134e17ebae7aa"
+    },
+    {
+      "path": "data/processed/final/checksums.txt",
+      "size_bytes": 1655,
+      "modified": "2026-02-20T23:45:05.342318",
+      "sha256": "4d5489b9f68a9bcbbb7fbe8e5537316d0983eb1cadd0100f3ce2bc5f24a75e69"
+    },
+    {
+      "path": "data/processed/final/golden_improved.csv",
+      "size_bytes": 69144,
+      "modified": "2026-02-20T16:07:32.720051",
+      "sha256": "39c3d52d9f0c843a734418aaf52be38614035fd451e4f181a1c294ec365d6104"
+    },
+    {
+      "path": "data/processed/final/golden_improved.parquet",
+      "size_bytes": 71314,
+      "modified": "2026-02-20T16:07:40.089858",
+      "sha256": "9bd4b7010944a5bd0daeeb13701d9231db2ddd19b671ce276613a966e9ad3f1d"
+    },
+    {
+      "path": "data/processed/final/golden_improved_bayesian.csv",
+      "size_bytes": 7141,
+      "modified": "2026-02-20T16:14:37.571432",
+      "sha256": "d45bc2ea83dd5352865641e6165af419c7693a71da267c52081336e55782ba43"
+    },
+    {
+      "path": "data/processed/final/golden_improved_bayesian.parquet",
+      "size_bytes": 37444,
+      "modified": "2026-02-20T16:14:37.614343",
+      "sha256": "616de960ec37df20b50bbe6929b7ad381fa7ed9eac818b9c5d86c3ab403f9b01"
+    },
+    {
+      "path": "data/processed/final/golden_improved_erosita.csv",
+      "size_bytes": 71179,
+      "modified": "2026-02-20T16:14:37.582788",
+      "sha256": "0f6e5cb80c0acd09225a173bfb85511d575bda077b4fb819bd14d7f572425048"
+    },
+    {
+      "path": "data/processed/final/golden_improved_erosita.parquet",
+      "size_bytes": 72480,
+      "modified": "2026-02-20T16:14:37.621166",
+      "sha256": "013c537b3d4ff5dd4b2e9998cd873e8cea92042083ebc9f154142d0af7bb8694"
+    },
+    {
+      "path": "data/processed/final/golden_improved_kinematics.csv",
+      "size_bytes": 60075,
+      "modified": "2026-02-20T16:14:37.588894",
+      "sha256": "3669960ab5aba8c89bc161d5a4f6b4f1fb862ef9c8619e5749802631eb3b7110"
+    },
+    {
+      "path": "data/processed/final/golden_improved_kinematics.parquet",
+      "size_bytes": 66449,
+      "modified": "2026-02-20T16:14:37.627698",
+      "sha256": "762eb7fe9d286db94fab39490434f86b646252aa5fc9313022a0926ff19e59c0"
+    },
+    {
+      "path": "data/processed/final/golden_improved_parallax.csv",
+      "size_bytes": 48833,
+      "modified": "2026-02-20T16:14:37.594056",
+      "sha256": "c4d90580e91e4e48dffe765cfff792be46c336accfc9524bfe3fa2e3f7c3ac60"
+    },
+    {
+      "path": "data/processed/final/golden_improved_parallax.parquet",
+      "size_bytes": 60603,
+      "modified": "2026-02-20T16:14:37.634110",
+      "sha256": "d0aa1e4bda7e317dc0b81db3ef133198793feb03088d5d5075f516c6b93c5e69"
+    },
+    {
+      "path": "data/processed/final/golden_sample_readme.txt",
+      "size_bytes": 6316,
+      "modified": "2026-02-20T15:11:44.409331",
+      "sha256": "2078c3d1a2ce71812496b918f680359cb9999e2f385f751609e22a24cca00529"
+    },
+    {
+      "path": "docs/CLAIM_ARTIFACT_LEDGER.md",
+      "size_bytes": 2872,
+      "modified": "2026-02-20T21:17:21.229825",
+      "sha256": "2ad47cf0a0867fd6c084be2554a81036eb42cf95d59adcf22a2e80392ac0f91d"
+    },
+    {
+      "path": "docs/DATA_AVAILABILITY.md",
+      "size_bytes": 8012,
+      "modified": "2026-02-20T23:26:30.368406",
+      "sha256": "85744be420e9e476b5d6ceb58be1221ec0cd43ce1bb506babf1dc997ecb906ac"
+    },
+    {
+      "path": "docs/PUBLICATION_STATUS.md",
+      "size_bytes": 9670,
+      "modified": "2026-02-20T21:32:43.591054",
+      "sha256": "841d97a5f443630d7d852213e1725476c9f6d565f8a465548838f18ff6bfd287"
+    },
+    {
+      "path": "docs/RELEASE_PREPARATION.md",
+      "size_bytes": 4978,
+      "modified": "2026-02-20T23:26:30.375361",
+      "sha256": "83ee3b340db694ccc23f64492993a6a64ed5fb59c9c94ea75ca954725533b56f"
+    },
+    {
+      "path": "docs/RELEASE_SIGNOFF.md",
+      "size_bytes": 2702,
+      "modified": "2026-02-21T08:52:19.144082",
+      "sha256": "40ca3131236504a1f73eebd812eaa6309977f5b72b4b46daeb14aee512eda4b5"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY_QUICKSTART.md",
+      "size_bytes": 5139,
+      "modified": "2026-02-20T23:26:30.375046",
+      "sha256": "b8286c574972c28ac6969d05070bd6e3c6eb2168cd8382aefc0466262a2e9b5a"
+    },
+    {
+      "path": "docs/analysis_workflow.md",
+      "size_bytes": 8307,
+      "modified": "2026-02-20T21:06:48.449977",
+      "sha256": "6d34b951610316c3cc509f15d5ea74e45d6326e230df9ddffac6c0e3d9aec653"
+    },
+    {
+      "path": "docs/api_reference.md",
+      "size_bytes": 18724,
+      "modified": "2026-02-20T21:32:29.895889",
+      "sha256": "23f081063315df9fc1a9de9d19f6ad11b29a807c6cf6ccbdb9b7e705514f9700"
+    },
+    {
+      "path": "docs/architecture.md",
+      "size_bytes": 14108,
+      "modified": "2026-02-20T21:32:16.539287",
+      "sha256": "738410d3226f2ae30b3ec4668434fe5d7f1ab879586777a0597c9c0940632f5c"
+    },
+    {
+      "path": "docs/cleanup_summary.md",
+      "size_bytes": 11746,
+      "modified": "2026-02-04T19:09:22.438144",
+      "sha256": "e90b721cc1280ce8f910abf8507dd18a1c07048af49a0896f2d04e08c0951af1"
+    },
+    {
+      "path": "docs/color_selection_justification.md",
+      "size_bytes": 2218,
+      "modified": "2026-02-04T19:09:22.439836",
+      "sha256": "7462bea05107cdfcfa34bad0fb7e423c54aa3adc6f31edf6590cf2d56379969b"
+    },
+    {
+      "path": "docs/comprehensive_improvement_plan.md",
+      "size_bytes": 5247,
+      "modified": "2026-02-20T21:06:48.449995",
+      "sha256": "b92ae673dc9a4271d675f20a5a3b21899a77be33997ad2eec186335bb74c4148"
+    },
+    {
+      "path": "docs/error_budget.md",
+      "size_bytes": 9548,
+      "modified": "2026-02-20T21:32:25.231832",
+      "sha256": "b775a728f84ad39409083734beeed105603cf0e56e0e14b2b2dd2093d8d6e00a"
+    },
+    {
+      "path": "docs/hypotheses.md",
+      "size_bytes": 9481,
+      "modified": "2026-02-20T21:06:48.450012",
+      "sha256": "eb053d6db38e47819bdad5238042a81fe94498cf1bb298a2604a206af57d6db7"
+    },
+    {
+      "path": "docs/infrastructure_summary.md",
+      "size_bytes": 17670,
+      "modified": "2026-02-04T19:09:22.432176",
+      "sha256": "d435ff1d55d9ba57123d10ad9a7a30f33ab87778d17b54b439c32e41a7527ada"
+    },
+    {
+      "path": "docs/jwst_proposal_guide.md",
+      "size_bytes": 10440,
+      "modified": "2026-02-04T19:29:37.406382",
+      "sha256": "6915531d2543e8b7897027fd19f392fbe6562f9732ed612d476f81d4f9dc09d0"
+    },
+    {
+      "path": "docs/legacy/claude.md",
+      "size_bytes": 3627,
+      "modified": "2026-02-04T19:09:22.439162",
+      "sha256": "fe2659b70d60193730aa47ff9e8a4e82f617cfe93fb8063763f090d46122a344"
+    },
+    {
+      "path": "docs/legacy/devlog.md",
+      "size_bytes": 1601,
+      "modified": "2026-02-04T19:09:22.438908",
+      "sha256": "c19228ee337a72d90383a85e8e25f8bd04d8f7f6ef5da780c0cabf4321c1f492"
+    },
+    {
+      "path": "docs/legacy/final_report.md",
+      "size_bytes": 3965,
+      "modified": "2026-02-20T21:06:48.450012",
+      "sha256": "c425f1264b5fdd62eb8e1675b00e06f1d60d1595cc78922cff706147f727b6d5"
+    },
+    {
+      "path": "docs/legacy/project_summary.md",
+      "size_bytes": 6870,
+      "modified": "2026-02-20T21:06:48.450057",
+      "sha256": "685af5489c6f79ff0ddee229a8367a04709c1494c90bcacd11878069e8b81178"
+    },
+    {
+      "path": "docs/legacy/readme_update.md",
+      "size_bytes": 3003,
+      "modified": "2026-02-20T21:06:48.450074",
+      "sha256": "d5960d4f890fdad3cdb5ad14d71641a8db69ad887edf62e627cd987a742409e3"
+    },
+    {
+      "path": "docs/legacy/reorganization_summary.md",
+      "size_bytes": 16767,
+      "modified": "2026-02-04T19:09:22.439281",
+      "sha256": "a4ff1b4f72c5766cb3dbceb2519d6c2accb0f9c015c34b4686c4c0406b989b92"
+    },
+    {
+      "path": "docs/legacy/thesis.md",
+      "size_bytes": 4545,
+      "modified": "2026-02-20T21:06:48.450095",
+      "sha256": "619b7f1f80906d1ad60bfad6d29c55fccb10a4196cacb3836fc620f3784f846c"
+    },
+    {
+      "path": "docs/legacy/tier5_readme.md",
+      "size_bytes": 1105,
+      "modified": "2026-02-04T19:09:22.439098",
+      "sha256": "428bd16ee864b4e702818f9bcf89b662bc0f442ffed67b89fc3d8f82e1a948a7"
+    },
+    {
+      "path": "docs/literature_review.md",
+      "size_bytes": 12833,
+      "modified": "2026-02-04T19:09:22.440565",
+      "sha256": "aaa9d918dac18398f15e411c39c2d66c870880c7ea2fb183a64ea4869249df26"
+    },
+    {
+      "path": "docs/migration_guide.md",
+      "size_bytes": 13265,
+      "modified": "2026-02-20T21:32:19.481505",
+      "sha256": "bab9b9ecbf056193725ec72f7507d2b6cb12160c3709954813bbdf715ed62fa6"
+    },
+    {
+      "path": "docs/ml_pipeline.md",
+      "size_bytes": 6534,
+      "modified": "2026-02-20T09:57:23.922931",
+      "sha256": "9310573045bbb592c2bc0ef6a48c03864791a664ca3450bb07d9ffdf51c8f21c"
+    },
+    {
+      "path": "docs/next_steps_summary.md",
+      "size_bytes": 7835,
+      "modified": "2026-02-04T19:09:22.440885",
+      "sha256": "093237bdba86d79fe5c61645355b74b7b1176c6ac1d3a3f2338266c24df595d8"
+    },
+    {
+      "path": "docs/optimization_guide.md",
+      "size_bytes": 6769,
+      "modified": "2026-02-04T19:09:22.443103",
+      "sha256": "1af44f17960e830dd8d90eed3b093d677d7047598411d2b3d5a711437b853829"
+    },
+    {
+      "path": "docs/optimizations.md",
+      "size_bytes": 3553,
+      "modified": "2026-02-04T19:09:22.442980",
+      "sha256": "87059a4c95e05a2755d46911e43db054fdf81477ca38e01507beb9037c373ed9"
+    },
+    {
+      "path": "docs/output/pipeline_status.md",
+      "size_bytes": 828,
+      "modified": "2026-02-04T19:09:22.442690",
+      "sha256": "6ab4e37b6876e26ac27afdeefc144c8f7a4910b9191a3dde4cd4472bae96dcf1"
+    },
+    {
+      "path": "docs/output/quality_report.md",
+      "size_bytes": 134,
+      "modified": "2026-02-04T19:09:22.442634",
+      "sha256": "77f87290533e5842f835c4076ef0d45573cee5a9f543ea9d9c032068ed636244"
+    },
+    {
+      "path": "docs/output/readme.md",
+      "size_bytes": 3519,
+      "modified": "2026-02-04T19:09:22.442528",
+      "sha256": "11a89c39a3fe985501b7b5170ec252598d47cdc8cedd58a9c6ceb5c5252fd361"
+    },
+    {
+      "path": "docs/output/schema.md",
+      "size_bytes": 6188,
+      "modified": "2026-02-04T19:09:22.442755",
+      "sha256": "0deb13a14cfbb2e6c39bb72f22d9b30d04f4716ea2cd4ee16364607a14271020"
+    },
+    {
+      "path": "docs/paper/README.md",
+      "size_bytes": 284,
+      "modified": "2026-02-20T09:53:18.201899",
+      "sha256": "e84b577f88ea46ec8d5370ea99581ca4afe43118153ffda1cce5d7633ffbed69"
+    },
+    {
+      "path": "docs/paper/abstract.md",
+      "size_bytes": 1708,
+      "modified": "2026-02-04T19:09:22.437455",
+      "sha256": "78593472b44b73927e7b78e4d00c7e16976306c67cc2877cc9b241e4e585e123"
+    },
+    {
+      "path": "docs/paper/compile_pdf.py",
+      "size_bytes": 18584,
+      "modified": "2026-02-20T23:01:23.021585",
+      "sha256": "38d47b7b2ac8168abce7977728fba04686c71d085bc9f7bde5f230b1b6eda1f1"
+    },
+    {
+      "path": "docs/paper/discussion_conclusions.md",
+      "size_bytes": 8850,
+      "modified": "2026-02-04T19:09:22.435803",
+      "sha256": "671756c7db79b551cfd9ab4f44dd71861305fdfe4cabcbbccbb1a4bc7b94e9b9"
+    },
+    {
+      "path": "docs/paper/draft.md",
+      "size_bytes": 11314,
+      "modified": "2026-02-20T23:26:30.374855",
+      "sha256": "bed6fa8883d2282313f53e3275aff698d68e9a9448707f53ea4911421d55a8a7"
+    },
+    {
+      "path": "docs/paper/figures/README.md",
+      "size_bytes": 136,
+      "modified": "2026-02-20T09:53:15.380864",
+      "sha256": "39481b41fce1a6b4a24af5e971b60410cbbd204ca3d5f2b61337a8a25b0cd6c8"
+    },
+    {
+      "path": "docs/paper/introduction.md",
+      "size_bytes": 6149,
+      "modified": "2026-02-04T19:09:22.435688",
+      "sha256": "b8af42ef8434d894670b1323b59b2fcf03d0eac96bb5236ba7bd25e11be738c9"
+    },
+    {
+      "path": "docs/paper/methods_section.md",
+      "size_bytes": 10538,
+      "modified": "2026-02-20T09:57:23.922931",
+      "sha256": "7b427d3c1a2dec1fbac35777e4468df7bdde868e492c98c60930c49449d2e1d0"
+    },
+    {
+      "path": "docs/paper/readme.md",
+      "size_bytes": 1595,
+      "modified": "2026-02-04T19:09:22.435608",
+      "sha256": "01ba56c90be87f220f8164c8d88fcdf754a06ea4a6d589bbc464ae118972fe35"
+    },
+    {
+      "path": "docs/paper/results_section.md",
+      "size_bytes": 10529,
+      "modified": "2026-02-16T11:31:16.142843",
+      "sha256": "d696cda1e95955e352a69cacc8e69ccd5c2b3d650549d3bee23196cdbeee0b00"
+    },
+    {
+      "path": "docs/paper/tasni_paper.pdf",
+      "size_bytes": 220451,
+      "modified": "2026-01-12T07:53:37.324851",
+      "sha256": "f52738ca0b20cb08d4de388aab161e07837f2a90ef8b15ff84abc7f4fd9b54b8"
+    },
+    {
+      "path": "docs/paper_structure.md",
+      "size_bytes": 4186,
+      "modified": "2026-02-04T19:09:22.440416",
+      "sha256": "f9a45f80cc975369bc50d01ee11abfa40a599503f046f8705ec9a7b2fb0d4eba"
+    },
+    {
+      "path": "docs/parallax_methods.md",
+      "size_bytes": 2417,
+      "modified": "2026-02-04T19:09:22.439644",
+      "sha256": "3218bc69fcad0232c3a10897afdc88199c825984f4bf7b740ef59d154b59a916"
+    },
+    {
+      "path": "docs/pipeline.md",
+      "size_bytes": 14333,
+      "modified": "2026-02-04T19:09:22.431766",
+      "sha256": "c1c26a9a141106a2b549f5c448cc65b23f4481b1a2aaebf85e61ea0d76076ff6"
+    },
+    {
+      "path": "docs/project_analysis.md",
+      "size_bytes": 3136,
+      "modified": "2026-02-04T19:09:22.433792",
+      "sha256": "649a2fdaaad9ae5c3d2b9e0c23ac97dddf88ce1dd61edf0a0bcb3d430ccdd158"
+    },
+    {
+      "path": "docs/publication_checklist.md",
+      "size_bytes": 6845,
+      "modified": "2026-02-20T21:31:21.687262",
+      "sha256": "8d3cc8b4d4a41c5d95b5b93821fe84a81560cd7224a092f8e8edf5934651cc8c"
+    },
+    {
+      "path": "docs/quickstart.md",
+      "size_bytes": 4879,
+      "modified": "2026-02-20T21:32:13.163686",
+      "sha256": "9bc750e0d164554dfb23dc0e2f1f2f386fa7e898c51d30e873b54a30bdffb1ee"
+    },
+    {
+      "path": "docs/reorganization_execution_summary.md",
+      "size_bytes": 12455,
+      "modified": "2026-02-20T21:06:48.450277",
+      "sha256": "9e878ec7f693b3d140b78def9548b0046b902cab4ff8e4475d737e0bcab503ef"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "size_bytes": 8495,
+      "modified": "2026-02-20T23:26:30.375268",
+      "sha256": "693bd45c8ce2cbaf923d4d512d7746cf17d069ed9873d4d951de0aa5461fcc4e"
+    },
+    {
+      "path": "docs/research_opportunities.md",
+      "size_bytes": 39301,
+      "modified": "2026-02-04T19:09:22.431004",
+      "sha256": "e00b2aca453c4c42caff02fd9ed164eab63751d2aae4cc0a4301919c8da979a1"
+    },
+    {
+      "path": "docs/research_scope.md",
+      "size_bytes": 5439,
+      "modified": "2026-02-04T19:09:22.434738",
+      "sha256": "c6c75137750546e15959f2702369480dfe875226d4018c5b60d349aeaebd4cf5"
+    },
+    {
+      "path": "docs/roadmap.md",
+      "size_bytes": 14515,
+      "modified": "2026-02-04T19:09:22.434069",
+      "sha256": "4281348392323f5ecbc2a5e70fffcb4b0030179a6e79f29ff196d4d80ccd2151"
+    },
+    {
+      "path": "docs/statistical_methods.md",
+      "size_bytes": 4633,
+      "modified": "2026-02-16T11:11:33.302403",
+      "sha256": "0b157a940c04a350175c9159005da655a079ef8c6e13a85930ac9355e7900431"
+    },
+    {
+      "path": "docs/status_report.md",
+      "size_bytes": 1346,
+      "modified": "2026-02-04T19:09:22.442901",
+      "sha256": "9fe8e6995322d6e3e55f29927e07c4e0167c12d516611534c64328fa5601f1b1"
+    },
+    {
+      "path": "docs/success_criteria.md",
+      "size_bytes": 7919,
+      "modified": "2026-02-20T21:06:48.450330",
+      "sha256": "862e6b2d24f378d0709eba0e1ce48a70d2dce2f096a8d123973bf1887ea671bd"
+    },
+    {
+      "path": "docs/survey_integration.md",
+      "size_bytes": 3491,
+      "modified": "2026-02-04T19:09:22.439738",
+      "sha256": "2ff7f755c5d2809ee5dbad0d109dd62ee1e9a87530c265fec7e7756ec24845d4"
+    },
+    {
+      "path": "docs/temperature_estimation.md",
+      "size_bytes": 2442,
+      "modified": "2026-02-16T11:12:43.097474",
+      "sha256": "514faabb22948603f8f503c90b5347e8014f84e6f1ce1b3f5346779c5bb17fdc"
+    },
+    {
+      "path": "docs/terminology.md",
+      "size_bytes": 8054,
+      "modified": "2026-02-04T19:09:22.442185",
+      "sha256": "c5dd4d70671afd475fb7bd01eefaae8c7061c4fb8043bced51622ab46a2e3aae"
+    },
+    {
+      "path": "docs/workspace_organization.md",
+      "size_bytes": 33998,
+      "modified": "2026-02-20T21:06:48.450345",
+      "sha256": "498a06f1114d495c715f60096f5af089831ba33d380c861827e45dad4a628171"
+    },
+    {
+      "path": "docs/workspace_organization_plan.md",
+      "size_bytes": 4035,
+      "modified": "2026-02-04T19:09:22.435125",
+      "sha256": "129e1a1e37fea98df15fd138d3e4bdfc0eb4423480db9bc2bfef0d925139044b"
+    },
+    {
+      "path": "reports/figures/fading_cutouts.png",
+      "size_bytes": 259858,
+      "modified": "2026-01-12T06:03:47.667597",
+      "sha256": "c5243b0fddc5b16730fc135ab717fd9c112c47790c8a130e57e82094d3fa6719"
+    },
+    {
+      "path": "reports/figures/fading_cutouts_detailed.png",
+      "size_bytes": 458086,
+      "modified": "2026-01-12T06:04:09.531567",
+      "sha256": "3240529ffe0ae0c9b7e5b9ba46711dc964fa5cda0bd9494a8bf17efbf6777ac6"
+    },
+    {
+      "path": "reports/figures/fading_lightcurves.png",
+      "size_bytes": 456199,
+      "modified": "2026-01-12T06:02:26.368707",
+      "sha256": "d754dc96e35aacbc6a95fe3d898b8f8853ac220e694a9737851cd99f43b77fd7"
+    },
+    {
+      "path": "reports/figures/fig1_allsky_galactic.pdf",
+      "size_bytes": 34907,
+      "modified": "2026-02-20T21:33:15.172546",
+      "sha256": "e8baa62102715ade38685677e5bd20ae49147b5450b57d04deac56696ff19715"
+    },
+    {
+      "path": "reports/figures/fig1_allsky_galactic.png",
+      "size_bytes": 474611,
+      "modified": "2026-02-20T21:33:14.895861",
+      "sha256": "47a322d6febda4165202b27cc97064e01f8e151eacf3dc2d01d61c24e5765a86"
+    },
+    {
+      "path": "reports/figures/fig2_color_magnitude.pdf",
+      "size_bytes": 29079,
+      "modified": "2026-02-20T21:33:15.726014",
+      "sha256": "ee7b5042649cffa7bb308621eb86acc75f6cb10c525919d1422133ef41797b09"
+    },
+    {
+      "path": "reports/figures/fig2_color_magnitude.png",
+      "size_bytes": 208849,
+      "modified": "2026-02-20T21:33:15.547441",
+      "sha256": "6a0cd2f33b54eee7589aff99de8b1efba887f74f46b92988c91838c3dc1f6591"
+    },
+    {
+      "path": "reports/figures/fig3_distributions.pdf",
+      "size_bytes": 24877,
+      "modified": "2026-02-20T21:33:16.516778",
+      "sha256": "786a0d375c0ab86a0de138f311417fa7f595c2b643127f15e0570af9cc001ad3"
+    },
+    {
+      "path": "reports/figures/fig3_distributions.png",
+      "size_bytes": 179914,
+      "modified": "2026-02-20T21:33:16.269582",
+      "sha256": "07fd7ee54e2e312a74353d97c5471b06915977f8550f3ff9361b9c14794dcd67"
+    },
+    {
+      "path": "reports/figures/fig4_variability.pdf",
+      "size_bytes": 29998,
+      "modified": "2026-02-20T21:33:17.698937",
+      "sha256": "751b681d35403a9110772772a0dc18b94a36cccf5a7c29473e71e1645bf84a6f"
+    },
+    {
+      "path": "reports/figures/fig4_variability.png",
+      "size_bytes": 497198,
+      "modified": "2026-02-20T21:33:17.373463",
+      "sha256": "d06f1e9dfcd71e613a683190e9e460df0b6c9e21d3beb6dd727582680f7ca03a"
+    },
+    {
+      "path": "reports/figures/fig6_pipeline_flowchart.pdf",
+      "size_bytes": 31851,
+      "modified": "2026-02-20T21:33:18.209706",
+      "sha256": "15b3273ad307125eb45fd3c51b029f6c11c0bcfd4eadc0a2c0d0e058588b9ae5"
+    },
+    {
+      "path": "reports/figures/fig6_pipeline_flowchart.png",
+      "size_bytes": 258093,
+      "modified": "2026-02-20T21:33:18.096472",
+      "sha256": "a85ecab235c25cde8d750581557e15ff3059c4fc0b52b0112f2a740ea3d02e00"
+    },
+    {
+      "path": "reports/figures/ml_improved_scores.png",
+      "size_bytes": 21664,
+      "modified": "2026-02-04T19:28:22.880510",
+      "sha256": "23fd96dcf5f499f237fd10a981ac71387371db3521934823dc945b3a58c270ab"
+    },
+    {
+      "path": "reports/figures/models/sonora_cholla_fading_orphans.png",
+      "size_bytes": 249993,
+      "modified": "2026-02-02T16:50:35.819563",
+      "sha256": "c72c597f2881670f72587f88b6980155cde389dd3952c37bc82e77395cb738f8"
+    },
+    {
+      "path": "reports/figures/models/sonora_models_fading_orphans.png",
+      "size_bytes": 156090,
+      "modified": "2026-02-02T15:43:15.098572",
+      "sha256": "56ddc888fc427cec10a579052a0644141e0bc5ed20325d4e5c46c4954c5b554e"
+    },
+    {
+      "path": "reports/figures/population_synth_new.png",
+      "size_bytes": 38933,
+      "modified": "2026-02-04T19:28:23.136510",
+      "sha256": "0904803ad1a7631b6f06d180efc8057782880aafa1b964a1b735c7060bb73a9d"
+    },
+    {
+      "path": "reports/figures/population_synthesis_results.json",
+      "size_bytes": 2135,
+      "modified": "2026-02-20T21:06:48.450448",
+      "sha256": "629d8805bf085eeb8327d632854d90161be8fea53cee71aba8ab24297a266da9"
+    },
+    {
+      "path": "reports/figures/summary_statistics.txt",
+      "size_bytes": 373,
+      "modified": "2026-02-20T23:38:46.941942",
+      "sha256": "cc503913117d3c0c1024ccce84cf8d7b37259aaa7bbd444fd2403250df82ab2b"
+    },
+    {
+      "path": "src/tasni/__init__.py",
+      "size_bytes": 472,
+      "modified": "2026-02-20T21:06:48.450481",
+      "sha256": "8cb4130b4ed01ccc866ce6cc1cf1421166eef1d87de1bf165108a2945206a59c"
+    },
+    {
+      "path": "src/tasni/__main__.py",
+      "size_bytes": 9118,
+      "modified": "2026-02-20T23:01:23.008584",
+      "sha256": "96526d945fe10883714d27aa0f04e07f7df223ed1d9e53b4a9d25d9fed22c7c0"
+    },
+    {
+      "path": "src/tasni/analysis/__init__.py",
+      "size_bytes": 187,
+      "modified": "2026-02-04T19:09:12.741605",
+      "sha256": "f60ef7f21dd8339041d93af595589e1b537282535754ebebf0012fbd21d24c27"
+    },
+    {
+      "path": "src/tasni/analysis/analyze_kinematics.py",
+      "size_bytes": 11473,
+      "modified": "2026-02-20T23:01:23.019584",
+      "sha256": "5f58c17ac27f3e619537e9d502b3da8ae90bd469b1e7ff8c10765de8723a2fed"
+    },
+    {
+      "path": "src/tasni/analysis/atmo_sed_fitting.py",
+      "size_bytes": 23323,
+      "modified": "2026-02-20T19:15:22.156425",
+      "sha256": "6e9e4088732977e4357bf626fbb5530efaf0cd6e3bb3bdc29c225efe3cadad4f"
+    },
+    {
+      "path": "src/tasni/analysis/atmospheric_modeling_prep.py",
+      "size_bytes": 2063,
+      "modified": "2026-02-20T23:01:34.796431",
+      "sha256": "b643d2d823bba4b774a65b40768ad351002d761487da6ca4b5e0239cf5115871"
+    },
+    {
+      "path": "src/tasni/analysis/background_blend_analysis.py",
+      "size_bytes": 19047,
+      "modified": "2026-02-20T23:01:35.160743",
+      "sha256": "97b8a78eae859599399ed4ddd35e921d8d1191f4adbc28fa7c335e0a89f2b8a9"
+    },
+    {
+      "path": "src/tasni/analysis/binary_model.py",
+      "size_bytes": 13165,
+      "modified": "2026-02-20T23:01:23.022584",
+      "sha256": "40d3d7085f74fc9bdf5907ee523b7ba5e02e081d91a1808e61e159dc90989c6c"
+    },
+    {
+      "path": "src/tasni/analysis/classify_variability.py",
+      "size_bytes": 8465,
+      "modified": "2026-02-20T23:01:34.949491",
+      "sha256": "abbc87f26fcf016dd1c002646e426af238255c883af8fa9e9ea8f58a19e06b91"
+    },
+    {
+      "path": "src/tasni/analysis/compute_ir_variability.py",
+      "size_bytes": 14408,
+      "modified": "2026-02-20T23:01:23.022584",
+      "sha256": "2bc0e72c4acb1f70d06f0d1d8e3a852db4bc822eab4d667355c556571843504b"
+    },
+    {
+      "path": "src/tasni/analysis/compute_ir_variability_tier5.py",
+      "size_bytes": 12100,
+      "modified": "2026-02-20T21:06:48.450634",
+      "sha256": "4cc100d1ba728098fd4d41b95360a5b4c5df1ccf90eee2039638eb3932e950f9"
+    },
+    {
+      "path": "src/tasni/analysis/extract_neowise_parallax.py",
+      "size_bytes": 15688,
+      "modified": "2026-02-20T16:08:22.560863",
+      "sha256": "165b529fe70ece60a5d7250f22a11bb72e1c8f76cbd7b48be8fe76c3265ee685"
+    },
+    {
+      "path": "src/tasni/analysis/format_drift_phoenix_input.py",
+      "size_bytes": 2311,
+      "modified": "2026-02-20T23:01:23.021585",
+      "sha256": "b5b7ab55bc5d61e8d6a25fe52deb6a0c782ab151e695d60d43a49e401c48ea19"
+    },
+    {
+      "path": "src/tasni/analysis/light_curve_visualizer.py",
+      "size_bytes": 7965,
+      "modified": "2026-02-20T23:01:23.017584",
+      "sha256": "abc3ff1a6889639845ba9febc7377c1064d62aaa45760ee308a002613fe40d95"
+    },
+    {
+      "path": "src/tasni/analysis/ml_ablation.py",
+      "size_bytes": 18880,
+      "modified": "2026-02-20T23:01:35.273744",
+      "sha256": "b5446ba0c795cc7586560076120de8f223338a3616b072f92d444132d498b268"
+    },
+    {
+      "path": "src/tasni/analysis/parallax_control_sample.py",
+      "size_bytes": 14721,
+      "modified": "2026-02-20T19:11:25.246433",
+      "sha256": "80deb1f057638495570b34b5f9d67b8cb4e735b4ea7d8c8e3cd1a5e78a2b96f0"
+    },
+    {
+      "path": "src/tasni/analysis/periodogram_analysis.py",
+      "size_bytes": 24830,
+      "modified": "2026-02-20T23:01:35.507520",
+      "sha256": "42463e057d52bd28af36423c4a536ba460dc95d90a6d063ee6744de42237e581"
+    },
+    {
+      "path": "src/tasni/analysis/periodogram_significance.py",
+      "size_bytes": 8818,
+      "modified": "2026-02-20T23:01:35.080741",
+      "sha256": "24d459e22d75f71de64776941b348b095b3e694c4f079ca42087f3cab87943c4"
+    },
+    {
+      "path": "src/tasni/analysis/population_synthesis.py",
+      "size_bytes": 17037,
+      "modified": "2026-02-20T23:01:35.358714",
+      "sha256": "d2596761fd21a42651a8bac138b3d9502d8e948eeb2212e8eb74011dbb219024"
+    },
+    {
+      "path": "src/tasni/analysis/query_neowise_variability.py",
+      "size_bytes": 12876,
+      "modified": "2026-02-20T21:06:48.450719",
+      "sha256": "b69145d1ea3828517dc99c0ad0183bd2f57060d5f19336f6e623edde1bdbefd5"
+    },
+    {
+      "path": "src/tasni/analysis/selection_function.py",
+      "size_bytes": 7856,
+      "modified": "2026-02-20T23:01:35.076719",
+      "sha256": "d79899798faaff6218db91526618a574dd7aceac397bfce47b2129a815b4582d"
+    },
+    {
+      "path": "src/tasni/analysis/spectroscopy_planner.py",
+      "size_bytes": 11944,
+      "modified": "2026-02-20T23:01:23.021585",
+      "sha256": "7e816c01fc0e783ba833715d59ecbffda995370660f1b84760ca865101a6637b"
+    },
+    {
+      "path": "src/tasni/analysis/statistical_analysis.py",
+      "size_bytes": 12008,
+      "modified": "2026-02-20T23:01:35.118692",
+      "sha256": "3ac78472f39c161c255f1b6614ac6858ebef1451531b977cabe42b00b542393e"
+    },
+    {
+      "path": "src/tasni/analysis/visualize_sonora_cholla.py",
+      "size_bytes": 3797,
+      "modified": "2026-02-20T23:01:23.022584",
+      "sha256": "dd58470bfd8703cafd94ef2e3431787770dc503718903ebc15c763346f26b431"
+    },
+    {
+      "path": "src/tasni/analysis/visualize_sonora_models.py",
+      "size_bytes": 3259,
+      "modified": "2026-02-20T23:01:23.019584",
+      "sha256": "3762bfab4bcfabd3010a5a75e6f9a85bea59ee76035965b3b67a027caee9d48d"
+    },
+    {
+      "path": "src/tasni/checks/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.693053",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/checks/check_motion_vizier.py",
+      "size_bytes": 2344,
+      "modified": "2026-02-20T21:06:48.450784",
+      "sha256": "a8e37c29fd20d15d8b77737d8491f851e25ee288bfb8969b2974afe72eef2e8d"
+    },
+    {
+      "path": "src/tasni/checks/check_mpc.py",
+      "size_bytes": 2322,
+      "modified": "2026-02-20T23:01:34.998325",
+      "sha256": "899bce1e7de21d681b2c126ca5148f06ee46ee78973f64aff65ce82f6a33dc04"
+    },
+    {
+      "path": "src/tasni/checks/check_spectra.py",
+      "size_bytes": 1494,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "4c4f5e145c5ed02cd981eaa7b21d2facabf65259bda47c70159fe13e359c73bf"
+    },
+    {
+      "path": "src/tasni/checks/check_spitzer.py",
+      "size_bytes": 2145,
+      "modified": "2026-02-20T23:01:35.026741",
+      "sha256": "0801d82a3fa8604dc87f3fd7936f6fbcc8a17aaf79f7622f33e3afaf19cd9334"
+    },
+    {
+      "path": "src/tasni/checks/check_tess.py",
+      "size_bytes": 2399,
+      "modified": "2026-02-20T23:01:35.016070",
+      "sha256": "0073ec71df725ac1d0476d90e6053dacfe5ed64ec59f805a08680bb7c7f71059"
+    },
+    {
+      "path": "src/tasni/core/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.731469",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/core/config.py",
+      "size_bytes": 15863,
+      "modified": "2026-02-20T21:27:21.073156",
+      "sha256": "e212c20c575ad14b221eca5e7b8c80b66a9b00c4bddd1be9c07e85af972dbea8"
+    },
+    {
+      "path": "src/tasni/core/config_env.py",
+      "size_bytes": 1565,
+      "modified": "2026-02-20T21:27:13.998070",
+      "sha256": "1978a5335b7966c338319eee6b10d4afdde43f2a8538b04bb30d6e068e6665ae"
+    },
+    {
+      "path": "src/tasni/core/seeds.py",
+      "size_bytes": 564,
+      "modified": "2026-02-20T23:01:23.019584",
+      "sha256": "d20d1e911e3cb24bd7357c23a7c5f784f916da9f3275b9ecbd8c86f84a92c86b"
+    },
+    {
+      "path": "src/tasni/core/tasni_logging.py",
+      "size_bytes": 2647,
+      "modified": "2026-02-20T23:01:23.020584",
+      "sha256": "bb21f6b4b3cca653aa3324e77cc8f81e755e11d8613a2500444a797747bebd56"
+    },
+    {
+      "path": "src/tasni/crossmatch/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.709025",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_ast3.py",
+      "size_bytes": 10061,
+      "modified": "2026-02-20T23:01:23.007584",
+      "sha256": "3a409fde1d19bfea15305f29b3216c4b9b33140c8c6f594828378c9a07e37c45"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_chinese_vo.py",
+      "size_bytes": 17360,
+      "modified": "2026-02-20T23:01:23.015584",
+      "sha256": "b7ce5570bb1ce68d71c2dac085ca03ab31cce11f2b940d05f7e6f107b0c56147"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_erosita.py",
+      "size_bytes": 12463,
+      "modified": "2026-02-20T23:01:23.019584",
+      "sha256": "4510fd6990472fd1a53b28416071ec2f5d371469891d20c7f08ff2ff2b20e7e6"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_full.py",
+      "size_bytes": 6362,
+      "modified": "2026-02-20T23:01:23.016584",
+      "sha256": "2099662cb88fb1199ef1123be359b23e1fc8156913d7a8b1f3a4797a0d3a74f1"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_glimpse.py",
+      "size_bytes": 6518,
+      "modified": "2026-02-20T23:01:23.014584",
+      "sha256": "c64dfc61b02ecf9b0eaec22aba15f58131453a91333ca36b5d72bf98651c8f6b"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_lamost.py",
+      "size_bytes": 28487,
+      "modified": "2026-02-20T23:01:35.804653",
+      "sha256": "34b137efed8f15da1692d45fc3cfbe93b8976a6f492ad3c59b0cbd16c36aa68f"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_legacy.py",
+      "size_bytes": 19885,
+      "modified": "2026-02-20T23:01:35.625551",
+      "sha256": "eba2ec379a909039da30c4a14501a3cebbef79b7fd9baacf046b91386bbbce96"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_submm.py",
+      "size_bytes": 8278,
+      "modified": "2026-02-20T23:01:23.017584",
+      "sha256": "d51cb26ec0c28c74d8bd6fb5a97c189391c5476ea2235769689747f305e37b84"
+    },
+    {
+      "path": "src/tasni/crossmatch/crossmatch_ukidss.py",
+      "size_bytes": 7823,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "977de6cbec17465ab83606cb81d1249f0f2f8f3b2f884aa34fd995e5b87735a9"
+    },
+    {
+      "path": "src/tasni/crossmatch/gpu_crossmatch.py",
+      "size_bytes": 10249,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "c7349a0fcbd564f20d8ba900184b6bd2c53d92aeddf70fdf256cea200334b682"
+    },
+    {
+      "path": "src/tasni/download/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.705089",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/download/async_neowise_query.py",
+      "size_bytes": 15778,
+      "modified": "2026-02-20T23:01:35.541636",
+      "sha256": "45c9760d08aa9d7c3998bba5be4404a9a05e0a458e3ea2c5437d317382f5d149"
+    },
+    {
+      "path": "src/tasni/download/download_gaia_full.py",
+      "size_bytes": 5620,
+      "modified": "2026-02-20T23:01:23.014584",
+      "sha256": "194acb6fce8656ad2972aed0a77d6f891dd1fe4d2b173428527aca691c7603e7"
+    },
+    {
+      "path": "src/tasni/download/download_lamost.py",
+      "size_bytes": 16473,
+      "modified": "2026-02-20T23:01:23.009584",
+      "sha256": "745ffbb8b04ff2bd5f71ccf6e8aba7a1b06db8ef763046c0c039544bbf7ff0cb"
+    },
+    {
+      "path": "src/tasni/download/download_legacy_survey.py",
+      "size_bytes": 13538,
+      "modified": "2026-02-20T23:01:23.009584",
+      "sha256": "e53d0b9290c0a0245126ad665459f20b6f9eff4e2effdd4512620648b806dba9"
+    },
+    {
+      "path": "src/tasni/download/download_secondary_catalogs.py",
+      "size_bytes": 8723,
+      "modified": "2026-02-20T23:38:46.224342",
+      "sha256": "f23bfcce22b524fc3046341f1ee7a9fce4d0f8f8ff529fe7674d7e35f1050da3"
+    },
+    {
+      "path": "src/tasni/download/download_wise_full.py",
+      "size_bytes": 6182,
+      "modified": "2026-02-20T23:01:23.014584",
+      "sha256": "8d3f29d69b1f08aa17a99ab1f9d15acae7c1ac86748a46f9f92935ec3f8d59a1"
+    },
+    {
+      "path": "src/tasni/filtering/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.700495",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/filtering/crosscheck_known_objects.py",
+      "size_bytes": 10262,
+      "modified": "2026-02-20T23:01:35.405694",
+      "sha256": "7cb81f69c60c60e933d8014496c839a663dfe910651ead21276243c583dff858"
+    },
+    {
+      "path": "src/tasni/filtering/filter_anomalies_full.py",
+      "size_bytes": 12484,
+      "modified": "2026-02-20T23:01:23.026585",
+      "sha256": "a2ee5875f7cdb64f1e7ec0e75046da2eb13707c7d30cefc444fdd1b8c436320b"
+    },
+    {
+      "path": "src/tasni/filtering/multi_wavelength_scoring.py",
+      "size_bytes": 9017,
+      "modified": "2026-02-20T23:38:46.230753",
+      "sha256": "2b74a1c426a31cfd21816369a9777a559f296cbbf20b9179b635835cd3c54d23"
+    },
+    {
+      "path": "src/tasni/filtering/validate_brown_dwarfs.py",
+      "size_bytes": 3584,
+      "modified": "2026-02-20T23:01:23.022584",
+      "sha256": "f69b478afa2fbc2886b7071f0d3baa309ac52dd5d6d4d453c4f17e21f3a4758d"
+    },
+    {
+      "path": "src/tasni/generation/__init__.py",
+      "size_bytes": 229,
+      "modified": "2026-02-04T19:09:12.734153",
+      "sha256": "7e5f62abc758da065a3b52992e7460d14852eb9db9d3ba07e098f4e4da3e8d91"
+    },
+    {
+      "path": "src/tasni/generation/gen_figures.py",
+      "size_bytes": 3186,
+      "modified": "2026-02-20T23:01:35.252870",
+      "sha256": "36ecb085837ec4dcc9eb5036fc8e6a45a8571e9ee75b568cc116dc936232f180"
+    },
+    {
+      "path": "src/tasni/generation/generate_gbt_schedule.py",
+      "size_bytes": 1661,
+      "modified": "2026-02-20T21:06:48.450975",
+      "sha256": "3b13f953bcaf478b28ba60a1c18ba1ca9a2fd8eb29b9bd01fb6cfc4ecec73d34"
+    },
+    {
+      "path": "src/tasni/generation/generate_golden_list.py",
+      "size_bytes": 13848,
+      "modified": "2026-02-20T21:06:48.451028",
+      "sha256": "402136c42f29d28d80d04a7ea45687cc8002cbd70f48bc81cf6872b3f3006775"
+    },
+    {
+      "path": "src/tasni/generation/generate_manifest.py",
+      "size_bytes": 1411,
+      "modified": "2026-02-20T23:01:23.008584",
+      "sha256": "4f7a1aa1794b423392040b8007083241b14afe57ef244eea0e61a4d507efd2ac"
+    },
+    {
+      "path": "src/tasni/generation/generate_publication_figures.py",
+      "size_bytes": 23791,
+      "modified": "2026-02-20T23:36:36.936949",
+      "sha256": "b2ee332c95741eef01075718e7b51b2736f1855d263883189c7d9d4e7bdb9eaf"
+    },
+    {
+      "path": "src/tasni/generation/generate_quality_report.py",
+      "size_bytes": 23,
+      "modified": "2026-02-04T19:09:12.734684",
+      "sha256": "d682cbdb4c8b07518bf486c58990fc391783aa20a916bfb27ad211eb1d5c3642"
+    },
+    {
+      "path": "src/tasni/generation/prepare_spectroscopy_targets.py",
+      "size_bytes": 21133,
+      "modified": "2026-02-20T23:01:23.018584",
+      "sha256": "ef6d02c35497f0d1b713ed704b87efe0d7546d9eb232d24ac56be71ecc742304"
+    },
+    {
+      "path": "src/tasni/legacy/__init__.py",
+      "size_bytes": 231,
+      "modified": "2026-02-04T19:09:12.718054",
+      "sha256": "c42a479559e30a781488ca33d0da2fe49c7b93329c4f52b3637bed45798f04b5"
+    },
+    {
+      "path": "src/tasni/legacy/cluster_images.py",
+      "size_bytes": 3717,
+      "modified": "2026-02-20T23:01:23.024585",
+      "sha256": "d663e6b9c215c8559bd050a24074ead3d7148c9ada024c79470555c154ba9d78"
+    },
+    {
+      "path": "src/tasni/legacy/crossmatch.py",
+      "size_bytes": 3128,
+      "modified": "2026-02-20T23:01:23.014584",
+      "sha256": "11d8bea094ecbb0b32c0dbf7b5669d97f50c9f6f8235be49de3d5333c4411394"
+    },
+    {
+      "path": "src/tasni/legacy/crossmatch_2mass_api.py",
+      "size_bytes": 6239,
+      "modified": "2026-02-20T21:06:48.451140",
+      "sha256": "b24ffefb14e17b238810a3a08c61c932af3ba4b857f0d5091b747bd296b57446"
+    },
+    {
+      "path": "src/tasni/legacy/crossmatch_nvss.py",
+      "size_bytes": 2616,
+      "modified": "2026-02-20T23:01:23.015584",
+      "sha256": "93331b6295dbbb2eef4622142ee6794132e3273808efc4faf21657e16788bc8d"
+    },
+    {
+      "path": "src/tasni/legacy/crossmatch_rosat.py",
+      "size_bytes": 5299,
+      "modified": "2026-02-20T21:06:48.451168",
+      "sha256": "1923ee469e69acd41d2b3394c19ddf0a9138961f6d569c743c5c85bacbd3eadf"
+    },
+    {
+      "path": "src/tasni/legacy/download_catwise.py",
+      "size_bytes": 2337,
+      "modified": "2026-02-20T23:01:23.016584",
+      "sha256": "b8be85eb2d3a96c56cf2d137c1f4779a8ec09a769dfb2e5edd2695abf450e95d"
+    },
+    {
+      "path": "src/tasni/legacy/download_cdn_xmatch.py",
+      "size_bytes": 2983,
+      "modified": "2026-02-20T23:01:23.015584",
+      "sha256": "ae3e069e564502ed4d61087d6b08bd0ee95d30ee88d67768c6cb892b93d75490"
+    },
+    {
+      "path": "src/tasni/legacy/download_cds_xmatch.py",
+      "size_bytes": 2047,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "e847b9dc6d3b2f683c5fa53e53b014f994a82660c00d095e30b355d57a982056"
+    },
+    {
+      "path": "src/tasni/legacy/download_gaia.py",
+      "size_bytes": 2419,
+      "modified": "2026-02-20T23:01:23.019584",
+      "sha256": "3523d22c615ef7b1425ea0c8e322991158c3e90cba6ddb3a9eb331f6642973f6"
+    },
+    {
+      "path": "src/tasni/legacy/download_gaia_parallel.py",
+      "size_bytes": 5457,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "0f078d95aed6da9a4dffb552ad70a666bb3c2b0c82208b7b06b8bb0e12a6ce9b"
+    },
+    {
+      "path": "src/tasni/legacy/download_gaia_xmatch.py",
+      "size_bytes": 1438,
+      "modified": "2026-02-20T23:01:23.015584",
+      "sha256": "8ac6443838633ae74cb030caa6b267756c1622d9cd296cfc5419a86c2c4c248a"
+    },
+    {
+      "path": "src/tasni/legacy/download_nvss_bulk.py",
+      "size_bytes": 2561,
+      "modified": "2026-02-20T23:01:23.014584",
+      "sha256": "662affc34cd88943d53109d3113e3822ac7b5dce7f0a2c76d2ec363b1f41bab9"
+    },
+    {
+      "path": "src/tasni/legacy/download_rosat_xmatch.py",
+      "size_bytes": 3776,
+      "modified": "2026-02-20T23:01:23.024585",
+      "sha256": "cc72f1239754e7a0c78aba3e14647fb4d984935320c9cb8b44a659babfeb97f8"
+    },
+    {
+      "path": "src/tasni/legacy/download_wise.py",
+      "size_bytes": 2672,
+      "modified": "2026-02-20T23:01:23.023584",
+      "sha256": "280d7411224397ccf48f3b7337f544e9144bdfdaea9ea2f058e87abc4ccb9150"
+    },
+    {
+      "path": "src/tasni/legacy/download_xmatch_chunked.py",
+      "size_bytes": 1779,
+      "modified": "2026-02-20T21:06:48.451291",
+      "sha256": "6661a15993f6ddf17ea1d1a27d1ca990012911fbc055151394b783704dcd2309"
+    },
+    {
+      "path": "src/tasni/legacy/download_xmatch_fast.py",
+      "size_bytes": 1767,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "1dc71bf334aade9e7e2ba7ebd1ffd212dbd4e7fcc00c648451eacfbe0fdc7d3b"
+    },
+    {
+      "path": "src/tasni/legacy/filter_anomalies.py",
+      "size_bytes": 4590,
+      "modified": "2026-02-20T23:01:23.014584",
+      "sha256": "04fec040d98cba11b0a38273a281b0706cc218f7023e8515a49a644d35b6170d"
+    },
+    {
+      "path": "src/tasni/legacy/filter_anomalies_duckdb.py",
+      "size_bytes": 4200,
+      "modified": "2026-02-20T23:01:35.317390",
+      "sha256": "bcbf155e01ef6d7b8a6c6fb97a5a4a1b1a379d08f39897836ec5286318394abc"
+    },
+    {
+      "path": "src/tasni/legacy/filter_anomalies_polars.py",
+      "size_bytes": 8700,
+      "modified": "2026-02-20T23:01:23.022584",
+      "sha256": "91e0b52d8b2958ab401f96abf512ccdf9dd6641ad6ba8a234061bed7ffb6f017"
+    },
+    {
+      "path": "src/tasni/legacy/process_cdn_xmatch.py",
+      "size_bytes": 3993,
+      "modified": "2026-02-20T23:01:23.024585",
+      "sha256": "fb3b4c01280d82a3101c2a8db38a3c1ed7adc24b942a7cea38c9e8cb2a570e4a"
+    },
+    {
+      "path": "src/tasni/legacy/process_cdn_xmatch_duckdb.py",
+      "size_bytes": 3732,
+      "modified": "2026-02-20T23:01:35.328008",
+      "sha256": "a8d0b8cc883dc1bb31b604679bcb98a7c01551f181d6678ab14d9a2e22586454"
+    },
+    {
+      "path": "src/tasni/legacy/process_cdn_xmatch_gpu.py",
+      "size_bytes": 4100,
+      "modified": "2026-02-20T21:06:48.451379",
+      "sha256": "fb195deb79a577358c612b2ef5d33842ef643324d8f35c3d5449d81284b6f1d2"
+    },
+    {
+      "path": "src/tasni/legacy/process_cdn_xmatch_polars.py",
+      "size_bytes": 4717,
+      "modified": "2026-02-20T21:06:48.451396",
+      "sha256": "47c7f4be9bbc66f1f2c4540261467b71e3b2019fc1899992331e0c7562e6bf9c"
+    },
+    {
+      "path": "src/tasni/legacy/readme.md",
+      "size_bytes": 983,
+      "modified": "2026-02-04T19:09:12.716116",
+      "sha256": "ba8adaf733735e66091d4c8d0682b0c08e9416c9e5db4f195209fdb6f86ea3f3"
+    },
+    {
+      "path": "src/tasni/legacy/xmatch_2mass_batch.py",
+      "size_bytes": 3878,
+      "modified": "2026-02-20T23:01:35.355994",
+      "sha256": "751ec59e63f587b14719aed1458583af6a124c3f0ae10d8f043c11d31694be19"
+    },
+    {
+      "path": "src/tasni/misc/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.732086",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/misc/distributed_orchestrator.py",
+      "size_bytes": 9396,
+      "modified": "2026-02-20T23:01:23.020584",
+      "sha256": "d2266be17badf0d1f3477952393ab126b5d6d8a77e72e2403146b0f944fcfe09"
+    },
+    {
+      "path": "src/tasni/misc/refilter_tier5.py",
+      "size_bytes": 7839,
+      "modified": "2026-02-20T23:01:23.022584",
+      "sha256": "1352c96e03da25212a956985824b66f1b82655db30e9a2666e16ec74b2e39a1f"
+    },
+    {
+      "path": "src/tasni/misc/run_tier5_variability.py",
+      "size_bytes": 12164,
+      "modified": "2026-02-20T23:01:23.024585",
+      "sha256": "94670084bf0be748ecae4d2e69ca87a6eaa50cca66a1344f925527d19a79d9b0"
+    },
+    {
+      "path": "src/tasni/ml/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.693768",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/ml/cluster_images_xpu.py",
+      "size_bytes": 3457,
+      "modified": "2026-02-20T23:01:23.022584",
+      "sha256": "75774d99162214962be5d4c49820d258f48489ee057e218abe10b67a18441464"
+    },
+    {
+      "path": "src/tasni/ml/enhanced_ensemble.py",
+      "size_bytes": 10964,
+      "modified": "2026-02-20T23:38:46.266535",
+      "sha256": "80e3c3195cf514db6ac4e0fe8c23d26890889aff22ec3d63412c2d5245831bf7"
+    },
+    {
+      "path": "src/tasni/ml/extract_features.py",
+      "size_bytes": 14627,
+      "modified": "2026-02-20T23:01:23.023584",
+      "sha256": "109055eedff5f009fa2d9f07a2c988dd0d2e62a97586a49507e3ed2297df8305"
+    },
+    {
+      "path": "src/tasni/ml/predict_tier5.py",
+      "size_bytes": 9670,
+      "modified": "2026-02-20T23:01:23.021585",
+      "sha256": "5b5c85c8b8a86bba0e30b7c3d6a8c788b6be3b037d7de4c9ef074e0b43be8794"
+    },
+    {
+      "path": "src/tasni/ml/train_classifier.py",
+      "size_bytes": 10034,
+      "modified": "2026-02-20T23:01:23.019584",
+      "sha256": "acd240b6eacb708966b78f3abf719c0324a3b92254d4584984f951ad2bedac1e"
+    },
+    {
+      "path": "src/tasni/ml/xpu_classify.py",
+      "size_bytes": 8155,
+      "modified": "2026-02-20T23:01:23.023584",
+      "sha256": "d9c9a0a28212932feb5a6830c934819ea3f7a3ad9267996b28df5bd442a9eb54"
+    },
+    {
+      "path": "src/tasni/optimized/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.681284",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/optimized/optimized_crossmatch.py",
+      "size_bytes": 18908,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "fd60afd3f3afffdc973a38e5f940a75c391360816ca4ff98e56fca4a5d154489"
+    },
+    {
+      "path": "src/tasni/optimized/optimized_downloader.py",
+      "size_bytes": 15926,
+      "modified": "2026-02-20T23:01:23.028584",
+      "sha256": "047275a0938bf37cf8b222210342cebc86f1fe7c6f807505c3de934e92c2bc2e"
+    },
+    {
+      "path": "src/tasni/optimized/optimized_pipeline.py",
+      "size_bytes": 13662,
+      "modified": "2026-02-20T23:01:23.017584",
+      "sha256": "ed52eb86134b18e2dfd72bf7573d567784aaf018528cf1b03c793a9857244d47"
+    },
+    {
+      "path": "src/tasni/optimized/optimized_variability.py",
+      "size_bytes": 22298,
+      "modified": "2026-02-20T23:01:23.027585",
+      "sha256": "76ae075d85dc0afdfe3685055f0d620c2fa98d3560caf147525e75b710640d57"
+    },
+    {
+      "path": "src/tasni/pipeline/bayesian_selection.py",
+      "size_bytes": 5892,
+      "modified": "2026-02-20T23:38:46.284936",
+      "sha256": "769185800ab870e95d2ffe16b7508ff6905ef5825c712a1667d0e95b3a073170"
+    },
+    {
+      "path": "src/tasni/pipeline/fig_gen.py",
+      "size_bytes": 2337,
+      "modified": "2026-02-20T23:01:35.419257",
+      "sha256": "5acaed22d09df6d54776a72657ce6cfd81944fc78dbf231e9437bc2c2a4dc8ba"
+    },
+    {
+      "path": "src/tasni/pipeline/full_allwise_pipeline.py",
+      "size_bytes": 12935,
+      "modified": "2026-02-20T23:01:23.015584",
+      "sha256": "538631deda29704db0fe66a934b5d58d501048f83ca7d59ecb57067e233beb81"
+    },
+    {
+      "path": "src/tasni/pipeline/ml_scoring.py",
+      "size_bytes": 7994,
+      "modified": "2026-02-20T23:38:46.288936",
+      "sha256": "d30809c8a3bb010eeb160f1cf045f3ea5f8f14e83d68c10a9e7b932c0b54a3bb"
+    },
+    {
+      "path": "src/tasni/pipeline/synth.py",
+      "size_bytes": 3592,
+      "modified": "2026-02-20T23:01:23.020584",
+      "sha256": "65dce7ecf5207b9d6948abeecc4cbc6b723326d4c635c49ab3a9d93962ada2bc"
+    },
+    {
+      "path": "src/tasni/pipeline/tier_vetoes.py",
+      "size_bytes": 7417,
+      "modified": "2026-02-20T23:01:35.590891",
+      "sha256": "ae1adac97ab89990b336c2b21f1441100b9b209fd7aee7d159e1b81cfb3b9df5"
+    },
+    {
+      "path": "src/tasni/pipeline/validation.py",
+      "size_bytes": 4941,
+      "modified": "2026-02-20T15:23:20.730671",
+      "sha256": "7cd446caaddf0ada01c60f2730d4d1e0a991ffd64d02a3362fca3d00481b87bc"
+    },
+    {
+      "path": "src/tasni/utils/__init__.py",
+      "size_bytes": 0,
+      "modified": "2026-02-04T19:09:12.689831",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "src/tasni/utils/calculate_teff.py",
+      "size_bytes": 4175,
+      "modified": "2026-02-20T23:01:23.016584",
+      "sha256": "99c4e995b5a5107d2596818d830a42b3b966f8c5fa577dc802bac46aea3c9536"
+    },
+    {
+      "path": "src/tasni/utils/combine_chunks.py",
+      "size_bytes": 621,
+      "modified": "2026-02-20T21:06:48.451556",
+      "sha256": "4978c155ad1f468528083332dfa215633e2046a5706037b3fdd10f2a36b8339b"
+    },
+    {
+      "path": "src/tasni/utils/data_manager.py",
+      "size_bytes": 16192,
+      "modified": "2026-02-20T23:01:35.848397",
+      "sha256": "60cfc88d84d63e3dad72dee9967b57e9cddabdae6ceb37930c17741f81ce6fe7"
+    },
+    {
+      "path": "src/tasni/utils/fast_cutouts.py",
+      "size_bytes": 3423,
+      "modified": "2026-02-20T23:01:35.506747",
+      "sha256": "f1b4880a708b66b682deda760acbcedf5d1468e25aeaed1fe661e722737595cd"
+    },
+    {
+      "path": "src/tasni/utils/health_check.py",
+      "size_bytes": 15898,
+      "modified": "2026-02-20T23:01:23.028584",
+      "sha256": "e92b71b7a57a3091ce9ff20639500e51d47ac108f008e64711900dd3815f952e"
+    },
+    {
+      "path": "src/tasni/utils/qreport.py",
+      "size_bytes": 1074,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "c2264825f1251cd953bc3cd626cdcf1fbb02d5247089cfe5ebe7feb93c5ec9ef"
+    },
+    {
+      "path": "src/tasni/utils/quick_check.py",
+      "size_bytes": 291,
+      "modified": "2026-02-20T23:01:23.013584",
+      "sha256": "36a801947fd7f0a3342e71af746770441a94564fc86b951af94d767374025df5"
+    },
+    {
+      "path": "src/tasni/utils/security_audit.py",
+      "size_bytes": 14745,
+      "modified": "2026-02-20T23:01:35.766750",
+      "sha256": "2bf08b61720aa8705bf717528e126b46460a78a8bffa92450ae53fdaa1f2fc60"
+    },
+    {
+      "path": "src/tasni/utils/server_tagger.py",
+      "size_bytes": 2471,
+      "modified": "2026-02-20T23:38:45.939797",
+      "sha256": "91fa3720e34af17f4f60345e5bcad625c9d4408497633139bc69309082e870fa"
+    },
+    {
+      "path": "src/tasni/validation/__init__.py",
+      "size_bytes": 769,
+      "modified": "2026-02-20T21:06:48.451638",
+      "sha256": "6b6cc176143c9cf000f7ada4690d39a5a876a7f70271f7bb6a994748d52b6a4b"
+    },
+    {
+      "path": "src/tasni/validation/bayesian_population.py",
+      "size_bytes": 17045,
+      "modified": "2026-02-20T23:01:23.026585",
+      "sha256": "b72ffea0de8653c20046f41b98e3d5d091cd8d42a9800b7e733c4aa61d594865"
+    },
+    {
+      "path": "src/tasni/validation/expanded_bd_catalog.py",
+      "size_bytes": 13861,
+      "modified": "2026-02-20T23:01:23.020584",
+      "sha256": "cd6a78d01bce944a802631101dc1d97a32d11d4462f2367a41b772efd24a688a"
+    },
+    {
+      "path": "src/tasni/validation/ml_validation.py",
+      "size_bytes": 16084,
+      "modified": "2026-02-20T23:38:46.304936",
+      "sha256": "9f49eb731ca546e6ba5957f434619778f85c100309ab6d95e801ab22ce64abd2"
+    },
+    {
+      "path": "src/tasni/validation/rigorous_validation.py",
+      "size_bytes": 15968,
+      "modified": "2026-02-20T23:01:23.017584",
+      "sha256": "e6165c36e864d803f762fe3dfb9c1a0eece8702cf5bca63aa0ac98ab6d97cdd0"
+    },
+    {
+      "path": "src/tasni/validation/validate_parallax.py",
+      "size_bytes": 13902,
+      "modified": "2026-02-20T21:06:48.451668",
+      "sha256": "7e4ff98da8a48b95ecddcb0004dd0e0f8ec1f5f262f58a8c8afbcafb3984cb4a"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig1_allsky_galactic.pdf",
+      "size_bytes": 34907,
+      "modified": "2026-02-20T23:37:29.973224",
+      "sha256": "971c652081e41c3ae9fb2aeda3d9193ce97b1c4bb50289eb9af108fc4a28727e"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig1_allsky_galactic.png",
+      "size_bytes": 474611,
+      "modified": "2026-02-20T23:37:29.973269",
+      "sha256": "47a322d6febda4165202b27cc97064e01f8e151eacf3dc2d01d61c24e5765a86"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig1_pipeline_flowchart.pdf",
+      "size_bytes": 36592,
+      "modified": "2026-02-21T07:52:47.005512",
+      "sha256": "dcbaefee1870d31f175f89b3476d26974f795fd8c4256627c1eb60ce6abddea6"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig1_pipeline_flowchart.png",
+      "size_bytes": 265706,
+      "modified": "2026-02-21T07:52:46.771508",
+      "sha256": "6b9b7b6940f1bc734c5e4cd6b0de3c5aba225e0a5e3e79b7bf359ffe1b4a7a15"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig2_allsky_galactic.pdf",
+      "size_bytes": 35318,
+      "modified": "2026-02-21T07:52:47.522075",
+      "sha256": "05157ebf3dfcdf04b45733c836cb7d0014adb6aeda3f7b64c382bf766531b25a"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig2_allsky_galactic.png",
+      "size_bytes": 395998,
+      "modified": "2026-02-21T07:52:47.352516",
+      "sha256": "e2b9eca9b2f40acd1ffbc1554acb76826fdeb17dbb46fca6799cfd5f11a553c3"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig2_color_magnitude.pdf",
+      "size_bytes": 29079,
+      "modified": "2026-02-20T23:37:29.978930",
+      "sha256": "a3b5b62b609c5977fce76e0dbf20d51c6966ab8c22bc4b51a512391ad452ec55"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig2_color_magnitude.png",
+      "size_bytes": 208849,
+      "modified": "2026-02-20T23:37:29.980003",
+      "sha256": "6a0cd2f33b54eee7589aff99de8b1efba887f74f46b92988c91838c3dc1f6591"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig3_color_magnitude.pdf",
+      "size_bytes": 24856,
+      "modified": "2026-02-21T07:52:48.037012",
+      "sha256": "6690c7d25d7c536b86e90f9175b37f9e2818b4a4061b090ff1e7f98e80152645"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig3_color_magnitude.png",
+      "size_bytes": 151045,
+      "modified": "2026-02-21T07:52:47.887522",
+      "sha256": "f988cea9374970d69c961d0b7f2896e052bba37e94a251b94c2bede01ae97b02"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig3_distributions.pdf",
+      "size_bytes": 24877,
+      "modified": "2026-02-20T23:37:29.980075",
+      "sha256": "1c38c18d0d0cf0d2213162014df679148783591617408047e306469d36c05f30"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig3_distributions.png",
+      "size_bytes": 179914,
+      "modified": "2026-02-20T23:37:29.980126",
+      "sha256": "07fd7ee54e2e312a74353d97c5471b06915977f8550f3ff9361b9c14794dcd67"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig4_distributions.pdf",
+      "size_bytes": 18309,
+      "modified": "2026-02-21T07:52:48.654423",
+      "sha256": "937d4f010d4b2a9767132ce152171465d80bfdfef890159b126568771277b8cc"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig4_distributions.png",
+      "size_bytes": 166761,
+      "modified": "2026-02-21T07:52:48.462529",
+      "sha256": "2f16b6e1dd35990db23fea5d3e0a2d258cd318dac54f10ba39093149f03abf70"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig4_variability.pdf",
+      "size_bytes": 32104,
+      "modified": "2026-02-20T23:37:29.980191",
+      "sha256": "66567480435c77bcf15524b411ffb8a7c0930e82830a15339a41dd32a505adda"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig4_variability.png",
+      "size_bytes": 493329,
+      "modified": "2026-02-20T23:37:29.980223",
+      "sha256": "abac8190dedc2db5561ca3c2c5ccf3fc541297dfb60ba1da79007fed2d5c46a0"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig5_variability.pdf",
+      "size_bytes": 27216,
+      "modified": "2026-02-21T07:52:50.499233",
+      "sha256": "0116a2a16cb63b9a1e482dd70ad0c36ec74b03e70d982be7dacbbad287f69c9c"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig5_variability.png",
+      "size_bytes": 383569,
+      "modified": "2026-02-21T07:52:50.155550",
+      "sha256": "2774ccb3f514eaf183915733e1684fc2daf1c9cfe02a367aeb3deed1c5cc661c"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig6_periodograms.pdf",
+      "size_bytes": 47962,
+      "modified": "2026-02-21T07:52:51.816141",
+      "sha256": "21821e6ad554aac373e420feb5473f4343163c2461782bf7a6f79c32a51181ef"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig6_periodograms.png",
+      "size_bytes": 754375,
+      "modified": "2026-02-21T07:52:51.407566",
+      "sha256": "5ec1e4b66166d7a9a1a3c992af95315176c85743d310c8b193e9098c876b3ed4"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig6_pipeline_flowchart.pdf",
+      "size_bytes": 31851,
+      "modified": "2026-02-20T23:37:29.980358",
+      "sha256": "fa39a72308284c54a0e48b78d61d2af5c7f35b9f3ceed46c8dec5ce2ac1e91f1"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig6_pipeline_flowchart.png",
+      "size_bytes": 258093,
+      "modified": "2026-02-20T23:37:29.980389",
+      "sha256": "a85ecab235c25cde8d750581557e15ff3059c4fc0b52b0112f2a740ea3d02e00"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig_appendix_parallax_mcmc_ls.pdf",
+      "size_bytes": 255998,
+      "modified": "2026-02-21T07:42:41.041048",
+      "sha256": "1e00167975c3dd868c35c1cc4bf88e05645185660e88c6cfdcd17d0754fc73cb"
+    },
+    {
+      "path": "tasni_paper_final/figures/parallax_mcmc_ls_results.json",
+      "size_bytes": 299,
+      "modified": "2026-02-21T08:46:28.520062",
+      "sha256": "18b922e236408feeffd406008f6111d98df97b167b4238d7fc3b7063bfc4da01"
+    },
+    {
+      "path": "tasni_paper_final/figures/summary_statistics.txt",
+      "size_bytes": 366,
+      "modified": "2026-02-21T08:46:28.519062",
+      "sha256": "0985b99756402f9d5f0dc34391994b31d6483d15e28908a2fc58218d165957e7"
+    },
+    {
+      "path": "tasni_paper_final/figures/table1_fading_sources.pdf",
+      "size_bytes": 29199,
+      "modified": "2026-02-21T07:52:49.290685",
+      "sha256": "54d3f107cd93f86dabcfbf15b220867df878d7cb5a701152fe6a43e6d2133700"
+    },
+    {
+      "path": "tasni_paper_final/figures/table1_fading_sources.png",
+      "size_bytes": 152252,
+      "modified": "2026-02-21T07:52:49.020536",
+      "sha256": "b75c9be8688bcd0548db9a2d18f4d9597a60b7ed12b66d2c2bdc8787cb58b167"
+    }
+  ],
+  "summary": {
+    "total_files": 256,
+    "total_bytes": 10256379,
+    "total_gb": 0.009551997296512127
+  }
+}

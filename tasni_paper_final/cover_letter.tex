@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage{hyperref}
+
+\pagestyle{empty}
+
+\begin{document}
+
+\begin{flushright}
+\today
+\end{flushright}
+
+\bigskip
+
+\noindent
+The Editor \\
+The Astrophysical Journal
+
+\bigskip
+
+\noindent Dear Editor,
+
+\medskip
+
+We submit TASNI, a reproducible search that discovered three fading thermal orphans. All data and code are publicly available with full provenance. We believe the results and methodology will be of interest to the ultracool-dwarf and infrared-survey communities.
+
+The principal results are:
+\begin{itemize}
+  \item Discovery of three ``fading thermal orphans'' exhibiting monotonic
+        dimming at rates of 23--53~mmag~yr$^{-1}$, plus one additional fading
+        source identified as an LMC member (MSX LMC 1152).
+  \item ATMO 2020 effective temperatures of 645--1406~K (late-T to mid-T dwarf regime),
+        with Planck color temperature lower limits of 251--293~K.
+  \item The nearest candidate, at a provisional distance of $19.6^{+5.1}_{-3.3}$~pc pending independent astrometric confirmation, would be among the closest known free-floating late-T/early-Y dwarfs.
+  \item No X-ray counterparts for any of the 59 sources within the eROSITA DR1
+        footprint, ruling out AGN or stellar coronal activity.
+\end{itemize}
+
+\medskip
+
+Since the initial submission, the manuscript has been substantially hardened through:
+\begin{itemize}
+  \item Replacing naive least-squares astrometry with a fully Bayesian posterior representation incorporating a Bailer-Jones volume prior ($L=30$~pc), yielding robust, finite distances protected against Lutz-Kelker bias.
+  \item Highlighting ATMO 2020 equilibrium chemistry models over Planck blackbody lower limits to yield physically sound temperature comparisons (645--1400~K) against established local brown dwarfs.
+  \item Performing a tiered Monte Carlo blend contamination analysis for our lowest-SNR candidate (J193547), demoting its confidence classification while outlining rigorous space-based follow-up requirements.
+  \item Refining machine learning transparency relative to heuristic cutoffs and terminology to clearly delineate the surrogate methodology from physical supervised classification.
+\end{itemize}
+
+\medskip
+
+These objects represent a potentially new class of nearby thermal sources
+invisible to traditional optical and near-infrared surveys. Their
+characterization has direct implications for completing the census of the
+local solar neighborhood and for understanding the population of
+ultra-cool substellar objects.
+
+The full source code for the TASNI pipeline will be made publicly available upon publication.
+All data products, including the golden sample catalog and supporting
+machine-readable tables, will be deposited on Zenodo upon acceptance.
+
+This manuscript has not been submitted to any other journal and is not under
+consideration elsewhere. There are no conflicts of interest. This is a
+single-author paper.
+
+\bigskip
+
+\noindent Sincerely,
+
+\medskip
+
+\noindent Dennis Palucki \\
+Independent Researcher \\
+ORCID: \href{https://orcid.org/0009-0005-1026-5103}{0009-0005-1026-5103} \\
+Email: paluckide@yahoo.com
+
+\bigskip
+
+\noindent \textbf{Suggested Referees:}
+\begin{itemize}
+    \item \textbf{Dr. J. Davy Kirkpatrick} (IPAC, Caltech) -- Expertise in Y-dwarf discoveries based on the WISE/NEOWISE legacy surveys.
+    \item \textbf{Dr. Kevin Luhman} (Penn State University) -- Extensive knowledge in proper motion and astrometry of nearby substellar objects (e.g., discovery of WISE J0855$-$0714).
+    \item \textbf{Dr. Caroline Morley} (UT Austin) -- Expertise in generating theoretical atmosphere models (e.g., Sonora Cholla) for sub-500 K ultracool dwarfs.
+\end{itemize}
+
+\end{document}

@@ -1,0 +1,195 @@
+{
+  "method": "XGBoost_ablation",
+  "n_sources_total": 3375,
+  "n_golden": 95,
+  "feature_sets": {
+    "all_features": {
+      "n_features": 47,
+      "roc_auc_mean": 0.9996,
+      "roc_auc_std": 0.0004,
+      "fold_aucs": [
+        1.0,
+        0.9999197689345315,
+        0.9994383825417201,
+        0.9996790757381259,
+        0.9987965340179719
+      ]
+    },
+    "no_variability_features": {
+      "n_features": 37,
+      "n_removed": 10,
+      "removed_features": [
+        "w1_mean",
+        "w1_std",
+        "w1_rms",
+        "w1_range",
+        "w1_n_epochs",
+        "w2_mean",
+        "w2_std",
+        "w2_rms",
+        "w2_range",
+        "w2_n_epochs"
+      ],
+      "roc_auc_mean": 0.9967,
+      "roc_auc_std": 0.0019,
+      "fold_aucs": [
+        0.9995186136071887,
+        0.9956675224646984,
+        0.9949454428754814,
+        0.99502567394095,
+        0.9982349165596919
+      ]
+    }
+  },
+  "auc_drop": 0.0029,
+  "auc_drop_percent": 0.3,
+  "robustness_check": {
+    "lightgbm": {
+      "all_auc": 0.9994,
+      "novar_auc": 0.9967,
+      "auc_drop": 0.0028
+    },
+    "random_forest": {
+      "all_auc": 0.997,
+      "novar_auc": 0.9962,
+      "auc_drop": 0.0008
+    }
+  },
+  "variability_importance_share": 0.5824,
+  "top20_features": [
+    {
+      "feature": "w2_std",
+      "importance": 0.544,
+      "rank": 1
+    },
+    {
+      "feature": "w3_w4_color",
+      "importance": 0.1529,
+      "rank": 2
+    },
+    {
+      "feature": "w1snr_value",
+      "importance": 0.0829,
+      "rank": 3
+    },
+    {
+      "feature": "w1mpro_value",
+      "importance": 0.0226,
+      "rank": 4
+    },
+    {
+      "feature": "w1_n_epochs",
+      "importance": 0.0181,
+      "rank": 5
+    },
+    {
+      "feature": "w1_mean",
+      "importance": 0.0149,
+      "rank": 6
+    },
+    {
+      "feature": "w3mpro_value",
+      "importance": 0.0143,
+      "rank": 7
+    },
+    {
+      "feature": "w2snr_value",
+      "importance": 0.0141,
+      "rank": 8
+    },
+    {
+      "feature": "w4mpro_value",
+      "importance": 0.0126,
+      "rank": 9
+    },
+    {
+      "feature": "w3snr_value",
+      "importance": 0.0126,
+      "rank": 10
+    },
+    {
+      "feature": "w4snr_value",
+      "importance": 0.0109,
+      "rank": 11
+    },
+    {
+      "feature": "mag_std",
+      "importance": 0.0107,
+      "rank": 12
+    },
+    {
+      "feature": "pm_total",
+      "importance": 0.0102,
+      "rank": 13
+    },
+    {
+      "feature": "pmdec_value",
+      "importance": 0.0083,
+      "rank": 14
+    },
+    {
+      "feature": "pmra_value",
+      "importance": 0.0068,
+      "rank": 15
+    },
+    {
+      "feature": "mag_range",
+      "importance": 0.0065,
+      "rank": 16
+    },
+    {
+      "feature": "ecliptic_lat",
+      "importance": 0.0064,
+      "rank": 17
+    },
+    {
+      "feature": "w4sigmpro_value",
+      "importance": 0.0059,
+      "rank": 18
+    },
+    {
+      "feature": "w2_w3_color",
+      "importance": 0.0056,
+      "rank": 19
+    },
+    {
+      "feature": "w1_w2_color_original",
+      "importance": 0.0055,
+      "rank": 20
+    }
+  ],
+  "golden_overlap": {
+    "all_features_top100": 95,
+    "no_var_features_top100": 95,
+    "jaccard_similarity": 0.961
+  },
+  "nan_leakage_check": {
+    "note": "Variability features are non-zero almost exclusively for golden sources because lightcurve analysis was only performed on the golden sample. This creates information leakage: the model can distinguish golden from non-golden by the presence/absence of variability data rather than by the feature values themselves.",
+    "golden_with_nonzero_var": 80,
+    "nongolden_with_nonzero_var": 20
+  },
+  "hyperparameters": {
+    "xgboost": {
+      "n_estimators": 100,
+      "max_depth": 4,
+      "learning_rate": 0.1,
+      "subsample": 0.8
+    },
+    "isolation_forest": {
+      "n_estimators": 200,
+      "contamination": 0.001,
+      "max_features": 0.8
+    },
+    "lightgbm": {
+      "n_estimators": 100,
+      "max_depth": 4,
+      "learning_rate": 0.05,
+      "num_leaves": 31
+    },
+    "random_forest": {
+      "n_estimators": 100,
+      "max_depth": 6,
+      "min_samples_leaf": 2
+    }
+  }
+}

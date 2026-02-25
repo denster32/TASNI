@@ -1,0 +1,48 @@
+# CODEOWNERS - TASNI Repository Governance
+#
+# This file defines the code owners for each part of the repository.
+# Code owners are automatically requested for review when someone opens
+# a pull request that modifies code that they own.
+#
+# For more information, see:
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything in the repo
+* @dpalucki
+
+# Core pipeline modules
+/src/tasni/core/ @dpalucki
+/src/tasni/pipeline/ @dpalucki
+/src/tasni/crossmatch/ @dpalucki
+
+# Analysis modules
+/src/tasni/analysis/ @dpalucki
+
+# Machine learning components
+/src/tasni/ml/ @dpalucki
+
+# Data handling
+/src/tasni/download/ @dpalucki
+/src/tasni/filtering/ @dpalucki
+
+# Validation framework
+/src/tasni/validation/ @dpalucki
+
+# Figure generation
+/src/tasni/generation/ @dpalucki
+
+# Documentation
+/docs/ @dpalucki
+/README.md @dpalucki
+/CHANGELOG.md @dpalucki
+
+# CI/CD configuration
+/.github/ @dpalucki
+/pyproject.toml @dpalucki
+/Dockerfile @dpalucki
+
+# Tests
+/tests/ @dpalucki
+
+# Paper manuscript
+/tasni_paper_final/ @dpalucki

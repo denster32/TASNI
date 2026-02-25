@@ -1,0 +1,84 @@
+% TASNI Paper - Introduction
+% Thermal Anomaly Search for Non-communicating Intelligence
+
+\section{Introduction}
+\label{sec:introduction}
+
+\subsection{Motivation: Searching for Thermal Anomalies}
+
+The identification of unusual astrophysical sources has historically driven major discoveries, from quasars \citep{Schmidt1963} to gamma-ray bursts \citep{Klebesadel1973}. In the modern era of large-area sky surveys, systematic searches for anomalous objects---those that defy easy classification---offer a promising avenue for discovering new phenomena.
+
+One class of potentially anomalous sources comprises objects that emit primarily in the thermal infrared while remaining undetected at other wavelengths. Such ``thermal orphans'' could arise from several physical mechanisms:
+
+\begin{enumerate}
+    \item \textbf{Extremely cold brown dwarfs}: Objects with $T_{\rm eff} \lesssim 300$~K emit predominantly at wavelengths $\lambda > 10~\mu$m, with negligible optical flux. The coldest known brown dwarf, WISE~J085510.83$-$071442.5, has $T_{\rm eff} \approx 250$~K \citep{Luhman2014} and is detectable only in the mid-infrared.
+
+    \item \textbf{Dust-obscured sources}: Objects embedded in optically thick dust shells re-radiate absorbed energy as thermal emission at temperatures set by the dust sublimation radius.
+
+    \item \textbf{Technosignatures}: Theoretical considerations suggest that advanced technological civilizations might be detectable through their waste heat \citep{Dyson1960, Kardashev1964}. A structure intercepting stellar luminosity would re-radiate at temperatures $T \sim 300$~K for Sun-like stars at 1~AU separation \citep{Wright2014a, Wright2014b}.
+\end{enumerate}
+
+While the first two explanations invoke known astrophysics, the third---though speculative---motivates careful characterization of any genuinely anomalous thermal sources. Even if all candidates prove to be natural objects, systematic searches constrain the prevalence of technological activity in the solar neighborhood.
+
+\subsection{The Y Dwarf Population}
+
+Brown dwarfs are substellar objects with masses below the hydrogen-burning limit ($\sim$0.075~$M_\odot$). They cool continuously throughout their lifetimes, passing through spectral types M, L, T, and Y as their effective temperatures decline \citep{Kirkpatrick2005, Cushing2011}.
+
+The Y dwarf spectral class, defined by $T_{\rm eff} \lesssim 500$~K, represents the coldest end of the brown dwarf sequence \citep{Cushing2011, Kirkpatrick2012}. These objects are characterized by:
+
+\begin{itemize}
+    \item Strong methane (CH$_4$) and water (H$_2$O) absorption in the near-infrared
+    \item Extremely red mid-infrared colors (W1$-$W2 $> 2$~mag)
+    \item Ammonia (NH$_3$) features in the coldest examples
+    \item Negligible optical emission ($M_V > 25$~mag)
+\end{itemize}
+
+Approximately 30 Y dwarfs are currently known, identified primarily through WISE color selection \citep{Kirkpatrick2012, Kirkpatrick2021}. The space density of Y dwarfs remains poorly constrained due to the difficulty of detecting these intrinsically faint objects. Population synthesis models predict a substantial population of cold ($T < 300$~K) brown dwarfs in the solar neighborhood awaiting discovery \citep{Burgasser2004, Ryan2017}.
+
+\subsection{Wide-field Infrared Survey Explorer}
+
+The Wide-field Infrared Survey Explorer (WISE; \citealt{Wright2010}) mapped the entire sky in four mid-infrared bands: W1 (3.4~$\mu$m), W2 (4.6~$\mu$m), W3 (12~$\mu$m), and W4 (22~$\mu$m). The AllWISE data release \citep{Cutri2013} contains 747 million sources, providing an unprecedented census of mid-infrared emitters.
+
+For cold objects ($T \lesssim 500$~K), the W1$-$W2 color provides a sensitive temperature diagnostic. The Rayleigh-Jeans tail of the Planck function produces increasingly red colors as temperature decreases:
+
+\begin{equation}
+\text{W1} - \text{W2} \approx 2.5 \log_{10}\left(\frac{B_\nu(4.6~\mu\text{m}, T)}{B_\nu(3.4~\mu\text{m}, T)}\right)
+\end{equation}
+
+For $T = 300$~K, this yields W1$-$W2 $\approx 2$~mag, while $T = 250$~K produces W1$-$W2 $\approx 3$~mag. These extreme colors distinguish cold thermal emitters from the stellar locus.
+
+The NEOWISE reactivation mission \citep{Mainzer2014} has continued W1 and W2 observations since 2013, providing a decade-long temporal baseline for variability studies. This extended coverage enables identification of sources with unusual long-term photometric behavior.
+
+\subsection{Multi-Wavelength Veto Strategy}
+
+Previous searches for ultracool dwarfs have relied primarily on color selection, identifying red objects in WISE photometry \citep{Kirkpatrick2011, Kirkpatrick2012, Cushing2011}. While effective, this approach cannot distinguish genuinely ``invisible'' objects from those with faint but detectable counterparts at other wavelengths.
+
+We adopt a complementary strategy based on multi-wavelength non-detection. By requiring absence from optical (Gaia, Pan-STARRS, Legacy Survey), near-infrared (2MASS), and radio (NVSS) catalogs, we isolate objects detectable \emph{only} in the mid-infrared. This ``veto'' approach has several advantages:
+
+\begin{enumerate}
+    \item \textbf{Purity}: Sources passing all vetoes are guaranteed to lack counterparts above survey detection limits, ensuring genuine optical/NIR invisibility.
+
+    \item \textbf{Completeness}: Unlike color cuts, the veto strategy does not depend on assumed spectral energy distribution shapes.
+
+    \item \textbf{Anomaly detection}: By selecting against known source classes (stars, galaxies, AGN), the veto strategy naturally identifies unusual objects.
+\end{enumerate}
+
+The combination of thermal colors and multi-wavelength invisibility defines our target population: room-temperature emitters with no detectable emission at shorter or longer wavelengths.
+
+\subsection{This Work}
+
+We present the Thermal Anomaly Search for Non-communicating Intelligence (TASNI), a systematic pipeline to identify mid-infrared sources lacking counterparts across the electromagnetic spectrum. Our goals are:
+
+\begin{enumerate}
+    \item To quantify the population of genuinely ``invisible'' thermal emitters in the AllWISE catalog
+
+    \item To characterize their photometric, kinematic, and temporal properties
+
+    \item To identify candidates for spectroscopic follow-up that may represent the coldest brown dwarfs or other unusual objects
+
+    \item To constrain the prevalence of anomalous thermal signatures in the solar neighborhood
+\end{enumerate}
+
+The paper is organized as follows. Section~\ref{sec:methods} describes our data sources, selection criteria, and analysis methodology. Section~\ref{sec:results} presents the pipeline results, including the discovery of four ``fading thermal orphans'' with unprecedented properties. Section~\ref{sec:discussion} discusses the physical interpretation of these sources and constraints on alternative hypotheses. Section~\ref{sec:conclusions} summarizes our conclusions and outlines future observations.
+
+\end{document}

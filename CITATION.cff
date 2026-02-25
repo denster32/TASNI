@@ -1,0 +1,54 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "TASNI - Thermal Anomaly Search for Non-communicating Intelligence"
+version: 1.0.0
+doi: 10.5281/zenodo.18717105
+date-released: 2026-02-23
+url: "https://github.com/dpalucki/tasni"
+repository-code: "https://github.com/dpalucki/tasni"
+license: MIT
+abstract: "TASNI identifies fading thermal orphans - sources detectable only in the mid-infrared (WISE W1/W2) that systematically dim over a decade. The project discovered 3 confirmed candidates with cold temperatures comparable to known Y dwarfs (251-293 K), high proper motions, and monotonic fading, plus one LMC member."
+keywords:
+  - SETI
+  - technosignatures
+  - infrared-astronomy
+  - brown-dwarfs
+  - WISE
+  - Gaia
+  - thermal-anomalies
+authors:
+  - family-names: "Palucki"
+    given-names: "Dennis"
+    affiliation: "Independent Researcher"
+    orcid: "https://orcid.org/0009-0005-1026-5103"
+preferred-citation:
+  type: article
+  title: "TASNI: Thermal Anomaly Search for Non-Communicating Intelligence - Discovery of Three Fading Thermal Orphans"
+  authors:
+    - family-names: "Palucki"
+      given-names: "Dennis"
+      affiliation: "Independent Researcher"
+  journal: "The Astrophysical Journal"
+  year: 2026
+  volume: ""
+  issue: ""
+  pages: ""
+  doi: ""
+references:
+  - type: article
+    title: "Gaia Data Release 3. Summary of the contents and survey properties"
+    authors:
+      - family-names: "Gaia Collaboration"
+    journal: "Astronomy & Astrophysics"
+    year: 2023
+    volume: "674"
+    pages: "A1"
+    doi: "10.1051/0004-6361/202243940"
+  - type: article
+    title: "Explanatory Supplement to the AllWISE Data Release Products"
+    authors:
+      - family-names: "Cutri"
+        given-names: "R. M."
+      - family-names: "et al."
+    year: 2013
+    institution: "IPAC"

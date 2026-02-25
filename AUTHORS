@@ -1,0 +1,51 @@
+# TASNI Authors and Contributors
+
+## Principal Investigator
+
+**Dennis Palucki** (0009-0005-1026-5103)
+- Role: Project Lead, Scientific Analysis, Pipeline Development
+- Affiliation: Independent Researcher
+- Email: paluckide@yahoo.com
+
+## Contributors
+
+### Scientific Analysis
+- Dennis Palucki - Pipeline design, ML classification, periodogram analysis
+
+### Software Development
+- Dennis Palucki - Full pipeline implementation, testing infrastructure
+
+### Documentation
+- Dennis Palucki - All documentation, manuscript preparation
+
+## Acknowledgments
+
+This research has made use of data from:
+
+- **NASA/IPAC Infrared Science Archive (IRSA)** - WISE/NEOWISE data
+- **European Space Agency (ESA)** - Gaia DR3 data
+- **National Astronomical Data Center (China)** - LAMOST DR12 data
+- **NOIRLab** - Legacy Survey DR10 data
+- **Max Planck Institute for Extraterrestrial Physics** - eROSITA DR1 data
+- **University of California, Santa Barbara** - Sonora Cholla atmospheric models
+
+## Citation
+
+If you use TASNI in your research, please cite:
+
+```bibtex
+@article{tasni2026,
+    author = {{Palucki, Dennis}},
+    title = "{TASNI: Thermal Anomaly Search for Non-communicating Intelligence}",
+    journal = {The Astrophysical Journal},
+    year = {2026},
+    volume = {},
+    pages = {},
+    doi = {}
+}
+```
+
+---
+
+**Document Version**: 1.0.0
+**Last Updated**: 2026-02-15

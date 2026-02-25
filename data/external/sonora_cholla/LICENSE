@@ -1,0 +1,16 @@
+License Notice for External Sonora Cholla Data
+==============================================
+
+This directory contains third-party data files obtained from:
+https://zenodo.org/record/5063476
+
+Copyright and license terms remain with the original authors/providers.
+
+Required citation:
+- Marley et al. (2021), ApJ, 920, 85
+- Upstream Zenodo record (above)
+
+Users must comply with the original upstream license/usage terms associated with
+the Zenodo record and any referenced publication/license materials.
+
+TASNI does not relicense this external dataset.

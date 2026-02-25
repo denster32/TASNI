@@ -1,0 +1,156 @@
+{
+  "method": "ATMO2020_synthetic_photometry",
+  "grid_source": "STScI HLSP (Phillips et al. 2020)",
+  "reference": "Phillips et al. 2020, A&A 637, A38",
+  "logg_fixed": 5.0,
+  "chemistry": "chemical_equilibrium",
+  "wise_zeropoints_Jy": {
+    "W1": 306.682,
+    "W2": 170.663,
+    "W3": 29.045,
+    "W4": 8.284
+  },
+  "wise_bandpass": "rectangular (approximate)",
+  "n_grid_temperatures": 23,
+  "grid_temperatures_K": [
+    200,
+    250,
+    300,
+    350,
+    400,
+    450,
+    500,
+    550,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000
+  ],
+  "download_success": true,
+  "sources": {
+    "J143046": {
+      "teff_atmo": 645,
+      "logg_atmo": 5.0,
+      "observed_colors": {
+        "W1-W2": 3.368,
+        "W2-W3": 4.525
+      },
+      "w1w2_color_fit": {
+        "teff_nearest": 600,
+        "teff_interpolated": 645.0,
+        "chi2": 25.246,
+        "note": "interpolated from grid"
+      },
+      "magnitude_fit": {
+        "teff": 600,
+        "distance_modulus": 25.342,
+        "chi2_w1w2": 25.246,
+        "model_apparent_mags": {
+          "W1": 14.101,
+          "W2": 10.568,
+          "W3": 9.691,
+          "W4": 8.821
+        }
+      },
+      "w3_excess_mag": 3.587,
+      "w4_excess_mag": 4.326,
+      "notes": "interpolated between grid points"
+    },
+    "J231029": {
+      "teff_atmo": 1314,
+      "logg_atmo": 5.0,
+      "observed_colors": {
+        "W1-W2": 1.748,
+        "W2-W3": 3.468
+      },
+      "w1w2_color_fit": {
+        "teff_nearest": 1300,
+        "teff_interpolated": 1314.0,
+        "chi2": 0.872,
+        "note": "interpolated from grid"
+      },
+      "magnitude_fit": {
+        "teff": 1300,
+        "distance_modulus": 28.861,
+        "chi2_w1w2": 0.872,
+        "model_apparent_mags": {
+          "W1": 14.007,
+          "W2": 12.225,
+          "W3": 11.005,
+          "W4": 11.112
+        }
+      },
+      "w3_excess_mag": 2.233,
+      "w4_excess_mag": 4.201,
+      "notes": "interpolated between grid points"
+    },
+    "J193547": {
+      "teff_atmo": 1406,
+      "logg_atmo": 5.0,
+      "observed_colors": {
+        "W1-W2": 1.528,
+        "W2-W3": 2.976
+      },
+      "w1w2_color_fit": {
+        "teff_nearest": 1400,
+        "teff_interpolated": 1406.0,
+        "chi2": 0.214,
+        "note": "interpolated from grid"
+      },
+      "magnitude_fit": {
+        "teff": 1400,
+        "distance_modulus": 28.823,
+        "chi2_w1w2": 0.214,
+        "model_apparent_mags": {
+          "W1": 13.578,
+          "W2": 12.036,
+          "W3": 10.837,
+          "W4": 10.94
+        }
+      },
+      "w3_excess_mag": 1.771,
+      "w4_excess_mag": 3.803,
+      "notes": "interpolated between grid points"
+    },
+    "J044024_LMC": {
+      "teff_atmo": 1123,
+      "logg_atmo": 5.0,
+      "observed_colors": {
+        "W1-W2": 2.182,
+        "W2-W3": 2.986
+      },
+      "w1w2_color_fit": {
+        "teff_nearest": 1100,
+        "teff_interpolated": 1123.0,
+        "chi2": 2.418,
+        "note": "interpolated from grid"
+      },
+      "magnitude_fit": {
+        "teff": 1100,
+        "distance_modulus": 24.868,
+        "chi2_w1w2": 2.418,
+        "model_apparent_mags": {
+          "W1": 10.815,
+          "W2": 8.586,
+          "W3": 7.417,
+          "W4": 7.417
+        }
+      },
+      "w3_excess_mag": 1.798,
+      "w4_excess_mag": 3.028,
+      "notes": "LMC source at ~50 kpc (DM~18.5). Distance-corrected absolute magnitudes are highly uncertain. interpolated between grid points"
+    }
+  },
+  "summary": "Color-fitted Teff range for three orphan sources: 645-1406K (log g=5.0, chemical equilibrium). All sources show significant W3 excess (1.8 to 3.6 mag brighter than atmospheric model), indicating either circumstellar/interstellar dust or non-equilibrium atmospheric chemistry. Grid source: STScI HLSP (Phillips et al. 2020)."
+}

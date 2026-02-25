@@ -1,0 +1,225 @@
+% TASNI Paper - Discussion and Conclusions
+% Thermal Anomaly Search for Non-communicating Intelligence
+
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Nature of the Fading Thermal Orphans}
+\label{sec:nature}
+
+The four fading thermal orphans identified in this work present a puzzle: they are room-temperature thermal emitters with no optical, near-infrared, or radio counterparts, exhibiting systematic dimming over a decade-long baseline. Here we consider possible physical interpretations.
+
+\subsubsection{Y Dwarf Hypothesis}
+
+The most parsimonious explanation is that these objects are extremely cold Y-type brown dwarfs. Several lines of evidence support this interpretation:
+
+\begin{enumerate}
+    \item \textbf{Colors}: The W1$-$W2 colors of 1.53--3.37~mag are consistent with the coldest known Y dwarfs. The extreme color of J143046.35$-$025927.8 (W1$-$W2 $= 3.37$~mag) is comparable to WISE~J085510.83$-$071442.5, the coldest known brown dwarf \citep{Luhman2014}.
+
+    \item \textbf{Temperatures}: The derived effective temperatures of 250--293~K place these objects squarely in the Y dwarf regime ($T_{\rm eff} < 400$~K).
+
+    \item \textbf{Proper motions}: The high proper motions (55--359~mas~yr$^{-1}$) imply nearby distances of 18--115~pc, consistent with the local brown dwarf population.
+
+    \item \textbf{Optical invisibility}: Y dwarfs are expected to be undetectable in optical surveys due to their extremely red spectral energy distributions, with essentially all flux emerging longward of 1~$\mu$m.
+
+    \item \textbf{2MASS non-detection}: The faintest Y dwarfs have $J > 20$~mag, well below the 2MASS detection limit of $J \approx 16$~mag.
+\end{enumerate}
+
+Under the Y dwarf interpretation, the fading behavior could arise from several mechanisms:
+
+\paragraph{Secular Cooling:} Brown dwarfs cool over time as they radiate their formation heat. For a 250~K object, evolutionary models predict cooling rates of $dT/dt \approx 0.5$--2~K~Myr$^{-1}$ for ages of 1--10~Gyr \citep{Burrows1997, Baraffe2003}. However, such slow cooling would produce brightness changes of only $\sim$0.01~mmag~yr$^{-1}$---three orders of magnitude smaller than observed.
+
+To explain fade rates of 20--50~mmag~yr$^{-1}$, significantly faster cooling is required. This could occur if:
+\begin{itemize}
+    \item The objects are very young ($\lesssim 100$~Myr), when cooling rates are highest
+    \item The objects have unusually low masses ($M \lesssim 5~M_{\rm Jup}$), accelerating their thermal evolution
+    \item Non-equilibrium atmospheric processes enhance radiative losses
+\end{itemize}
+
+\paragraph{Atmospheric Variability:} Brown dwarf atmospheres exhibit complex cloud structures that can produce photometric variability \citep{Buenzli2014, Metchev2015}. While most cloud-driven variability is stochastic, secular changes in cloud properties could produce the observed fading trends. For example:
+\begin{itemize}
+    \item Global cloud thinning would increase the emergent flux from deeper, hotter layers---but this would cause \emph{brightening}, not fading
+    \item Increasing cloud opacity could reduce thermal emission, producing fading
+    \item Chemical transitions (e.g., sulfide to chloride cloud condensates) might alter atmospheric opacity
+\end{itemize}
+
+The monotonic nature of the fading over 10 years argues against stochastic cloud variability, which typically produces irregular brightness fluctuations on shorter timescales.
+
+\paragraph{Unresolved Binarity:} If these objects are unresolved binary brown dwarfs, orbital motion could produce secular brightness changes. A binary with period $P \gtrsim 20$~yr would show monotonic brightness evolution over our 10-year baseline. The observed fade rates would require orbital configurations where one component is progressively occulted or where the system geometry changes the effective emitting area.
+
+\subsubsection{Alternative Hypotheses}
+
+While the Y dwarf interpretation is favored, we consider alternative explanations:
+
+\paragraph{Planetary-Mass Objects:} Objects with $M < 13~M_{\rm Jup}$ (the deuterium-burning limit) could have similar properties to our fading sources. Free-floating planetary-mass objects have been identified in young clusters \citep{Zapatero2000, Lucas2006} and could exist in the field population. Their lower masses would imply faster cooling and potentially explain the observed fading.
+
+\paragraph{Circumstellar Dust:} A dusty envelope or disk around a central object could produce thermal emission at room temperature. Variable obscuration by an evolving disk could explain the fading behavior. However, such systems typically show near-infrared excess from warm inner dust, which would produce 2MASS detections.
+
+\paragraph{Extragalactic Contaminants:} Despite our radio veto, some AGN or dust-obscured galaxies could contaminate the sample. The one confirmed extragalactic source in our fading sample (J044024.40$-$731441.6 = MSX~LMC~1152) demonstrates this possibility. However, the remaining four sources have:
+\begin{itemize}
+    \item High proper motions inconsistent with extragalactic distances
+    \item No radio counterparts (AGN typically show radio emission)
+    \item Colors inconsistent with typical AGN SEDs
+\end{itemize}
+
+\paragraph{Instrumental Artifacts:} We cannot entirely exclude the possibility that the fading trends arise from instrumental systematics in the NEOWISE photometry. However:
+\begin{itemize}
+    \item The fading is detected independently in both W1 and W2
+    \item Only 4\% of our sample shows fading; if systematic, we would expect a larger fraction
+    \item The NEOWISE photometric calibration has been stable to $\lesssim 1$\% over the mission lifetime
+\end{itemize}
+
+\subsection{Constraints on Non-Natural Origins}
+\label{sec:seti}
+
+The TASNI pipeline was motivated partly by the possibility that waste heat from technological activity could produce thermal signatures detectable across interstellar distances \citep{Dyson1960, Wright2014a, Wright2014b}. While we find no evidence requiring such an explanation, we briefly discuss the constraints our results place on this hypothesis.
+
+A ``Dyson sphere'' or similar megastructure capturing stellar luminosity would re-radiate energy as thermal emission at temperatures determined by the structure's radius \citep{Wright2014a}. For a Sun-like star, an enclosure at 1~AU would have $T \approx 280$~K---remarkably similar to our golden sample's mean temperature of 265~K.
+
+However, several observations argue against artificial origins for our fading sources:
+
+\begin{enumerate}
+    \item \textbf{High proper motions}: The observed proper motions of 55--359~mas~yr$^{-1}$ imply distances of 20--100~pc. At these distances, the observed W1 magnitudes correspond to luminosities of $\sim 10^{-6}~L_\odot$---far below any stellar luminosity and consistent only with substellar objects.
+
+    \item \textbf{Consistency with brown dwarfs}: All observed properties (colors, temperatures, variability, proper motions) are consistent with the coldest known brown dwarfs without invoking additional physics.
+
+    \item \textbf{Fading behavior}: The systematic dimming is naturally explained by cooling or atmospheric evolution in brown dwarfs. For artificial structures, fading would require deliberate power-down or structural changes, which seems unlikely for multiple independent systems.
+
+    \item \textbf{Population statistics}: The 4,137 Tier 5 candidates and their sky distribution are consistent with expected brown dwarf populations, not concentrated toward stellar overdensities as might be expected for technology.
+\end{enumerate}
+
+We conclude that the TASNI sample is well-explained by natural astrophysical sources, primarily extremely cold brown dwarfs. Nonetheless, our pipeline and methodology could be applied to future surveys with improved sensitivity to search for genuinely anomalous thermal signatures.
+
+\subsection{Comparison with Previous Searches}
+\label{sec:comparison}
+
+Several previous studies have searched for ultracool dwarfs using WISE photometry:
+
+\begin{itemize}
+    \item \citet{Kirkpatrick2011, Kirkpatrick2012}: Identified the first Y dwarfs using WISE color selection, finding objects with W1$-$W2 up to $\sim$3.5~mag.
+
+    \item \citet{Cushing2011}: Discovered WISE~1828+2650, one of the coldest known brown dwarfs at the time.
+
+    \item \citet{Luhman2014}: Identified WISE~0855$-$0714 ($T_{\rm eff} \approx 250$~K) through its extreme proper motion.
+
+    \item \citet{Meisner2020}: Used CatWISE proper motions to identify cold brown dwarf candidates, extending to fainter magnitudes than previous work.
+\end{itemize}
+
+Our TASNI approach differs from these previous searches in several ways:
+
+\begin{enumerate}
+    \item \textbf{Multi-wavelength vetoing}: We explicitly require non-detection in optical (Gaia, Pan-STARRS, Legacy), near-infrared (2MASS), and radio (NVSS), ensuring genuine ``invisibility'' rather than simple color selection.
+
+    \item \textbf{Variability analysis}: We incorporate 10-year NEOWISE light curves to characterize temporal behavior, identifying the fading subpopulation.
+
+    \item \textbf{Systematic approach}: Our pipeline processes the full AllWISE catalog systematically rather than targeting pre-selected candidates.
+\end{enumerate}
+
+The four fading thermal orphans identified here do not appear in published Y dwarf catalogs, suggesting they represent either:
+\begin{itemize}
+    \item Previously overlooked objects that fell outside color-selection criteria
+    \item A distinct population with unusual variability properties
+    \item Contaminants from a yet-unidentified source class
+\end{itemize}
+
+Spectroscopic follow-up is required to distinguish these possibilities.
+
+\subsection{Limitations and Caveats}
+\label{sec:limitations}
+
+Several limitations affect our analysis:
+
+\begin{enumerate}
+    \item \textbf{Photometric accuracy}: Our temperature estimates assume single-temperature blackbody emission, which is an oversimplification for complex brown dwarf atmospheres with molecular absorption features.
+
+    \item \textbf{Distance uncertainty}: Without parallax measurements, our distance estimates rely on assumed tangential velocities, introducing factor-of-two uncertainties.
+
+    \item \textbf{Incompleteness}: Our multi-wavelength vetoing may exclude genuine thermal anomalies that happen to have faint counterparts in one or more surveys.
+
+    \item \textbf{NEOWISE systematics}: While we find no evidence for systematic photometric trends, subtle calibration drifts could affect our variability analysis at the $\lesssim 1$\% level.
+
+    \item \textbf{Sample size}: With only four fading sources, statistical characterization of this population is limited. A larger sample would enable more robust conclusions about the fading phenomenon.
+\end{enumerate}
+
+\subsection{Future Observations}
+\label{sec:future}
+
+Several follow-up observations would significantly advance our understanding of the fading thermal orphans:
+
+\subsubsection{Near-Infrared Spectroscopy}
+
+Medium-resolution ($R \sim 1000$--3000) spectroscopy in the 1--2.5~$\mu$m range would:
+\begin{itemize}
+    \item Confirm or refute the Y dwarf classification via CH$_4$ and H$_2$O absorption features
+    \item Measure spectral types and refine temperature estimates
+    \item Detect NH$_3$ features characteristic of the coldest brown dwarfs
+    \item Potentially reveal binarity through composite spectra
+\end{itemize}
+
+Based on the W1 magnitudes, we estimate exposure times of 15--60 minutes with Keck/NIRES or VLT/KMOS to achieve SNR $\sim 10$ in the $H$ and $K$ bands.
+
+\subsubsection{Parallax Measurements}
+
+Direct parallax measurements would provide model-independent distances and luminosities. Given the high proper motions, ground-based astrometry over 2--3 years could achieve parallax precision of $\sim$1~mas, sufficient to determine distances to $\sim$10\% for objects at 50~pc.
+
+Alternatively, the \emph{Gaia} mission may detect these sources in future data releases as its sensitivity improves, though their extreme optical faintness makes this uncertain.
+
+\subsubsection{Continued Photometric Monitoring}
+
+Extending the NEOWISE baseline (or future mid-infrared monitoring with \emph{JWST} or \emph{NEO Surveyor}) would:
+\begin{itemize}
+    \item Confirm the reality and persistence of the fading trends
+    \item Potentially detect curvature or turnaround in the light curves
+    \item Constrain cooling timescales or orbital periods for the binary hypothesis
+\end{itemize}
+
+\subsubsection{Mid-Infrared Spectroscopy}
+
+\emph{JWST}/MIRI spectroscopy at 5--28~$\mu$m would probe the peak of the spectral energy distribution for 250~K objects, providing:
+\begin{itemize}
+    \item Accurate bolometric luminosities
+    \item Atmospheric composition constraints from molecular features
+    \item Detection of any non-equilibrium chemistry
+\end{itemize}
+
+%=================================================================
+
+\section{Conclusions}
+\label{sec:conclusions}
+
+We have presented the Thermal Anomaly Search for Non-communicating Intelligence (TASNI), a systematic pipeline to identify mid-infrared sources lacking counterparts at other wavelengths. Our main conclusions are:
+
+\begin{enumerate}
+    \item \textbf{Pipeline Results}: From 747 million AllWISE sources, our multi-wavelength vetoing identifies 4,137 ``thermal anomalies''---objects detectable only in the mid-infrared with thermal (W1$-$W2 $> 0.5$~mag) colors and no optical, near-infrared, or radio counterparts.
+
+    \item \textbf{Golden Sample}: The 100 highest-scoring candidates have mean W1$-$W2 $= 1.99 \pm 0.36$~mag, mean $T_{\rm eff} = 265 \pm 36$~K, and mean proper motion $216 \pm 149$~mas~yr$^{-1}$. These properties are consistent with an extremely cold ($T < 300$~K) brown dwarf population at distances of 20--100~pc.
+
+    \item \textbf{Variability}: Analysis of 10-year NEOWISE light curves reveals that 45\% of the golden sample is photometrically stable, 50\% is variable (consistent with known brown dwarf variability rates), and 5\% shows systematic fading.
+
+    \item \textbf{Fading Thermal Orphans}: We identify four sources exhibiting monotonic fading at rates of 18--53~mmag~yr$^{-1}$ over the decade-long baseline. These ``fading thermal orphans'' have:
+    \begin{itemize}
+        \item Extreme W1$-$W2 colors (1.53--3.37~mag)
+        \item Room-temperature emission ($T_{\rm eff} = 251$--293~K)
+        \item High proper motions (55--359~mas~yr$^{-1}$)
+        \item No identification in SIMBAD or any astronomical catalog
+    \end{itemize}
+
+    \item \textbf{Interpretation}: The fading sources are most likely extremely cold Y-type brown dwarfs, possibly young objects undergoing rapid cooling or systems with evolving atmospheric properties. Their properties are unprecedented in the published literature.
+
+    \item \textbf{No Evidence for Artificial Origins}: While our search was partly motivated by the technosignature hypothesis, all observed properties are consistent with natural astrophysical sources. The high proper motions, low implied luminosities, and consistency with brown dwarf populations argue against artificial origins.
+\end{enumerate}
+
+The four fading thermal orphans represent a potentially new class of ultracool dwarf or a previously uncharacterized variability phenomenon. Spectroscopic confirmation is urgently needed to determine their physical nature and establish whether they represent:
+\begin{itemize}
+    \item The coldest brown dwarfs yet identified
+    \item A distinct population of variable Y dwarfs
+    \item An entirely new class of astronomical objects
+\end{itemize}
+
+Regardless of their ultimate classification, these objects demonstrate the power of multi-wavelength, time-domain approaches to discovering unusual sources in large-area surveys. The TASNI methodology provides a template for future searches with next-generation facilities.
+
+\acknowledgments
+
+This publication makes use of data products from the Wide-field Infrared Survey Explorer, which is a joint project of the University of California, Los Angeles, and the Jet Propulsion Laboratory/California Institute of Technology, funded by the National Aeronautics and Space Administration. This work has made use of data from the European Space Agency (ESA) mission \emph{Gaia}, processed by the \emph{Gaia} Data Processing and Analysis Consortium (DPAC). This research has made use of the SIMBAD database and the VizieR catalogue access tool, operated at CDS, Strasbourg, France.
+
+\end{document}

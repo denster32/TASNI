@@ -1,0 +1,328 @@
+{
+  "generated_at_utc": "2026-02-21T03:47:17.999096+00:00",
+  "project_root": "/mnt/data/tasni",
+  "environment": {
+    "python_version": "3.13.11 | packaged by Anaconda, Inc. | (main, Dec 10 2025, 21:28:48) [GCC 14.3.0]",
+    "platform": "Linux-6.17.0-14-generic-x86_64-with-glibc2.39"
+  },
+  "git": {
+    "branch": "release/v1.0.0",
+    "commit": "577bbc76c61408062f5ca56af55ea7fbfa0a94b6",
+    "dirty": true
+  },
+  "artifacts": [
+    {
+      "path": ".zenodo.json",
+      "size_bytes": 2032,
+      "modified_utc": "2026-02-20T21:11:05.150083+00:00",
+      "sha256": "d0d172f35959fc54579e37276c4bab1e4c3e2dbe601ecc44dea82ed75d082a5c"
+    },
+    {
+      "path": "CITATION.cff",
+      "size_bytes": 1832,
+      "modified_utc": "2026-02-21T03:30:53.733726+00:00",
+      "sha256": "c8a4618326bb94e2af267777a9e3658c5cef74ecaca842f6f660241d986ad4af"
+    },
+    {
+      "path": "README.md",
+      "size_bytes": 4925,
+      "modified_utc": "2026-02-21T03:30:58.013371+00:00",
+      "sha256": "ce8c7df8bb87259648cd6161e97b76f767e4b5d7509d592669ee1c19d620855d"
+    },
+    {
+      "path": "data/processed/final/checksums.txt",
+      "size_bytes": 1655,
+      "modified_utc": "2026-02-21T03:03:49.988431+00:00",
+      "sha256": "ede3745d70748dfa4b3898f0ba79af840765d58ae3653b3d8e45b0780af2db41"
+    },
+    {
+      "path": "data/processed/final/golden_improved.csv",
+      "size_bytes": 69144,
+      "modified_utc": "2026-02-20T22:07:32.720051+00:00",
+      "sha256": "39c3d52d9f0c843a734418aaf52be38614035fd451e4f181a1c294ec365d6104"
+    },
+    {
+      "path": "data/processed/final/golden_improved.parquet",
+      "size_bytes": 71314,
+      "modified_utc": "2026-02-20T22:07:40.089858+00:00",
+      "sha256": "9bd4b7010944a5bd0daeeb13701d9231db2ddd19b671ce276613a966e9ad3f1d"
+    },
+    {
+      "path": "data/processed/final/golden_improved_bayesian.csv",
+      "size_bytes": 7141,
+      "modified_utc": "2026-02-20T22:14:37.571432+00:00",
+      "sha256": "d45bc2ea83dd5352865641e6165af419c7693a71da267c52081336e55782ba43"
+    },
+    {
+      "path": "data/processed/final/golden_improved_bayesian.parquet",
+      "size_bytes": 37444,
+      "modified_utc": "2026-02-20T22:14:37.614343+00:00",
+      "sha256": "616de960ec37df20b50bbe6929b7ad381fa7ed9eac818b9c5d86c3ab403f9b01"
+    },
+    {
+      "path": "data/processed/final/golden_improved_erosita.csv",
+      "size_bytes": 71179,
+      "modified_utc": "2026-02-20T22:14:37.582788+00:00",
+      "sha256": "0f6e5cb80c0acd09225a173bfb85511d575bda077b4fb819bd14d7f572425048"
+    },
+    {
+      "path": "data/processed/final/golden_improved_erosita.parquet",
+      "size_bytes": 72480,
+      "modified_utc": "2026-02-20T22:14:37.621166+00:00",
+      "sha256": "013c537b3d4ff5dd4b2e9998cd873e8cea92042083ebc9f154142d0af7bb8694"
+    },
+    {
+      "path": "data/processed/final/golden_improved_kinematics.csv",
+      "size_bytes": 60075,
+      "modified_utc": "2026-02-20T22:14:37.588894+00:00",
+      "sha256": "3669960ab5aba8c89bc161d5a4f6b4f1fb862ef9c8619e5749802631eb3b7110"
+    },
+    {
+      "path": "data/processed/final/golden_improved_kinematics.parquet",
+      "size_bytes": 66449,
+      "modified_utc": "2026-02-20T22:14:37.627698+00:00",
+      "sha256": "762eb7fe9d286db94fab39490434f86b646252aa5fc9313022a0926ff19e59c0"
+    },
+    {
+      "path": "data/processed/final/golden_improved_parallax.csv",
+      "size_bytes": 48833,
+      "modified_utc": "2026-02-20T22:14:37.594056+00:00",
+      "sha256": "c4d90580e91e4e48dffe765cfff792be46c336accfc9524bfe3fa2e3f7c3ac60"
+    },
+    {
+      "path": "data/processed/final/golden_improved_parallax.parquet",
+      "size_bytes": 60603,
+      "modified_utc": "2026-02-20T22:14:37.634110+00:00",
+      "sha256": "d0aa1e4bda7e317dc0b81db3ef133198793feb03088d5d5075f516c6b93c5e69"
+    },
+    {
+      "path": "docs/DATA_AVAILABILITY.md",
+      "size_bytes": 8012,
+      "modified_utc": "2026-02-21T03:32:40.762687+00:00",
+      "sha256": "85744be420e9e476b5d6ceb58be1221ec0cd43ce1bb506babf1dc997ecb906ac"
+    },
+    {
+      "path": "docs/PUBLICATION_STATUS.md",
+      "size_bytes": 9670,
+      "modified_utc": "2026-02-21T03:32:43.591054+00:00",
+      "sha256": "841d97a5f443630d7d852213e1725476c9f6d565f8a465548838f18ff6bfd287"
+    },
+    {
+      "path": "docs/REPRODUCIBILITY_QUICKSTART.md",
+      "size_bytes": 5139,
+      "modified_utc": "2026-02-21T03:31:27.145182+00:00",
+      "sha256": "b8286c574972c28ac6969d05070bd6e3c6eb2168cd8382aefc0466262a2e9b5a"
+    },
+    {
+      "path": "docs/publication_checklist.md",
+      "size_bytes": 6845,
+      "modified_utc": "2026-02-21T03:31:21.687262+00:00",
+      "sha256": "8d3cc8b4d4a41c5d95b5b93821fe84a81560cd7224a092f8e8edf5934651cc8c"
+    },
+    {
+      "path": "docs/reproducibility.md",
+      "size_bytes": 8495,
+      "modified_utc": "2026-02-21T03:31:17.863223+00:00",
+      "sha256": "693bd45c8ce2cbaf923d4d512d7746cf17d069ed9873d4d951de0aa5461fcc4e"
+    },
+    {
+      "path": "pyproject.toml",
+      "size_bytes": 2909,
+      "modified_utc": "2026-02-21T03:37:48.259742+00:00",
+      "sha256": "9ddcff6eacd9cf8104175b53ec0f3389c57f54b0af74c8c1963b993aa2f009fb"
+    },
+    {
+      "path": "reports/figures/fading_cutouts.png",
+      "size_bytes": 259858,
+      "modified_utc": "2026-01-12T12:03:47.667597+00:00",
+      "sha256": "c5243b0fddc5b16730fc135ab717fd9c112c47790c8a130e57e82094d3fa6719"
+    },
+    {
+      "path": "reports/figures/fading_cutouts_detailed.png",
+      "size_bytes": 458086,
+      "modified_utc": "2026-01-12T12:04:09.531567+00:00",
+      "sha256": "3240529ffe0ae0c9b7e5b9ba46711dc964fa5cda0bd9494a8bf17efbf6777ac6"
+    },
+    {
+      "path": "reports/figures/fading_lightcurves.png",
+      "size_bytes": 456199,
+      "modified_utc": "2026-01-12T12:02:26.368707+00:00",
+      "sha256": "d754dc96e35aacbc6a95fe3d898b8f8853ac220e694a9737851cd99f43b77fd7"
+    },
+    {
+      "path": "reports/figures/fig1_allsky_galactic.pdf",
+      "size_bytes": 34907,
+      "modified_utc": "2026-02-21T03:33:15.172546+00:00",
+      "sha256": "e8baa62102715ade38685677e5bd20ae49147b5450b57d04deac56696ff19715"
+    },
+    {
+      "path": "reports/figures/fig1_allsky_galactic.png",
+      "size_bytes": 474611,
+      "modified_utc": "2026-02-21T03:33:14.895861+00:00",
+      "sha256": "47a322d6febda4165202b27cc97064e01f8e151eacf3dc2d01d61c24e5765a86"
+    },
+    {
+      "path": "reports/figures/fig2_color_magnitude.pdf",
+      "size_bytes": 29079,
+      "modified_utc": "2026-02-21T03:33:15.726014+00:00",
+      "sha256": "ee7b5042649cffa7bb308621eb86acc75f6cb10c525919d1422133ef41797b09"
+    },
+    {
+      "path": "reports/figures/fig2_color_magnitude.png",
+      "size_bytes": 208849,
+      "modified_utc": "2026-02-21T03:33:15.547441+00:00",
+      "sha256": "6a0cd2f33b54eee7589aff99de8b1efba887f74f46b92988c91838c3dc1f6591"
+    },
+    {
+      "path": "reports/figures/fig3_distributions.pdf",
+      "size_bytes": 24877,
+      "modified_utc": "2026-02-21T03:33:16.516778+00:00",
+      "sha256": "786a0d375c0ab86a0de138f311417fa7f595c2b643127f15e0570af9cc001ad3"
+    },
+    {
+      "path": "reports/figures/fig3_distributions.png",
+      "size_bytes": 179914,
+      "modified_utc": "2026-02-21T03:33:16.269582+00:00",
+      "sha256": "07fd7ee54e2e312a74353d97c5471b06915977f8550f3ff9361b9c14794dcd67"
+    },
+    {
+      "path": "reports/figures/fig4_variability.pdf",
+      "size_bytes": 29998,
+      "modified_utc": "2026-02-21T03:33:17.698937+00:00",
+      "sha256": "751b681d35403a9110772772a0dc18b94a36cccf5a7c29473e71e1645bf84a6f"
+    },
+    {
+      "path": "reports/figures/fig4_variability.png",
+      "size_bytes": 497198,
+      "modified_utc": "2026-02-21T03:33:17.373463+00:00",
+      "sha256": "d06f1e9dfcd71e613a683190e9e460df0b6c9e21d3beb6dd727582680f7ca03a"
+    },
+    {
+      "path": "reports/figures/fig6_pipeline_flowchart.pdf",
+      "size_bytes": 31851,
+      "modified_utc": "2026-02-21T03:33:18.209706+00:00",
+      "sha256": "15b3273ad307125eb45fd3c51b029f6c11c0bcfd4eadc0a2c0d0e058588b9ae5"
+    },
+    {
+      "path": "reports/figures/fig6_pipeline_flowchart.png",
+      "size_bytes": 258093,
+      "modified_utc": "2026-02-21T03:33:18.096472+00:00",
+      "sha256": "a85ecab235c25cde8d750581557e15ff3059c4fc0b52b0112f2a740ea3d02e00"
+    },
+    {
+      "path": "reports/figures/ml_improved_scores.png",
+      "size_bytes": 21664,
+      "modified_utc": "2026-02-05T01:28:22.880510+00:00",
+      "sha256": "23fd96dcf5f499f237fd10a981ac71387371db3521934823dc945b3a58c270ab"
+    },
+    {
+      "path": "reports/figures/population_synth_new.png",
+      "size_bytes": 38933,
+      "modified_utc": "2026-02-05T01:28:23.136510+00:00",
+      "sha256": "0904803ad1a7631b6f06d180efc8057782880aafa1b964a1b735c7060bb73a9d"
+    },
+    {
+      "path": "reports/figures/population_synthesis_results.json",
+      "size_bytes": 2135,
+      "modified_utc": "2026-02-21T03:06:48.450448+00:00",
+      "sha256": "629d8805bf085eeb8327d632854d90161be8fea53cee71aba8ab24297a266da9"
+    },
+    {
+      "path": "reports/figures/summary_statistics.txt",
+      "size_bytes": 372,
+      "modified_utc": "2026-02-21T03:33:18.239473+00:00",
+      "sha256": "4710e73543b36d7af54321c2ecc72fbdca5879949cf3f47e812309c5f541e863"
+    },
+    {
+      "path": "requirements.txt",
+      "size_bytes": 821,
+      "modified_utc": "2026-01-12T13:17:38.809229+00:00",
+      "sha256": "f1ffa9686251963adddd22a7ea6a44105645552b8c230c0252f4d74df6031fd4"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig1_pipeline_flowchart.pdf",
+      "size_bytes": 36958,
+      "modified_utc": "2026-02-16T15:21:42.060047+00:00",
+      "sha256": "0d8f568f9623be8a880b82c3ea78ef1223f5466db9174f298ec2b10851729045"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig1_pipeline_flowchart.png",
+      "size_bytes": 269004,
+      "modified_utc": "2026-02-16T15:21:41.796044+00:00",
+      "sha256": "f4a21c1739f6af6841e830b7a3f72e69be75c2b1843f0ef4f5e321eab354849b"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig2_allsky_galactic.pdf",
+      "size_bytes": 33592,
+      "modified_utc": "2026-02-16T15:21:42.547874+00:00",
+      "sha256": "5772e570c91868cda6db2f2f0c9323b72a88ccf27e85eb7a2f92b32ac770a18d"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig2_allsky_galactic.png",
+      "size_bytes": 356663,
+      "modified_utc": "2026-02-16T15:21:42.376051+00:00",
+      "sha256": "a77d235ed7ad4846470e8eed518fb55e1f49547eef976b516d30a0e8d9ed05b9"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig3_color_magnitude.pdf",
+      "size_bytes": 23479,
+      "modified_utc": "2026-02-16T15:21:43.011759+00:00",
+      "sha256": "60765459417e66efc42c5c1dbffca610ae2227262d6e8c75ad88a9710f160891"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig3_color_magnitude.png",
+      "size_bytes": 129575,
+      "modified_utc": "2026-02-16T15:21:42.869056+00:00",
+      "sha256": "8e381f7a77e1a3553bf9dbea2d5cbcbdaa9f41407bc12a7f26b1e07e62191226"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig4_distributions.pdf",
+      "size_bytes": 15810,
+      "modified_utc": "2026-02-16T15:21:43.514015+00:00",
+      "sha256": "d5cd873bcceaaf33b3e9dd8e5d7a133e4a44109011cd1a6c628c9aefd2e42e18"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig4_distributions.png",
+      "size_bytes": 124683,
+      "modified_utc": "2026-02-16T15:21:43.367063+00:00",
+      "sha256": "fe1af1d53ce95ee785dfa779855fba4d60dc37ab1561beb603385df168d1994f"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig5_variability.pdf",
+      "size_bytes": 25612,
+      "modified_utc": "2026-02-16T15:21:45.187822+00:00",
+      "sha256": "50079f3173fe0dc0378a3e3eae8d15dc5b3997757825e1737653af59e23f1487"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig5_variability.png",
+      "size_bytes": 337527,
+      "modified_utc": "2026-02-16T15:21:44.900081+00:00",
+      "sha256": "164f342b14fbbdd9f0e38c9dc90cfc6dbae9b89605e60e6eac9a7b3af20cd377"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig6_periodograms.pdf",
+      "size_bytes": 47772,
+      "modified_utc": "2026-02-16T15:21:46.402296+00:00",
+      "sha256": "3b93d6f52d4dad03f37e00d01564b1c5ac450b34230267f55cf10594b76625d3"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig6_periodograms.png",
+      "size_bytes": 723424,
+      "modified_utc": "2026-02-16T15:21:46.038095+00:00",
+      "sha256": "cdb41f2a22edbbc37cfc085ad639acdfc70d2ad23b56a71b2e73e302c55d93cc"
+    },
+    {
+      "path": "tasni_paper_final/figures/fig_appendix_parallax_mcmc_ls.pdf",
+      "size_bytes": 16068,
+      "modified_utc": "2026-02-20T20:27:21.354973+00:00",
+      "sha256": "c2cfe615e547d7d51940511c7b100604deb4e82d5dc0b9831450a149caff86ac"
+    },
+    {
+      "path": "tasni_paper_final/figures/parallax_mcmc_ls_results.json",
+      "size_bytes": 298,
+      "modified_utc": "2026-02-20T21:22:01.573830+00:00",
+      "sha256": "b2e0d75278bf7b7d74294a461f7f47b3dbb985843b6f2cb3c5c3b5780bf0d79f"
+    }
+  ],
+  "missing_patterns": []
+}

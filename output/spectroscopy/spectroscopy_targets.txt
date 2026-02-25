@@ -1,0 +1,60 @@
+================================================================================
+TASNI: Fading Thermal Orphans - Spectroscopy Target List
+Generated: 2026-02-02 15:26:10
+================================================================================
+
+Priority 1: J143046.35-025927.8
+------------------------------------------------------------
+  Coordinates:  RA = 217.693151°  Dec = -2.991065°
+  WISE mags:    W1 = 13.997  W2 = 10.629
+  Color:        W1-W2 = 3.368 mag
+  Proper motion: 55.2 mas/yr
+  Temperature:  T_eff ~ 293 K
+  Fade rate:    25.5 mmag/yr in W1
+  Est. distance: ~115 pc (assuming v_tan=30 km/s)
+  Exp. estimate: 5.0 min (Keck/NIRES, SNR=10)
+  Best facility: Gemini-N or Keck - GNIRS or NIRES
+
+Priority 2: J060501.01-545944.5
+------------------------------------------------------------
+  Coordinates:  RA = 91.254209°  Dec = -54.995711°
+  WISE mags:    W1 = 15.177  W2 = 13.174
+  Color:        W1-W2 = 2.003 mag
+  Proper motion: 358.7 mas/yr
+  Temperature:  T_eff ~ 253 K
+  Fade rate:    17.9 mmag/yr in W1
+  Est. distance: ~18 pc (assuming v_tan=30 km/s)
+  Exp. estimate: 14.8 min (Keck/NIRES, SNR=10)
+  Best facility: VLT (Paranal) or Gemini-S - KMOS or F2
+
+Priority 3: J231029.40-060547.3
+------------------------------------------------------------
+  Coordinates:  RA = 347.622508°  Dec = -6.096491°
+  WISE mags:    W1 = 13.988  W2 = 12.240
+  Color:        W1-W2 = 1.748 mag
+  Proper motion: 165.4 mas/yr
+  Temperature:  T_eff ~ 258 K
+  Fade rate:    52.6 mmag/yr in W1
+  Est. distance: ~38 pc (assuming v_tan=30 km/s)
+  Exp. estimate: 4.9 min (Keck/NIRES, SNR=10)
+  Best facility: Gemini-N or Keck - GNIRS or NIRES
+
+Priority 4: J193547.43+601201.5
+------------------------------------------------------------
+  Coordinates:  RA = 293.947660°  Dec = 60.200428°
+  WISE mags:    W1 = 13.570  W2 = 12.042
+  Color:        W1-W2 = 1.528 mag
+  Proper motion: 306.5 mas/yr
+  Temperature:  T_eff ~ 251 K
+  Fade rate:    22.9 mmag/yr in W1
+  Est. distance: ~21 pc (assuming v_tan=30 km/s)
+  Exp. estimate: 3.4 min (Keck/NIRES, SNR=10)
+  Best facility: Keck (Mauna Kea) - NIRES or MOSFIRE
+
+================================================================================
+Notes:
+- All targets are optically invisible (no Gaia, 2MASS, Pan-STARRS counterparts)
+- W1-W2 colors suggest extremely cold objects (Y/T dwarf candidates)
+- Fading behavior is unusual and warrants spectroscopic investigation
+- Primary spectral features to detect: CH4 (1.6, 2.2 μm), H2O, NH3
+================================================================================

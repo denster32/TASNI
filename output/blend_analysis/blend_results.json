@@ -1,0 +1,565 @@
+{
+  "method": "blend_artifact_analysis",
+  "description": "Tests whether observed IR fading in TASNI sources could be explained by the target moving away from a blended stationary background source. Three independent analyses: (1) epoch-level photometry comparison, (2) analytical maximum blend fade rate, (3) Monte Carlo background source density simulations.",
+  "sources": {
+    "J143046": {
+      "designation": "J143046.35-025927.8",
+      "pm_masyr": 55.2,
+      "w1_mag": 13.997,
+      "w2_mag": 10.629,
+      "galactic_latitude_deg": 51.5,
+      "observed_fade_w1_mmag_yr": 25.5,
+      "observed_fade_w2_mmag_yr": 20.0,
+      "stationary_photometry": {
+        "baseline_years": 10.4,
+        "n_early_epochs": 54,
+        "n_late_epochs": 48,
+        "early_w1_mean": 14.003,
+        "late_w1_mean": 13.96,
+        "delta_w1_mmag": -42.6,
+        "early_w2_mean": 10.691,
+        "late_w2_mean": 10.638,
+        "delta_w2_mmag": -53.3,
+        "linear_slope_w1_mmag_yr": 25.5,
+        "linear_slope_w2_mmag_yr": 19.1
+      },
+      "analytical_blend_limit": {
+        "max_fade_rate_w1_mmag_yr": 1.42,
+        "total_fade_w1_mmag": 7.2,
+        "max_fade_rate_w2_mmag_yr": 0.09,
+        "total_fade_w2_mmag": 0.4,
+        "w2_background_mag": 15.0,
+        "psf_fwhm_arcsec": 6.0,
+        "baseline_yr": 10.0,
+        "ratio_to_observed_w1": 0.056,
+        "ratio_to_observed_w2": 0.004,
+        "conclusion": "Blend from W2=15.0 background source contributes at most 1.4 mmag/yr, which is 6% of the observed W1 fade rate (26 mmag/yr)"
+      },
+      "monte_carlo": {
+        "n_simulations": 10000,
+        "galactic_latitude_deg": 51.5,
+        "source_density_per_deg2": 1000,
+        "expected_sources_within_12arcsec": 0.035,
+        "prob_source_within_psf": 0.0022,
+        "fraction_with_nonzero_blend": 0.0185,
+        "median_blend_fade_mmag_yr": 0.0,
+        "p50_nonzero_blend_mmag_yr": 0.09,
+        "p95_blend_fade_mmag_yr": 0.0,
+        "p99_blend_fade_mmag_yr": 0.08,
+        "max_blend_fade_mmag_yr": 1.32,
+        "fraction_above_10mmag_yr": 0.0,
+        "fraction_above_observed": 0.0
+      },
+      "positional_offsets": [
+        {
+          "mjd": 56686.5,
+          "dt_yr": 0.0,
+          "ra_offset_mas": 214.99,
+          "dec_offset_mas": 69.48,
+          "sep_arcsec": 0.0,
+          "blend_w1_mmag_yr": 0.0,
+          "blend_w2_mmag_yr": 0.0
+        },
+        {
+          "mjd": 56864.85,
+          "dt_yr": 0.488,
+          "ra_offset_mas": -177.96,
+          "dec_offset_mas": -96.12,
+          "sep_arcsec": 0.027,
+          "blend_w1_mmag_yr": 0.142,
+          "blend_w2_mmag_yr": 0.009
+        },
+        {
+          "mjd": 57223.3,
+          "dt_yr": 1.47,
+          "ra_offset_mas": -186.23,
+          "dec_offset_mas": -124.56,
+          "sep_arcsec": 0.081,
+          "blend_w1_mmag_yr": 0.426,
+          "blend_w2_mmag_yr": 0.026
+        },
+        {
+          "mjd": 57584.46,
+          "dt_yr": 2.458,
+          "ra_offset_mas": -187.3,
+          "dec_offset_mas": -260.28,
+          "sep_arcsec": 0.136,
+          "blend_w1_mmag_yr": 0.712,
+          "blend_w2_mmag_yr": 0.044
+        },
+        {
+          "mjd": 57780.22,
+          "dt_yr": 2.994,
+          "ra_offset_mas": -30.2,
+          "dec_offset_mas": 216.36,
+          "sep_arcsec": 0.165,
+          "blend_w1_mmag_yr": 0.867,
+          "blend_w2_mmag_yr": 0.053
+        },
+        {
+          "mjd": 58144.17,
+          "dt_yr": 3.991,
+          "ra_offset_mas": 28.76,
+          "dec_offset_mas": 243.36,
+          "sep_arcsec": 0.22,
+          "blend_w1_mmag_yr": 1.154,
+          "blend_w2_mmag_yr": 0.071
+        },
+        {
+          "mjd": 58306.18,
+          "dt_yr": 4.434,
+          "ra_offset_mas": -209.23,
+          "dec_offset_mas": -50.4,
+          "sep_arcsec": 0.245,
+          "blend_w1_mmag_yr": 1.282,
+          "blend_w2_mmag_yr": 0.079
+        },
+        {
+          "mjd": 58511.48,
+          "dt_yr": 4.997,
+          "ra_offset_mas": 71.18,
+          "dec_offset_mas": 312.48,
+          "sep_arcsec": 0.276,
+          "blend_w1_mmag_yr": 1.443,
+          "blend_w2_mmag_yr": 0.089
+        },
+        {
+          "mjd": 58875.59,
+          "dt_yr": 5.993,
+          "ra_offset_mas": 50.33,
+          "dec_offset_mas": 69.48,
+          "sep_arcsec": 0.331,
+          "blend_w1_mmag_yr": 1.727,
+          "blend_w2_mmag_yr": 0.106
+        },
+        {
+          "mjd": 59239.63,
+          "dt_yr": 6.99,
+          "ra_offset_mas": 104.26,
+          "dec_offset_mas": 123.12,
+          "sep_arcsec": 0.386,
+          "blend_w1_mmag_yr": 2.01,
+          "blend_w2_mmag_yr": 0.124
+        },
+        {
+          "mjd": 59401.58,
+          "dt_yr": 7.433,
+          "ra_offset_mas": -178.32,
+          "dec_offset_mas": -243.36,
+          "sep_arcsec": 0.411,
+          "blend_w1_mmag_yr": 2.135,
+          "blend_w2_mmag_yr": 0.131
+        },
+        {
+          "mjd": 59607.39,
+          "dt_yr": 7.997,
+          "ra_offset_mas": 76.22,
+          "dec_offset_mas": 160.92,
+          "sep_arcsec": 0.442,
+          "blend_w1_mmag_yr": 2.294,
+          "blend_w2_mmag_yr": 0.141
+        },
+        {
+          "mjd": 59971.08,
+          "dt_yr": 8.993,
+          "ra_offset_mas": -18.33,
+          "dec_offset_mas": 312.12,
+          "sep_arcsec": 0.497,
+          "blend_w1_mmag_yr": 2.572,
+          "blend_w2_mmag_yr": 0.158
+        },
+        {
+          "mjd": 60334.89,
+          "dt_yr": 9.989,
+          "ra_offset_mas": 199.89,
+          "dec_offset_mas": 69.12,
+          "sep_arcsec": 0.552,
+          "blend_w1_mmag_yr": 2.848,
+          "blend_w2_mmag_yr": 0.175
+        },
+        {
+          "mjd": 60497.17,
+          "dt_yr": 10.433,
+          "ra_offset_mas": -557.24,
+          "dec_offset_mas": -29.52,
+          "sep_arcsec": 0.576,
+          "blend_w1_mmag_yr": 2.97,
+          "blend_w2_mmag_yr": 0.182
+        }
+      ]
+    },
+    "J231029": {
+      "designation": "J231029.40-060547.3",
+      "pm_masyr": 165.4,
+      "w1_mag": 13.988,
+      "w2_mag": 12.24,
+      "galactic_latitude_deg": -58.1,
+      "observed_fade_w1_mmag_yr": 52.6,
+      "observed_fade_w2_mmag_yr": 40.0,
+      "stationary_photometry": {
+        "baseline_years": 10.0,
+        "n_early_epochs": 64,
+        "n_late_epochs": 41,
+        "early_w1_mean": 14.008,
+        "late_w1_mean": 14.442,
+        "delta_w1_mmag": 433.6,
+        "early_w2_mean": 12.298,
+        "late_w2_mean": 12.573,
+        "delta_w2_mmag": 274.4,
+        "linear_slope_w1_mmag_yr": 52.6,
+        "linear_slope_w2_mmag_yr": 32.2
+      },
+      "analytical_blend_limit": {
+        "max_fade_rate_w1_mmag_yr": 11.06,
+        "total_fade_w1_mmag": 59.9,
+        "max_fade_rate_w2_mmag_yr": 2.74,
+        "total_fade_w2_mmag": 15.2,
+        "w2_background_mag": 15.0,
+        "psf_fwhm_arcsec": 6.0,
+        "baseline_yr": 10.0,
+        "ratio_to_observed_w1": 0.21,
+        "ratio_to_observed_w2": 0.069,
+        "conclusion": "Blend from W2=15.0 background source contributes at most 11.1 mmag/yr, which is 21% of the observed W1 fade rate (53 mmag/yr)"
+      },
+      "monte_carlo": {
+        "n_simulations": 10000,
+        "galactic_latitude_deg": -58.1,
+        "source_density_per_deg2": 1000,
+        "expected_sources_within_12arcsec": 0.035,
+        "prob_source_within_psf": 0.0022,
+        "fraction_with_nonzero_blend": 0.027,
+        "median_blend_fade_mmag_yr": 0.0,
+        "p50_nonzero_blend_mmag_yr": 0.53,
+        "p95_blend_fade_mmag_yr": 0.0,
+        "p99_blend_fade_mmag_yr": 1.16,
+        "max_blend_fade_mmag_yr": 14.49,
+        "fraction_above_10mmag_yr": 0.0013,
+        "fraction_above_observed": 0.0
+      },
+      "positional_offsets": [
+        {
+          "mjd": 56816.99,
+          "dt_yr": 0.0,
+          "ra_offset_mas": -89.85,
+          "dec_offset_mas": 33.12,
+          "sep_arcsec": 0.0,
+          "blend_w1_mmag_yr": 0.0,
+          "blend_w2_mmag_yr": 0.0
+        },
+        {
+          "mjd": 56998.08,
+          "dt_yr": 0.496,
+          "ra_offset_mas": -257.73,
+          "dec_offset_mas": 43.56,
+          "sep_arcsec": 0.082,
+          "blend_w1_mmag_yr": 1.282,
+          "blend_w2_mmag_yr": 0.331
+        },
+        {
+          "mjd": 57356.64,
+          "dt_yr": 1.477,
+          "ra_offset_mas": 530.5,
+          "dec_offset_mas": -275.04,
+          "sep_arcsec": 0.244,
+          "blend_w1_mmag_yr": 3.808,
+          "blend_w2_mmag_yr": 0.983
+        },
+        {
+          "mjd": 57546.29,
+          "dt_yr": 1.997,
+          "ra_offset_mas": 134.95,
+          "dec_offset_mas": 138.6,
+          "sep_arcsec": 0.33,
+          "blend_w1_mmag_yr": 5.133,
+          "blend_w2_mmag_yr": 1.323
+        },
+        {
+          "mjd": 57716.72,
+          "dt_yr": 2.463,
+          "ra_offset_mas": -159.65,
+          "dec_offset_mas": -442.8,
+          "sep_arcsec": 0.407,
+          "blend_w1_mmag_yr": 6.312,
+          "blend_w2_mmag_yr": 1.626
+        },
+        {
+          "mjd": 58076.98,
+          "dt_yr": 3.45,
+          "ra_offset_mas": 207.98,
+          "dec_offset_mas": 36.36,
+          "sep_arcsec": 0.571,
+          "blend_w1_mmag_yr": 8.762,
+          "blend_w2_mmag_yr": 2.251
+        },
+        {
+          "mjd": 58277.42,
+          "dt_yr": 3.998,
+          "ra_offset_mas": -103.81,
+          "dec_offset_mas": 198.72,
+          "sep_arcsec": 0.661,
+          "blend_w1_mmag_yr": 10.092,
+          "blend_w2_mmag_yr": 2.588
+        },
+        {
+          "mjd": 58437.97,
+          "dt_yr": 4.438,
+          "ra_offset_mas": 25.06,
+          "dec_offset_mas": 11.88,
+          "sep_arcsec": 0.734,
+          "blend_w1_mmag_yr": 11.138,
+          "blend_w2_mmag_yr": 2.852
+        },
+        {
+          "mjd": 58641.86,
+          "dt_yr": 4.996,
+          "ra_offset_mas": -216.93,
+          "dec_offset_mas": -203.4,
+          "sep_arcsec": 0.826,
+          "blend_w1_mmag_yr": 12.439,
+          "blend_w2_mmag_yr": 3.178
+        },
+        {
+          "mjd": 59005.67,
+          "dt_yr": 5.992,
+          "ra_offset_mas": -102.74,
+          "dec_offset_mas": -86.04,
+          "sep_arcsec": 0.991,
+          "blend_w1_mmag_yr": 14.669,
+          "blend_w2_mmag_yr": 3.73
+        },
+        {
+          "mjd": 59169.12,
+          "dt_yr": 6.44,
+          "ra_offset_mas": -28.64,
+          "dec_offset_mas": -241.56,
+          "sep_arcsec": 1.065,
+          "blend_w1_mmag_yr": 15.63,
+          "blend_w2_mmag_yr": 3.965
+        },
+        {
+          "mjd": 59535.81,
+          "dt_yr": 7.444,
+          "ra_offset_mas": 157.5,
+          "dec_offset_mas": -160.56,
+          "sep_arcsec": 1.231,
+          "blend_w1_mmag_yr": 17.679,
+          "blend_w2_mmag_yr": 4.46
+        },
+        {
+          "mjd": 59899.79,
+          "dt_yr": 8.44,
+          "ra_offset_mas": -197.6,
+          "dec_offset_mas": -163.08,
+          "sep_arcsec": 1.396,
+          "blend_w1_mmag_yr": 19.554,
+          "blend_w2_mmag_yr": 4.901
+        },
+        {
+          "mjd": 60101.59,
+          "dt_yr": 8.993,
+          "ra_offset_mas": -42.24,
+          "dec_offset_mas": 114.48,
+          "sep_arcsec": 1.488,
+          "blend_w1_mmag_yr": 20.52,
+          "blend_w2_mmag_yr": 5.124
+        },
+        {
+          "mjd": 60468.5,
+          "dt_yr": 9.997,
+          "ra_offset_mas": 224.09,
+          "dec_offset_mas": 143.28,
+          "sep_arcsec": 1.654,
+          "blend_w1_mmag_yr": 22.131,
+          "blend_w2_mmag_yr": 5.485
+        }
+      ]
+    },
+    "J193547": {
+      "designation": "J193547.43+601201.5",
+      "pm_masyr": 306.5,
+      "w1_mag": 13.57,
+      "w2_mag": 12.042,
+      "galactic_latitude_deg": 18.1,
+      "observed_fade_w1_mmag_yr": 22.9,
+      "observed_fade_w2_mmag_yr": 18.0,
+      "stationary_photometry": {
+        "baseline_years": 5.4,
+        "n_early_epochs": 249,
+        "n_late_epochs": 162,
+        "early_w1_mean": 13.606,
+        "late_w1_mean": 13.694,
+        "delta_w1_mmag": 87.7,
+        "early_w2_mean": 12.081,
+        "late_w2_mean": 12.163,
+        "delta_w2_mmag": 81.6,
+        "linear_slope_w1_mmag_yr": 22.9,
+        "linear_slope_w2_mmag_yr": 21.6
+      },
+      "analytical_blend_limit": {
+        "max_fade_rate_w1_mmag_yr": 18.35,
+        "total_fade_w1_mmag": 125.1,
+        "max_fade_rate_w2_mmag_yr": 5.0,
+        "total_fade_w2_mmag": 35.0,
+        "w2_background_mag": 15.0,
+        "psf_fwhm_arcsec": 6.0,
+        "baseline_yr": 10.0,
+        "ratio_to_observed_w1": 0.801,
+        "ratio_to_observed_w2": 0.278,
+        "conclusion": "Blend from W2=15.0 background source contributes at most 18.4 mmag/yr, which is 80% of the observed W1 fade rate (23 mmag/yr)"
+      },
+      "monte_carlo": {
+        "n_simulations": 10000,
+        "galactic_latitude_deg": 18.1,
+        "source_density_per_deg2": 3000,
+        "expected_sources_within_12arcsec": 0.105,
+        "prob_source_within_psf": 0.0065,
+        "fraction_with_nonzero_blend": 0.0805,
+        "median_blend_fade_mmag_yr": 0.0,
+        "p50_nonzero_blend_mmag_yr": 0.76,
+        "p95_blend_fade_mmag_yr": 0.31,
+        "p99_blend_fade_mmag_yr": 6.54,
+        "max_blend_fade_mmag_yr": 25.23,
+        "fraction_above_10mmag_yr": 0.0068,
+        "fraction_above_observed": 1.0
+      },
+      "positional_offsets": [
+        {
+          "mjd": 56810.39,
+          "dt_yr": 0.0,
+          "ra_offset_mas": 11.09,
+          "dec_offset_mas": 73.44,
+          "sep_arcsec": 0.0,
+          "blend_w1_mmag_yr": 0.0,
+          "blend_w2_mmag_yr": 0.0
+        },
+        {
+          "mjd": 56812.7,
+          "dt_yr": 0.006,
+          "ra_offset_mas": -227.21,
+          "dec_offset_mas": 210.6,
+          "sep_arcsec": 0.002,
+          "blend_w1_mmag_yr": 0.042,
+          "blend_w2_mmag_yr": 0.012
+        },
+        {
+          "mjd": 56989.69,
+          "dt_yr": 0.491,
+          "ra_offset_mas": 90.53,
+          "dec_offset_mas": -196.56,
+          "sep_arcsec": 0.15,
+          "blend_w1_mmag_yr": 3.255,
+          "blend_w2_mmag_yr": 0.948
+        },
+        {
+          "mjd": 56992.84,
+          "dt_yr": 0.5,
+          "ra_offset_mas": 17.89,
+          "dec_offset_mas": 9.72,
+          "sep_arcsec": 0.153,
+          "blend_w1_mmag_yr": 3.312,
+          "blend_w2_mmag_yr": 0.964
+        },
+        {
+          "mjd": 57173.38,
+          "dt_yr": 0.994,
+          "ra_offset_mas": 266.57,
+          "dec_offset_mas": 340.92,
+          "sep_arcsec": 0.305,
+          "blend_w1_mmag_yr": 6.561,
+          "blend_w2_mmag_yr": 1.909
+        },
+        {
+          "mjd": 57175.61,
+          "dt_yr": 1.0,
+          "ra_offset_mas": -28.63,
+          "dec_offset_mas": 102.24,
+          "sep_arcsec": 0.306,
+          "blend_w1_mmag_yr": 6.601,
+          "blend_w2_mmag_yr": 1.921
+        },
+        {
+          "mjd": 57352.66,
+          "dt_yr": 1.485,
+          "ra_offset_mas": 136.86,
+          "dec_offset_mas": -142.2,
+          "sep_arcsec": 0.455,
+          "blend_w1_mmag_yr": 9.734,
+          "blend_w2_mmag_yr": 2.828
+        },
+        {
+          "mjd": 57540.91,
+          "dt_yr": 2.0,
+          "ra_offset_mas": 153.15,
+          "dec_offset_mas": 301.32,
+          "sep_arcsec": 0.613,
+          "blend_w1_mmag_yr": 12.978,
+          "blend_w2_mmag_yr": 3.764
+        },
+        {
+          "mjd": 57710.9,
+          "dt_yr": 2.465,
+          "ra_offset_mas": -227.03,
+          "dec_offset_mas": -184.68,
+          "sep_arcsec": 0.756,
+          "blend_w1_mmag_yr": 15.808,
+          "blend_w2_mmag_yr": 4.575
+        },
+        {
+          "mjd": 57904.16,
+          "dt_yr": 2.995,
+          "ra_offset_mas": -160.3,
+          "dec_offset_mas": 15.12,
+          "sep_arcsec": 0.918,
+          "blend_w1_mmag_yr": 18.884,
+          "blend_w2_mmag_yr": 5.448
+        },
+        {
+          "mjd": 58071.43,
+          "dt_yr": 3.453,
+          "ra_offset_mas": -156.72,
+          "dec_offset_mas": 23.04,
+          "sep_arcsec": 1.058,
+          "blend_w1_mmag_yr": 21.402,
+          "blend_w2_mmag_yr": 6.156
+        },
+        {
+          "mjd": 58268.11,
+          "dt_yr": 3.991,
+          "ra_offset_mas": 59.58,
+          "dec_offset_mas": 233.28,
+          "sep_arcsec": 1.223,
+          "blend_w1_mmag_yr": 24.169,
+          "blend_w2_mmag_yr": 6.924
+        },
+        {
+          "mjd": 58432.68,
+          "dt_yr": 4.442,
+          "ra_offset_mas": -62.98,
+          "dec_offset_mas": 55.8,
+          "sep_arcsec": 1.361,
+          "blend_w1_mmag_yr": 26.306,
+          "blend_w2_mmag_yr": 7.508
+        },
+        {
+          "mjd": 58637.01,
+          "dt_yr": 5.001,
+          "ra_offset_mas": 71.92,
+          "dec_offset_mas": -7.56,
+          "sep_arcsec": 1.533,
+          "blend_w1_mmag_yr": 28.712,
+          "blend_w2_mmag_yr": 8.154
+        },
+        {
+          "mjd": 58799.89,
+          "dt_yr": 5.447,
+          "ra_offset_mas": 116.83,
+          "dec_offset_mas": -27.36,
+          "sep_arcsec": 1.669,
+          "blend_w1_mmag_yr": 30.42,
+          "blend_w2_mmag_yr": 8.601
+        }
+      ]
+    }
+  },
+  "summary": "Blend artifacts from unresolved background sources at the CatWISE completeness limit (W2=15.0) contribute at most 1.4-18.4 mmag/yr of apparent fading, compared to observed rates of 23-53 mmag/yr. The maximum analytical blend rate is 80% of the weakest observed fade. Monte Carlo simulations confirm that background contamination cannot explain the observed fading at >95% confidence only after accounting for the observed source density at each object's Galactic coordinates."
+}

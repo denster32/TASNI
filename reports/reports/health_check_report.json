@@ -1,0 +1,112 @@
+{
+  "timestamp": "2026-02-02T11:22:38.521520",
+  "tasni_root": "/mnt/data/tasni",
+  "checks": {
+    "disk_space": {
+      "name": "Disk Space",
+      "status": "WARNING",
+      "details": {
+        "total_gb": 913.8465003967285,
+        "used_gb": 772.1177558898926,
+        "free_gb": 141.72874450683594,
+        "percent_used": 84.49096818280672
+      },
+      "message": "Disk usage at 84.5%"
+    },
+    "directories": {
+      "name": "Directories",
+      "status": "OK",
+      "details": {
+        "scripts/core": true,
+        "scripts/download": true,
+        "scripts/crossmatch": true,
+        "scripts/analysis": true,
+        "scripts/filtering": true,
+        "scripts/generation": true,
+        "data": true,
+        "output": true,
+        "logs": true,
+        "archive": true,
+        "docs": true,
+        "tests": true
+      },
+      "missing": []
+    },
+    "data_integrity": {
+      "name": "Data Integrity",
+      "status": "OK",
+      "details": {
+        "wise_tiles": 12288,
+        "gaia_tiles": 7239,
+        "wise_percent": 100.0,
+        "gaia_percent": 58.9111328125
+      }
+    },
+    "outputs": {
+      "name": "Outputs",
+      "status": "OK",
+      "details": {
+        "golden_targets": true,
+        "variability": true,
+        "figures_count": 27
+      }
+    },
+    "dependencies": {
+      "name": "Dependencies",
+      "status": "ERROR",
+      "details": {
+        "critical": {
+          "numpy": "OK",
+          "pandas": "MISSING",
+          "pyarrow": "MISSING",
+          "astropy": "MISSING",
+          "scipy": "MISSING",
+          "tqdm": "OK",
+          "healpy": "MISSING"
+        },
+        "optional": {
+          "cupy": "NOT INSTALLED",
+          "cudf": "NOT INSTALLED",
+          "torch": "OK",
+          "sklearn": "NOT INSTALLED",
+          "umap": "NOT INSTALLED"
+        }
+      },
+      "message": "5 critical packages missing"
+    },
+    "git": {
+      "name": "Git",
+      "status": "WARNING",
+      "details": {
+        "repo": true,
+        "clean": false
+      },
+      "message": "Uncommitted changes present"
+    },
+    "logs": {
+      "name": "Logs",
+      "status": "OK",
+      "details": {
+        "log_files": 15,
+        "compressed_logs": 37,
+        "total_size_mb": 2.4422407150268555
+      }
+    },
+    "archive_size": {
+      "name": "Archive Size",
+      "status": "OK",
+      "details": {
+        "size_gb": 23.529927980154753,
+        "limit_gb": 100,
+        "usage_percent": 23.529927980154753
+      }
+    }
+  },
+  "overall_status": "ERROR",
+  "summary": {
+    "OK": 5,
+    "WARNING": 2,
+    "ERROR": 1,
+    "CRITICAL": 0
+  }
+}

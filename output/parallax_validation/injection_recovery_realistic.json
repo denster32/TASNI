@@ -1,0 +1,55 @@
+{
+  "description": "5-parameter injection-recovery with realistic NEOWISE epoch distribution (182-day visit cadence)",
+  "injection_recovery": [
+    {
+      "injected_parallax_mas": 449.0,
+      "recovered_parallax_mas": 458.99469174121526,
+      "recovered_err_mas": 7.471997262673324,
+      "residual_mas": 9.994691741215263,
+      "n_epochs": 254,
+      "baseline_years": 10.467461162729357
+    },
+    {
+      "injected_parallax_mas": 100.0,
+      "recovered_parallax_mas": 109.99469174305216,
+      "recovered_err_mas": 7.471997262675378,
+      "residual_mas": 9.994691743052158,
+      "n_epochs": 254,
+      "baseline_years": 10.467461162729357
+    },
+    {
+      "injected_parallax_mas": 60.0,
+      "recovered_parallax_mas": 69.99469174236505,
+      "recovered_err_mas": 7.471997262730388,
+      "residual_mas": 9.994691742365049,
+      "n_epochs": 254,
+      "baseline_years": 10.467461162729357
+    },
+    {
+      "injected_parallax_mas": 50.0,
+      "recovered_parallax_mas": 59.9946917413894,
+      "recovered_err_mas": 7.471997262574048,
+      "residual_mas": 9.994691741389403,
+      "n_epochs": 254,
+      "baseline_years": 10.467461162729357
+    },
+    {
+      "injected_parallax_mas": 30.0,
+      "recovered_parallax_mas": 39.99469174363176,
+      "recovered_err_mas": 7.471997262704835,
+      "residual_mas": 9.994691743631762,
+      "n_epochs": 254,
+      "baseline_years": 10.467461162729357
+    }
+  ],
+  "psf_fraction_analysis": {
+    "source": "J143046.35-025927.8",
+    "parallax_mas": 57.6,
+    "pm_masyr": 55.2,
+    "psf_fwhm_mas": 6000.0,
+    "parallax_amplitude_mas": 115.2,
+    "pm_10yr_mas": 552.0,
+    "fraction_psf_parallax": 0.019200000000000002,
+    "fraction_psf_pm_10yr": 0.092
+  }
+}

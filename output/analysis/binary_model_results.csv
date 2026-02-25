@@ -1,0 +1,5 @@
+designation,period_days,period_unc,depth_mag,duration_frac,is_eclipsing,is_rotational,model_type,chi_squared,bayes_factor,notes
+J143046.35-025927.8,320.0,32.0,1.3334999,0.05,True,False,eclipsing,37713.64594277768,1.0414735975901959e+247,N=286 epochs
+J231029.40-060547.3,360.0,36.0,0.45200014,0.05,True,False,eclipsing,2950.041986009648,6.555935986956263e+32,N=269 epochs
+J193547.43+601201.5,360.0,36.0,0.7135,0.05,False,True,rotational,5943.285276160958,0.0,N=500 epochs
+J060501.01-545944.5,360.0,36.0,1.0074997,0.05,True,False,eclipsing,3327.2898496121516,3.3811226715564796e+237,N=498 epochs

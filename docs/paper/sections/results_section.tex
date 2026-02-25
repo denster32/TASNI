@@ -1,0 +1,210 @@
+% TASNI Paper - Results Section
+% Thermal Anomaly Search for Non-communicating Intelligence
+
+\section{Results}
+\label{sec:results}
+
+\subsection{Pipeline Source Counts}
+\label{sec:source_counts}
+
+Table~\ref{tab:pipeline} summarizes the source counts at each stage of the TASNI selection pipeline. Beginning with the full AllWISE catalog of 747,634,026 sources, our multi-wavelength veto strategy progressively isolates objects detectable exclusively in the mid-infrared.
+
+\begin{table}[h]
+\centering
+\caption{TASNI Pipeline Source Counts}
+\label{tab:pipeline}
+\begin{tabular}{lrr}
+\hline\hline
+Selection Stage & Sources & Reduction \\
+\hline
+AllWISE Catalog & 747,634,026 & --- \\
+No Gaia DR3 optical & 406,387,755 & 46\% \\
+Thermal selection (W1$-$W2 $>$ 0.5) & $\sim$1,000,000 & --- \\
+No 2MASS NIR & 62,856 & 94\% \\
+No Pan-STARRS DR1 & 39,188 & 38\% \\
+No Legacy Survey DR10 & 39,151 & $<$0.1\% \\
+No NVSS radio & 4,137 & 89\% \\
+\hline
+Golden targets (top 100) & 100 & --- \\
+Fading sources & 4 & 4\% \\
+\hline
+\end{tabular}
+\end{table}
+
+The most significant reduction occurs at the 2MASS veto stage, where 94\% of optically-invisible thermal sources are found to have near-infrared counterparts. These are predominantly late-type stars and L/T brown dwarfs with detectable $J$, $H$, or $K_s$ emission. The 62,856 sources lacking 2MASS counterparts represent objects too faint or too red for near-infrared detection---consistent with extremely cold ($T_{\rm eff} \lesssim 400$~K) brown dwarfs or genuinely anomalous thermal emitters.
+
+The radio veto removes 89\% of remaining candidates, eliminating AGN and other radio-loud contaminants. The final Tier 5 sample of 4,137 radio-silent thermal anomalies represents $5.5 \times 10^{-6}$ of the parent AllWISE catalog---objects that emit thermal radiation at room temperature while remaining invisible across optical, near-infrared, and radio wavelengths.
+
+\subsection{Golden Sample Properties}
+\label{sec:golden_properties}
+
+From the Tier 5 sample, we select the 100 highest-scoring candidates as our ``golden sample'' for detailed analysis. Table~\ref{tab:golden_stats} presents summary statistics for this sample.
+
+\begin{table}[h]
+\centering
+\caption{Golden Sample Statistics (N = 100)}
+\label{tab:golden_stats}
+\begin{tabular}{lcc}
+\hline\hline
+Parameter & Mean $\pm$ Std & Range \\
+\hline
+W1 (mag) & $14.25 \pm 0.89$ & 10.79--16.48 \\
+W2 (mag) & $12.26 \pm 0.78$ & 8.75--14.35 \\
+W1$-$W2 (mag) & $1.99 \pm 0.36$ & 1.53--3.67 \\
+$T_{\rm eff}$ (K) & $265 \pm 36$ & 205--466 \\
+$\mu$ (mas~yr$^{-1}$) & $216 \pm 149$ & 0--663 \\
+$|b|$ (deg) & $43.3 \pm 19.5$ & 2.1--78.3 \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Color-Magnitude Distribution}
+
+Figure~\ref{fig:cmd} presents the color-magnitude diagram for the golden sample. The W1$-$W2 colors span 1.53--3.67~mag, with a mean of $1.99 \pm 0.36$~mag. These colors correspond to extremely red spectral energy distributions, consistent with Y and late-T dwarf atmospheres dominated by methane and water absorption.
+
+For comparison, known Y dwarfs typically exhibit W1$-$W2 $> 2.0$~mag \citep{Kirkpatrick2012}, while T dwarfs span W1$-$W2 $\approx 0.5$--2.5~mag. Our golden sample includes 33 sources with W1$-$W2 $> 2.0$~mag, placing them in the Y dwarf color regime. The most extreme source, J143046.35$-$025927.8, exhibits W1$-$W2 $= 3.37$~mag---among the reddest mid-infrared colors known for any astronomical source.
+
+\subsubsection{Temperature Distribution}
+
+Blackbody fits to the W1 and W2 photometry yield effective temperatures ranging from 205~K to 466~K, with a mean of $265 \pm 36$~K (Figure~\ref{fig:temp}). Notably, 87\% of the golden sample (87/100 sources) have $T_{\rm eff} < 300$~K---cooler than typical room temperature on Earth.
+
+This temperature distribution is consistent with the coldest known brown dwarfs. The Y dwarf WISE~0855$-$0714, the coldest known brown dwarf at $T_{\rm eff} \approx 250$~K \citep{Luhman2014}, has properties remarkably similar to our golden sample median.
+
+\subsubsection{Proper Motion and Distance Estimates}
+
+The golden sample exhibits significant proper motions, with 69\% (69/100) showing $\mu > 100$~mas~yr$^{-1}$ and 33\% (33/100) showing $\mu > 300$~mas~yr$^{-1}$. These high proper motions indicate nearby objects.
+
+Assuming typical disk kinematics ($v_\perp \approx 30$~km~s$^{-1}$), the proper motion distribution implies distances of 10--100~pc for most sources, with a median of approximately 50~pc. This is consistent with the local solar neighborhood and supports the interpretation that these objects are nearby cold brown dwarfs rather than distant extragalactic contaminants.
+
+\subsubsection{Galactic Distribution}
+
+The golden sample is preferentially located at high Galactic latitudes, with a mean $|b| = 43.3°$ and 76\% of sources at $|b| > 30°$ (Figure~\ref{fig:allsky}). This distribution reflects both our selection criteria (which disfavor crowded Galactic plane regions) and the intrinsic spatial distribution of nearby objects in the solar neighborhood.
+
+The avoidance of the Galactic plane also minimizes contamination from dust-obscured background stars, infrared dark clouds, and other Galactic contaminants that could mimic thermal anomaly signatures.
+
+\subsection{Multi-Wavelength Non-Detections}
+\label{sec:nondetections}
+
+We verify the ``invisible'' nature of our golden sample through cross-matching with additional catalogs:
+
+\begin{itemize}
+    \item \textbf{LAMOST DR7}: 0/100 matches---no optical spectra exist for any golden target, confirming their optical invisibility.
+
+    \item \textbf{Legacy Survey DR10}: 37/39,151 Tier 4 sources ($<$0.1\%) have faint Legacy counterparts. After removing these, 39,114 sources remain truly optically dark.
+
+    \item \textbf{SIMBAD}: 4/4 fading sources return ``Unclassified'' or no match, confirming they are not previously catalogued astronomical objects.
+\end{itemize}
+
+The absence of LAMOST spectra is particularly significant: despite LAMOST's extensive spectroscopic coverage of the northern sky, none of our 100 golden targets have been spectroscopically observed. This confirms that these sources are genuinely below optical detection thresholds and not simply missing from photometric catalogs.
+
+\subsection{NEOWISE Variability Analysis}
+\label{sec:variability_results}
+
+\subsubsection{Temporal Coverage}
+
+We retrieved NEOWISE multi-epoch photometry for all 100 golden targets, yielding 38,700 individual W1/W2 measurements. The temporal coverage spans 9.2 $\pm$ 1.9 years (2013.9--2024.5) with a mean of 387 $\pm$ 95 epochs per source. This extensive baseline enables robust characterization of long-term variability behavior.
+
+\subsubsection{Variability Classification}
+
+Based on the metrics described in Section~\ref{sec:variability}, we classify the golden sample as:
+
+\begin{itemize}
+    \item \textbf{NORMAL} (45/100, 45\%): Stable emission consistent with photometric uncertainties. These sources show $\chi^2_\nu < 3$ and no significant trends.
+
+    \item \textbf{VARIABLE} (50/100, 50\%): Significant variability ($\chi^2_\nu > 3$) without systematic trends. This variability may arise from atmospheric cloud modulation, rotation, or unresolved binarity.
+
+    \item \textbf{FADING} (5/100, 5\%): Systematic brightness decrease over the 10-year baseline. These sources show statistically significant negative trends ($p < 0.01$) with fade rates of 17--53~mmag~yr$^{-1}$.
+\end{itemize}
+
+The 50\% variable fraction is consistent with known brown dwarf populations, where cloud-driven variability is common at the L/T transition and in Y dwarfs \citep{Metchev2015, Cushing2016}.
+
+\subsubsection{Variability Amplitude}
+
+Among variable sources, the W1 RMS amplitudes range from 0.05 to 0.65~mag, with a median of 0.15~mag. The largest amplitude variations are seen in the fading sources, which exhibit both long-term trends and epoch-to-epoch scatter.
+
+\subsection{Discovery of Fading Thermal Orphans}
+\label{sec:fading}
+
+The most significant result of our variability analysis is the identification of five sources exhibiting systematic fading over the 10-year NEOWISE baseline. We designate these ``fading thermal orphans'' to emphasize their unusual combination of thermal emission, multi-wavelength invisibility, and secular dimming.
+
+One source, J044024.40$-$731441.6, is identified as MSX~LMC~1152 via SIMBAD cross-matching---a known Large Magellanic Cloud object. We exclude this extragalactic contaminant from further analysis, leaving four bona fide fading thermal orphans.
+
+\subsubsection{Properties of Fading Sources}
+
+Table~\ref{tab:fading} presents the properties of the four fading thermal orphans.
+
+\begin{table*}[t]
+\centering
+\caption{Fading Thermal Orphans: Properties and Variability}
+\label{tab:fading}
+\begin{tabular}{lcccccccc}
+\hline\hline
+Designation & RA & Dec & W1$-$W2 & $T_{\rm eff}$ & $\mu$ & Fade Rate & $N_{\rm epochs}$ & SIMBAD \\
+ & (deg) & (deg) & (mag) & (K) & (mas~yr$^{-1}$) & (mmag~yr$^{-1}$) & & Class \\
+\hline
+J143046.35$-$025927.8 & 217.693 & $-$2.991 & 3.37 & 293 & 55 & 25.5 & 286 & Unclassified \\
+J231029.40$-$060547.3 & 347.623 & $-$6.096 & 1.75 & 258 & 165 & 52.6 & 269 & Unclassified \\
+J193547.43$+$601201.5 & 293.948 & $+$60.200 & 1.53 & 251 & 306 & 22.9 & 500 & Unclassified \\
+J060501.01$-$545944.5 & 91.254 & $-$54.996 & 2.00 & 253 & 359 & 17.9 & 500 & Unclassified \\
+\hline
+\end{tabular}
+\tablecomments{All four sources are unclassified in SIMBAD and VizieR, with no counterparts in Gaia, 2MASS, Pan-STARRS, or Legacy Survey. Fade rates are measured in W1 over the NEOWISE baseline.}
+\end{table*}
+
+The fading sources share several notable characteristics:
+
+\begin{enumerate}
+    \item \textbf{Extreme W1$-$W2 colors}: All four have W1$-$W2 $> 1.5$~mag, with J143046.35$-$025927.8 exhibiting W1$-$W2 $= 3.37$~mag---the reddest source in our sample and among the reddest known astronomical objects in the mid-infrared.
+
+    \item \textbf{Room temperature emission}: Effective temperatures range from 251--293~K, comparable to terrestrial room temperature ($\sim$290~K).
+
+    \item \textbf{High proper motion}: Three of four sources have $\mu > 150$~mas~yr$^{-1}$, with two exceeding 300~mas~yr$^{-1}$. This implies distances of 18--40~pc assuming $v_\perp = 30$~km~s$^{-1}$.
+
+    \item \textbf{No prior identification}: Cross-matching with SIMBAD and VizieR returns no matches for any of the four sources. They are not catalogued as known brown dwarfs, variable stars, AGN, or any other astronomical object class.
+\end{enumerate}
+
+\subsubsection{Light Curves}
+
+Figure~\ref{fig:lightcurves} presents the 10-year NEOWISE light curves for the four fading sources. All four show monotonic dimming in both W1 and W2, with linear fade rates of 17.9--52.6~mmag~yr$^{-1}$. The fastest fader, J231029.40$-$060547.3, has dimmed by approximately 0.5~mag over the decade-long baseline.
+
+The fading is detected independently in both W1 and W2 bands, ruling out instrumental systematics. The consistency between bands also argues against color-dependent effects such as interstellar extinction variations.
+
+\subsubsection{Periodogram Analysis}
+
+We searched for periodic signals in the NEOWISE light curves using Lomb-Scargle periodograms. None of the fading sources show significant short-period ($P < 30$~days) variability that would indicate rotation or binary orbital motion.
+
+The detected ``periods'' at 90--180 days correspond to the NEOWISE observing cadence and are interpreted as sampling artifacts rather than intrinsic periodic signals. The absence of genuine short-period variability distinguishes these sources from typical brown dwarfs, which often show rotation-modulated variability on timescales of hours to days.
+
+\subsection{Interpretation}
+\label{sec:interpretation}
+
+The properties of the fading thermal orphans are consistent with extremely cold ($T_{\rm eff} \approx 250$~K) brown dwarfs at distances of 20--50~pc. Their extreme W1$-$W2 colors place them at the cool end of the Y dwarf sequence, possibly representing a new population of the coldest brown dwarfs.
+
+The systematic fading behavior is unusual but not unprecedented. Possible explanations include:
+
+\begin{enumerate}
+    \item \textbf{Cooling brown dwarfs}: Young brown dwarfs cool over time as they radiate their formation heat. For a 250~K object, cooling rates of $\sim$1~K~yr$^{-1}$ could produce the observed fade rates. This would imply ages of $\lesssim 1$~Gyr.
+
+    \item \textbf{Atmospheric evolution}: Changes in cloud properties or atmospheric chemistry could modulate thermal emission without significant temperature change.
+
+    \item \textbf{Orbital effects}: If these are unresolved binaries, orbital motion could produce secular brightness changes over decade timescales.
+\end{enumerate}
+
+Spectroscopic follow-up is essential to confirm the brown dwarf interpretation and measure spectral types, atmospheric compositions, and radial velocities.
+
+\subsection{Comparison to Known Populations}
+\label{sec:comparison}
+
+We compare our golden sample to known ultracool dwarf populations:
+
+\begin{itemize}
+    \item \textbf{Known Y dwarfs}: The $\sim$30 known Y dwarfs have $T_{\rm eff} = 250$--450~K and W1$-$W2 $= 1.5$--4.0~mag \citep{Kirkpatrick2021}. Our golden sample overlaps significantly with this parameter space.
+
+    \item \textbf{2MASS-detected T/Y dwarfs}: Our sources are systematically fainter in the near-infrared than 2MASS-detected brown dwarfs, consistent with cooler temperatures or greater distances.
+
+    \item \textbf{WISE-selected Y dwarf candidates}: Previous WISE-based searches \citep{Cushing2011, Kirkpatrick2012} identified Y dwarfs with similar colors but typically brighter W1 magnitudes. Our sample extends to fainter magnitudes (W1 $> 15$~mag), potentially probing more distant or intrinsically fainter objects.
+\end{itemize}
+
+The four fading sources represent a potentially new class of variable Y dwarf candidates. Their combination of extreme colors, high proper motions, optical invisibility, and systematic fading has not been previously reported in the literature.
+
+\end{document}

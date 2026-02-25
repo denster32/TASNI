@@ -1,0 +1,43 @@
+
+TASNI Spectroscopy Proposal: Summary
+=====================================
+
+Scientific Rationale:
+---------------------
+We propose near-infrared spectroscopy of 4 "fading thermal orphans"
+identified by the TASNI (Thermal Anomaly Search for Non-communicating Intelligence)
+pipeline. These sources exhibit:
+
+1. EXTREME W1-W2 COLORS: Mean W1-W2 = 2.16 mag (max 3.37 mag),
+   consistent with Y/T dwarf temperatures (<300K)
+
+2. OPTICAL INVISIBILITY: No counterparts in Gaia DR3, 2MASS, Pan-STARRS DR1,
+   or Legacy Survey DR10 - they are detectable ONLY in mid-infrared
+
+3. SYSTEMATIC FADING: All 4 targets show monotonic dimming over 10+ years
+   of NEOWISE monitoring, at rates of 0.02-0.05 mag/yr
+
+4. HIGH PROPER MOTION: Mean PM = 221 mas/yr, indicating nearby (<100 pc) objects
+
+Proposed Observations:
+----------------------
+- Instrument: Keck/NIRES or VLT/KMOS (depending on declination)
+- Wavelength: 1.0-2.5 μm (J, H, K bands)
+- Spectral features: CH4 (1.6, 2.2 μm), H2O (1.4, 1.9 μm), NH3 (if Y dwarf)
+- Total time: ~120 minutes (including overheads)
+
+Expected Outcomes:
+------------------
+- Confirm/refute Y/T dwarf classification
+- Measure spectral types and effective temperatures
+- Constrain atmospheric composition
+- Potentially discover new extremely cold brown dwarfs
+
+Alternative Hypotheses:
+-----------------------
+If NOT brown dwarfs, these objects could be:
+- Dust-obscured transients (but 10-year timescale is unusual)
+- Cooling stellar remnants (but colors are too red)
+- Something genuinely anomalous (SETI consideration, low probability)
+
+Spectroscopy is essential to resolve these possibilities.

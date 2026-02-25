@@ -1,0 +1,16 @@
+TASNI Pipeline Summary Statistics
+==================================================
+
+Total golden targets: 100
+Mean W1 magnitude: 14.20 ± 1.23
+Mean W1-W2 color: 2.01 ± 0.40
+Mean T_eff: 272 ± 39 K
+Mean proper motion: 299 ± 178 mas/yr
+
+Variability Classification:
+  NORMAL: 45 (45.0%)
+  VARIABLE: 51 (51.0%)
+  FADING: 4 (4.0%)
+
+Mean baseline: 9.0 years
+Mean epochs: 398
