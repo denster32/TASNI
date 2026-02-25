@@ -3,7 +3,7 @@
     "description": "Data release from the TASNI project, identifying 100 thermal anomaly candidates including three confirmed fading thermal orphans plus one LMC candidate. Includes golden sample, parallax measurements, variability metrics, and ML-ranked candidates from cross-matching WISE/NEOWISE with Gaia DR3.",
     "version": "1.0.0",
     "publication_date": "2026-02-23",
-    "doi": "10.5281/zenodo.18717105",
+    "doi": "10.5281/zenodo.18774271",
     "creators": [
         {
             "name": "Palucki, Dennis",

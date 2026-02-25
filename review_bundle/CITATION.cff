@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 title: "TASNI - Thermal Anomaly Search for Non-communicating Intelligence"
 version: 1.0.0
-doi: 10.5281/zenodo.18717105
+doi: 10.5281/zenodo.18774271
 date-released: 2026-02-15
 url: "https://github.com/denster32/TASNI"
 repository-code: "https://github.com/denster32/TASNI"

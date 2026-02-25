@@ -10,7 +10,7 @@
 Two categories of replacements were made:
 
 1. **GitHub repo path**: `dpalucki/tasni` replaced with `denster32/TASNI` (case-sensitive)
-2. **Zenodo DOI**: `10.5281/zenodo.XXXXXXX` replaced with `10.5281/zenodo.18717105`
+2. **Zenodo DOI**: `10.5281/zenodo.XXXXXXX` replaced with `10.5281/zenodo.18774271`
 
 Additionally, the `@dpalucki` GitHub username references in CODEOWNERS and SECURITY.md were updated to `@denster32`.
 
@@ -23,13 +23,13 @@ Additionally, the `@dpalucki` GitHub username references in CODEOWNERS and SECUR
 - Line 558: `github.com/dpalucki/tasni` -> `github.com/denster32/TASNI`
 
 ### 2. `README.md`
-- Line 6: Zenodo DOI badge `zenodo.XXXXXXX` -> `zenodo.18717105` (2 occurrences in badge URL + link)
+- Line 6: Zenodo DOI badge `zenodo.XXXXXXX` -> `zenodo.18774271` (2 occurrences in badge URL + link)
 - Line 8: Removed placeholder note "Replace `XXXXXXX` with the actual DOI after depositing to Zenodo."
-- Line 10: Updated DOI line to `[10.5281/zenodo.18717105](https://doi.org/10.5281/zenodo.18717105)`
+- Line 10: Updated DOI line to `[10.5281/zenodo.18774271](https://doi.org/10.5281/zenodo.18774271)`
 - Line 63: `github.com/dpalucki/tasni` -> `github.com/denster32/TASNI`
 
 ### 3. `CITATION.cff`
-- Line 5: `doi: 10.5281/zenodo.XXXXXXX` -> `doi: 10.5281/zenodo.18717105`
+- Line 5: `doi: 10.5281/zenodo.XXXXXXX` -> `doi: 10.5281/zenodo.18774271`
 - Line 7: `url: "https://github.com/dpalucki/tasni"` -> `url: "https://github.com/denster32/TASNI"`
 - Line 8: `repository-code: "https://github.com/dpalucki/tasni"` -> `repository-code: "https://github.com/denster32/TASNI"`
 
@@ -51,11 +51,11 @@ Additionally, the `@dpalucki` GitHub username references in CODEOWNERS and SECUR
 - All 18 occurrences of `@dpalucki` -> `@denster32`
 
 ### 9. `docs/DATA_AVAILABILITY.md`
-- Line 26: `10.5281/zenodo.XXXXXXX` -> `10.5281/zenodo.18717105`; removed "(to be assigned upon publication)"
+- Line 26: `10.5281/zenodo.XXXXXXX` -> `10.5281/zenodo.18774271`; removed "(to be assigned upon publication)"
 - Line 41: `github.com/dpalucki/tasni` -> `github.com/denster32/TASNI`
 - Line 151: `github.com/dpalucki/tasni` -> `github.com/denster32/TASNI`
 - Line 213: `url = {https://github.com/dpalucki/tasni}` -> `url = {https://github.com/denster32/TASNI}`
-- Line 214: `doi = {10.5281/zenodo.XXXXXXX}` -> `doi = {10.5281/zenodo.18717105}`
+- Line 214: `doi = {10.5281/zenodo.XXXXXXX}` -> `doi = {10.5281/zenodo.18774271}`
 - Line 224: `github.com/dpalucki/tasni` -> `github.com/denster32/TASNI`
 - Line 226: `github.com/dpalucki/tasni/issues` -> `github.com/denster32/TASNI/issues`
 
@@ -67,17 +67,17 @@ Additionally, the `@dpalucki` GitHub username references in CODEOWNERS and SECUR
 ### 11. `docs/REPRODUCIBILITY_QUICKSTART.md`
 - Line 28: `github.com/dpalucki/tasni.git` -> `github.com/denster32/TASNI.git`
 - Line 64: Removed placeholder comment "replace XXXXXXX with actual DOI", updated to "Download data release from Zenodo"
-- Line 65: `zenodo.org/record/XXXXXXX` -> `zenodo.org/record/18717105`
+- Line 65: `zenodo.org/record/XXXXXXX` -> `zenodo.org/record/18774271`
 - Line 245: `url = {https://github.com/dpalucki/tasni}` -> `url = {https://github.com/denster32/TASNI}`
 
 ### 12. `docs/paper/draft.md`
 - Line 268: `github.com/dpalucki/tasni` -> `github.com/denster32/TASNI`
 
 ### 13. `data/processed/final/golden_sample_readme.txt`
-- Line 6: `DOI: 10.5281/zenodo.XXXXXXX (pending)` -> `DOI: 10.5281/zenodo.18717105`
+- Line 6: `DOI: 10.5281/zenodo.XXXXXXX (pending)` -> `DOI: 10.5281/zenodo.18774271`
 
 ### 14. `data/processed/final/README.md`
-- Line 5: `DOI: 10.5281/zenodo.XXXXXXX (pending)` -> `DOI: 10.5281/zenodo.18717105`
+- Line 5: `DOI: 10.5281/zenodo.XXXXXXX (pending)` -> `DOI: 10.5281/zenodo.18774271`
 
 ### 15. `AUDIT_REPORT.md`
 - Line 134: `github.com/dpalucki/tasni` -> `github.com/denster32/TASNI`
@@ -111,7 +111,7 @@ ORCID `0009-0005-1026-5103` was verified in the following files (all correct, no
 - `grep -r "dpalucki"` across all project text files: **0 matches** (clean)
 - `grep -r "XXXXXXX"` across all project text files: **0 matches** (clean)
 - `grep -r "denster32"` across all project text files: **26 occurrences** across 15 files (expected)
-- `grep -r "18717105"` across all project text files: **8 occurrences** across 6 files (expected)
+- `grep -r "18774271"` across all project text files: **8 occurrences** across 6 files (expected)
 - ORCID `0009-0005-1026-5103`: **6 occurrences** across 6 files (all correct)
 
 ---

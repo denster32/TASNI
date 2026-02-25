@@ -3,11 +3,11 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)](https://www.python.org/downloads/)
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18717105.svg)](https://doi.org/10.5281/zenodo.18717105)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.18774271.svg)](https://doi.org/10.5281/zenodo.18774271)
 
 **Version:** 1.0.0 (Released 2026-02-15)
 **Status:** Publication Ready
-**DOI:** [10.5281/zenodo.18717105](https://doi.org/10.5281/zenodo.18717105)
+**DOI:** [10.5281/zenodo.18774271](https://doi.org/10.5281/zenodo.18774271)
 
 ---
 

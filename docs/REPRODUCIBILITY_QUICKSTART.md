@@ -62,7 +62,7 @@ ls -la data/processed/final/
 If data files are missing, download from Zenodo:
 ```bash
 # Download data release from Zenodo
-wget https://zenodo.org/record/18717105/files/tasni_data_release.zip
+wget https://zenodo.org/record/18774271/files/tasni_data_release.zip
 unzip tasni_data_release.zip -d data/
 ```
 

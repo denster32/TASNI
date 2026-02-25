@@ -23,7 +23,7 @@ All data products from this research are publicly available. The primary data pr
 
 ### Zenodo Archive
 
-**DOI**: `10.5281/zenodo.18717105`
+**DOI**: `10.5281/zenodo.18774271`
 
 The complete data release is archived on Zenodo under the MIT license. The archive includes:
 
@@ -221,7 +221,7 @@ If you use TASNI data or code, please cite:
     version = {1.0.0},
     year = {2026},
     url = {https://github.com/dpalucki/tasni},
-    doi = {10.5281/zenodo.18717105}
+    doi = {10.5281/zenodo.18774271}
 }
 ```
 

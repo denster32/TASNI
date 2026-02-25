@@ -107,7 +107,7 @@ wget https://github.com/dpalucki/tasni/raw/main/data/processed/final/golden_impr
 wget https://github.com/dpalucki/tasni/raw/main/data/processed/final/golden_improved_parallax.csv
 ```
 
-Or download the full data release from Zenodo (DOI: 10.5281/zenodo.18717105).
+Or download the full data release from Zenodo (DOI: 10.5281/zenodo.18774271).
 
 ## Reproducing the Analysis
 

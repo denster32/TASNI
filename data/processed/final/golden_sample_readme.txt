@@ -3,7 +3,7 @@ Description: 100 high-priority thermal anomaly candidates from the TASNI survey
 Authors: Dennis Palucki
 Version: 1.0.0
 Date: 2026-02-15
-DOI: 10.5281/zenodo.18717105
+DOI: 10.5281/zenodo.18774271
 
 ================================================================================
 Column Definitions

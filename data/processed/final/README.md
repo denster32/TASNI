@@ -2,7 +2,7 @@
 
 **Version:** 1.0.0
 **Release Date:** 2026-02-15
-**DOI:** 10.5281/zenodo.18717105
+**DOI:** 10.5281/zenodo.18774271
 
 Upon acceptance, the following supplementary files will be released on Zenodo with a persistent DOI alongside the manuscript:
 - **Full 100-source parallax catalog**: `golden_improved.csv` (or equivalent `golden_sample_parallax_100.csv`) including all parallax columns (`neowise_parallax_mas`, `neowise_parallax_err_mas`, `parallax_snr`, `distance_pc`, `distance_err_pc`).
